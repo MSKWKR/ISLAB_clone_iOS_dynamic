@@ -1,0 +1,307 @@
+{"time":"2025-6-13 21:44:11:521","lib":"Infoplist","func":"CFBundleURLTypes","args":"wx93ef3e8fcb0538bc://"}
+{"time":"2025-6-13 21:44:14:40","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:44:14:415","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:14:711","lib":"Foundation","func":"NSLog","args":["[AppCIA] %@"]}
+{"time":"2025-6-13 21:44:14:811","lib":"Foundation","func":"NSStringFromSelector","args":["async_invalidateAssertionWithIdentifier:"]}
+{"time":"2025-6-13 21:44:15:129","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:15:281","lib":"Foundation","func":"NSLog","args":["%@ %s"]}
+{"time":"2025-6-13 21:44:15:519","lib":"Foundation","func":"NSStringFromSelector","args":["async_invalidateAssertionWithIdentifier:"]}
+{"time":"2025-6-13 21:44:15:605","lib":"Foundation","func":"NSLog","args":["[AppCIA] %@"]}
+{"time":"2025-6-13 21:44:15:754","lib":"Foundation","func":"NSLog","args":["[AppCIA] app uuid now: %@, last: %@"]}
+{"time":"2025-6-13 21:44:15:837","lib":"Foundation","func":"NSLog","args":["[AppCIA] app uuid now: %@, last: %@"]}
+{"time":"2025-6-13 21:44:16:387","lib":"Foundation","func":"NSLog","args":["[AppCIA] %@"]}
+{"time":"2025-6-13 21:44:16:510","lib":"libSystem.B.dylib","func":"open","args":["/private/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/tmp/appcia_dk_E1B64B66-4CAD-4B51-A9FD-8BCC2915C484","0x202"]}
+{"time":"2025-6-13 21:44:16:591","lib":"Foundation","func":"NSLog","args":["[PreloadLanding] Warning: uid be canceled is empty."]}
+{"time":"2025-6-13 21:44:17:201","lib":"Foundation","func":"NSLog","args":["[AppCIA] %@"]}
+{"time":"2025-6-13 21:44:17:662","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Documents/MagicPhoto.mp4"]}
+{"time":"2025-6-13 21:44:18:128","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/tmp/MTPuzzleProcessCache"]}
+{"time":"2025-6-13 21:44:18:493","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/tmp/BatchRepairImageCache"]}
+{"time":"2025-6-13 21:44:18:598","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Library/Caches/MTAppCIA"]}
+{"time":"2025-6-13 21:44:18:681","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Library/Caches/MTAppCIA"]}
+{"time":"2025-6-13 21:44:18:849","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Documents/mtxx-slowMotion.mov"]}
+{"time":"2025-6-13 21:44:19:484","lib":"Foundation","func":"NSLog","args":["[AppCIA] initialized %ld file nodes, node size = %ld bytes"]}
+{"time":"2025-6-13 21:44:19:769","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Documents/mtxx-music-recordmodel.mov"]}
+{"time":"2025-6-13 21:44:20:645","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:44:20:645","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:20:646","lib":"Foundation","func":"NSStringFromSelector","args":["async_invalidateAssertionWithIdentifier:"]}
+{"time":"2025-6-13 21:44:20:646","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:20:646","lib":"Foundation","func":"NSStringFromSelector","args":["async_invalidateAssertionWithIdentifier:"]}
+{"time":"2025-6-13 21:44:20:678","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Library/Caches/MTAppCIA/com.meitu.mtanrkit/MTANRKitStatInfo.dat"]}
+{"time":"2025-6-13 21:44:20:762","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Library/Caches/MTAppCIA/com.meitu.mtanrkit/MTANRKitStatInfo.dat"]}
+{"time":"2025-6-13 21:44:20:961","lib":"NSURL","func":"+ URLWithString:","args":["http://maavatar1.meitudata.com/91385fbafad8f1d25aa9ae398d3a2a54.png"]}
+{"time":"2025-6-13 21:44:21:2","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Documents/MTAiModel"]}
+{"time":"2025-6-13 21:44:21:173","lib":"Foundation","func":"NSLog","args":["[AppCIA] %@"]}
+{"time":"2025-6-13 21:44:21:342","lib":"Foundation","func":"NSLog","args":["[AppCIA]  ----- [File] 2 Documents ----  \n 个数:%ld 路径:%@"]}
+{"time":"2025-6-13 21:44:21:592","lib":"Foundation","func":"NSSelectorFromString","args":["async_observedProcessStatesDidChange:completion:"]}
+{"time":"2025-6-13 21:44:21:595","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:21:596","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:21:597","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessState"]}
+{"time":"2025-6-13 21:44:21:599","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:21:600","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessHandle"]}
+{"time":"2025-6-13 21:44:21:601","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:21:602","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:44:21:882","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0xe81a234f4bab1","addObserver:selector:name:object:","0x45a118975cc5","appWillResignActiveNotify","0x234f42f80",null]}
+{"time":"2025-6-13 21:44:22:51","lib":"Foundation","func":"NSLog","args":["[AppCIA] get anr data nil"]}
+{"time":"2025-6-13 21:44:22:136","lib":"Foundation","func":"NSLog","args":["[AppCIA] get lag data nil"]}
+{"time":"2025-6-13 21:44:22:288","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://maavatar1.meitudata.com/91385fbafad8f1d25aa9ae398d3a2a54.png","nil"]}
+{"time":"2025-6-13 21:44:22:378","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/tmp/com.meitu.publish_config"]}
+{"time":"2025-6-13 21:44:22:578","lib":"Foundation","func":"NSLog","args":["[AppCIA] %@"]}
+{"time":"2025-6-13 21:44:22:733","lib":"Foundation","func":"NSLog","args":["[AppCIA] anr issue data nil"]}
+{"time":"2025-6-13 21:44:22:814","lib":"Foundation","func":"NSLog","args":["[AppCIA] lag issue data nil"]}
+{"time":"2025-6-13 21:44:23:414","lib":"Foundation","func":"NSLog","args":["[AppCIA] Documents 指定路径个数:%ld 指定路径:%@"]}
+{"time":"2025-6-13 21:44:23:499","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Library/Caches/MTBMaterialCache"]}
+{"time":"2025-6-13 21:44:23:651","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Documents/MTVideoEditResources"]}
+{"time":"2025-6-13 21:44:23:889","lib":"Foundation","func":"NSSelectorFromString","args":["trackingAuthorizationStatus"]}
+{"time":"2025-6-13 21:44:23:994","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2025-6-13 21:44:24:779","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/UserConfigurationProfiles/EffectiveUserSettings.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:372","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/StoreKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:374","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AppStoreFoundation.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:375","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AppStoreOverlays.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:375","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/AssetsLibrary.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:377","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/EventKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:378","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CalendarDatabase.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:379","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CalendarDaemon.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:379","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CalendarFoundation.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:380","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreDAV.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:381","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CalDAV.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:382","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/EventKitUI.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:383","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/MailServices.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:384","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CalendarUIKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:385","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/Email.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:385","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/EmailFoundation.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:386","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/MessageSupport.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:388","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/NetworkServiceProxy.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:389","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/EmailAddressing.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:391","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/EmailCore.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:392","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CryptoKitPrivate.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:393","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/GSS.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:394","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/Heimdal.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:395","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CommonAuth.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:396","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/DataAccess.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:397","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/MIME.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:398","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/Notes.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:399","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/NotesSupport.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:400","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/GLKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:401","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/MessageUI.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:402","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:403","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/Message.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:405","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/VisionKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:406","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/DoNotDisturb.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:407","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/ContactsAutocomplete.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:408","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/MailSupport.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:411","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/EmailDaemon.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:412","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/MailKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:413","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/DocumentCamera.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:415","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/VisionKitCore.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:416","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CameraEditKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:417","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/MetricKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:418","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/Social.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:432","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/OAuth.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:433","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/ReplayKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:434","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/iAd.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:435","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AdPlatforms.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:436","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AdCore.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:436","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/ARKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:449","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/ARKitCore.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:450","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/ARKitUI.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:451","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/ARKitFoundation.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:452","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AppleCV3D.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:452","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AppleCV3DModels.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:453","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AppleDepth.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:454","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/VisualLocalization.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:455","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreLocationReplay.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:455","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreNavigation.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:456","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AltruisticBodyPoseKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:457","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/MOVStreamIO.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:457","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AppleCV3DMOVKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:458","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/SceneIntelligence.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:459","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreIK.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:459","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/Recon3D.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:460","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/LearnedFeatures.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:460","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AppleCVHWA.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:461","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AppleDepthCore.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:462","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/VisualLogger.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:462","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/SceneKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:463","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/SpriteKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:463","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/ModelIO.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:464","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/USDLib_FormatLoaderProxy.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:465","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/Jet.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:465","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/OpenAL.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:466","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/AdServices.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:480","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/DeviceCheck.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:481","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/ActivityKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:482","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/SessionFoundation.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:482","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/CarPlay.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:483","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CarPlayUIServices.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:484","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/PhotosUI.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:484","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/PhotosPlayer.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:498","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/QuickLook.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:499","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/QuickLookUICore.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:500","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/QuickLookSupport.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:501","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:502","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/LinkServices.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:502","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/LinkMetadata.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:516","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/Koa.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:517","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/MorphunAssets.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:517","lib":"libSystem.B.dylib","func":"open","args":["/Library/Frameworks/Shadow.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:518","lib":"libSystem.B.dylib","func":"open","args":["/Library/Frameworks/HookKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:519","lib":"libSystem.B.dylib","func":"open","args":["/Library/Frameworks/RootBridge.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:519","lib":"libSystem.B.dylib","func":"open","args":["/Library/Frameworks/Modulous.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:521","lib":"libSystem.B.dylib","func":"open","args":["/usr/lib/TweakInject/Shadow.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:521","lib":"libSystem.B.dylib","func":"open","args":["/usr/lib/TweakInject/SparkAppListSB.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:534","lib":"libSystem.B.dylib","func":"open","args":["/usr/lib/TweakInject/mrybootstrap.plist","0x0"]}
+{"time":"2025-6-13 21:50:58:559","lib":"Foundation","func":"NSClassFromString","args":["VNClassifyJunkImageRequest"]}
+{"time":"2025-6-13 21:50:58:560","lib":"Foundation","func":"NSClassFromString","args":["VNClassifyJunkImageRequest"]}
+{"time":"2025-6-13 21:50:58:561","lib":"Foundation","func":"NSClassFromString","args":["VNCreateAnimalprintRequest"]}
+{"time":"2025-6-13 21:50:58:562","lib":"Foundation","func":"NSClassFromString","args":["VNCreateAnimalprintRequest"]}
+{"time":"2025-6-13 21:50:58:627","lib":"Infoplist","func":"CFBundleURLTypes","args":"wx93ef3e8fcb0538bc://"}
+{"time":"2025-6-13 21:51:0:660","lib":"Foundation","func":"NSClassFromString","args":["FBSDKAppEventsDeviceInfo"]}
+{"time":"2025-6-13 21:51:0:769","lib":"Foundation","func":"NSSelectorFromString","args":["encodedDeviceInfo"]}
+{"time":"2025-6-13 21:51:1:314","lib":"libSystem.B.dylib","func":"open","args":["/usr/share/icu/icudt70l.dat","0x0"]}
+{"time":"2025-6-13 21:51:1:420","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/C2AF0D68-DA8F-4368-8AC7-5BB068DA2426/MTXX.app/zh-Hant.lproj/InfoPlist.strings","0x0"]}
+{"time":"2025-6-13 21:51:1:625","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x7b","0x6d0323e9d10183ff","0x234f42f80",null,"0xe"]}
+{"time":"2025-6-13 21:51:1:832","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x7b","0x6d0323e9d10183ff","0x234f42f80",null,"0xe"]}
+{"time":"2025-6-13 21:51:2:36","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x7b","0x6d0323e9d10183ff","0x234f42f80",null,"0xe"]}
+{"time":"2025-6-13 21:51:2:240","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x7b","0x6d0323e9d10183ff","0x234f42f80",null,"0xe"]}
+{"time":"2025-6-13 21:51:2:445","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x7b","0x6d0323e9d10183ff","0x234f42f80",null,"0xe"]}
+{"time":"2025-6-13 21:51:2:655","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x7b","0x6d0323e9d10183ff","0x234f42f80",null,"0xe"]}
+{"time":"2025-6-13 21:51:2:860","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x7b","0x6d0323e9d10183ff","0x234f42f80",null,"0xe"]}
+{"time":"2025-6-13 21:51:3:81","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234fae5d1","0xa9017bfdd10083ff","0x21a234f44179",null,null]}
+{"time":"2025-6-13 21:51:3:544","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/CoreServices/SystemVersion.plist","0x0"]}
+{"time":"2025-6-13 21:51:3:903","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x16f7ae9c0"]}
+{"time":"2025-6-13 21:51:4:257","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x1ff80a55765dd3a8"]}
+{"time":"2025-6-13 21:51:4:764","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.mobilegestaltcache/Library/Caches/com.apple.MobileGestalt.plist","0x0"]}
+{"time":"2025-6-13 21:51:4:774","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:4:776","lib":"Foundation","func":"NSClassFromString","args":["BSObjCProtocol"]}
+{"time":"2025-6-13 21:51:4:777","lib":"Foundation","func":"NSClassFromString","args":["BSObjCProtocol"]}
+{"time":"2025-6-13 21:51:4:779","lib":"Foundation","func":"NSStringFromSelector","args":["destroyScenesPersistentIdentifiers:animationType:destroySessions:completion:"]}
+{"time":"2025-6-13 21:51:4:780","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:4:781","lib":"Foundation","func":"NSStringFromSelector","args":["initializeClientWithParameters:completion:"]}
+{"time":"2025-6-13 21:51:4:781","lib":"Foundation","func":"NSStringFromSelector","args":["requestPasscodeUnlockUIWithCompletion:"]}
+{"time":"2025-6-13 21:51:4:782","lib":"Foundation","func":"NSClassFromString","args":["BSObjCProtocol"]}
+{"time":"2025-6-13 21:51:4:783","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:4:783","lib":"Foundation","func":"NSProtocolFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:4:784","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:4:784","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:4:785","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:4:788","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f7d3dd","0x140003bdaa0103e0","0x234f42f80",null,"0x2"]}
+{"time":"2025-6-13 21:51:4:789","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:4:789","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:4:790","lib":"Foundation","func":"NSClassFromString","args":["BSXPCServiceConnection"]}
+{"time":"2025-6-13 21:51:4:790","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:51:4:791","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:4:791","lib":"Foundation","func":"NSClassFromString","args":["BSObjCProtocol"]}
+{"time":"2025-6-13 21:51:4:792","lib":"Foundation","func":"NSClassFromString","args":["BSObjCProtocol"]}
+{"time":"2025-6-13 21:51:4:792","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:4:793","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:4:794","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:4:794","lib":"Foundation","func":"NSStringFromSelector","args":["handshakeWithRequest:"]}
+{"time":"2025-6-13 21:51:4:794","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:4:795","lib":"Foundation","func":"NSStringFromSelector","args":["handshakeWithRequest:"]}
+{"time":"2025-6-13 21:51:4:795","lib":"Foundation","func":"NSStringFromSelector","args":["handshakeWithRequest:"]}
+{"time":"2025-6-13 21:51:4:797","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:4:797","lib":"Foundation","func":"NSClassFromString","args":["RBSHandshakeResponse"]}
+{"time":"2025-6-13 21:51:4:798","lib":"Foundation","func":"NSClassFromString","args":["BSXPCServiceConnection"]}
+{"time":"2025-6-13 21:51:4:798","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:4:799","lib":"Foundation","func":"NSSelectorFromString","args":["async_didChangeInheritances:completion:"]}
+{"time":"2025-6-13 21:51:4:799","lib":"Foundation","func":"NSClassFromString","args":["BSObjCProtocol"]}
+{"time":"2025-6-13 21:51:4:800","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessHandle"]}
+{"time":"2025-6-13 21:51:5:3","lib":"Foundation","func":"NSSelectorFromString","args":["requestPasscodeUnlockUIWithCompletion:"]}
+{"time":"2025-6-13 21:51:5:3","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:4","lib":"Foundation","func":"NSSelectorFromString","args":["destroyScenesPersistentIdentifiers:animationType:destroySessions:completion:"]}
+{"time":"2025-6-13 21:51:5:5","lib":"Foundation","func":"NSClassFromString","args":["RBSEmbeddedAppProcessIdentity"]}
+{"time":"2025-6-13 21:51:5:5","lib":"Foundation","func":"NSSelectorFromString","args":["initializeClientWithParameters:completion:"]}
+{"time":"2025-6-13 21:51:5:6","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:6","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:7","lib":"Foundation","func":"NSClassFromString","args":["RBSInheritanceChangeSet"]}
+{"time":"2025-6-13 21:51:5:7","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:7","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:8","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:9","lib":"Foundation","func":"NSClassFromString","args":["RBSInheritance"]}
+{"time":"2025-6-13 21:51:5:9","lib":"Foundation","func":"NSClassFromString","args":["BSAuditToken"]}
+{"time":"2025-6-13 21:51:5:10","lib":"Foundation","func":"NSClassFromString","args":["UISMutableApplicationInitializationContext"]}
+{"time":"2025-6-13 21:51:5:10","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:11","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:11","lib":"Foundation","func":"NSClassFromString","args":["UISDisplayContext"]}
+{"time":"2025-6-13 21:51:5:12","lib":"Foundation","func":"NSClassFromString","args":["RBSAssertionIdentifier"]}
+{"time":"2025-6-13 21:51:5:12","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:13","lib":"Foundation","func":"NSClassFromString","args":["UISDisplayContext"]}
+{"time":"2025-6-13 21:51:5:13","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessBundle"]}
+{"time":"2025-6-13 21:51:5:13","lib":"Foundation","func":"NSClassFromString","args":["FBSDisplayConfiguration"]}
+{"time":"2025-6-13 21:51:5:14","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:15","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:15","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:15","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:51:5:16","lib":"Foundation","func":"NSClassFromString","args":["FBSDisplayIdentity"]}
+{"time":"2025-6-13 21:51:5:16","lib":"Foundation","func":"NSClassFromString","args":["FBSDisplayMode"]}
+{"time":"2025-6-13 21:51:5:16","lib":"Foundation","func":"NSClassFromString","args":["UISApplicationSupportDisplayEdgeInfo"]}
+{"time":"2025-6-13 21:51:5:17","lib":"Foundation","func":"NSClassFromString","args":["UISApplicationSupportDisplayEdgeInsetsWrapper"]}
+{"time":"2025-6-13 21:51:5:17","lib":"Foundation","func":"NSClassFromString","args":["UISApplicationSupportDisplayEdgeInsetsWrapper"]}
+{"time":"2025-6-13 21:51:5:18","lib":"Foundation","func":"NSClassFromString","args":["UISDisplaySingleRectShape"]}
+{"time":"2025-6-13 21:51:5:18","lib":"Foundation","func":"NSClassFromString","args":["UISDeviceContext"]}
+{"time":"2025-6-13 21:51:5:18","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneIdentityToken"]}
+{"time":"2025-6-13 21:51:5:19","lib":"Foundation","func":"NSClassFromString","args":["BSServiceConnectionEndpoint"]}
+{"time":"2025-6-13 21:51:5:19","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:5:20","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:51:5:961","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234fae3cd","0xa9017bfda9be4ff4","0x234f42f80",null,null]}
+{"time":"2025-6-13 21:51:6:162","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234fae3cd","0xa9017bfda9be4ff4","0x234f42f80",null,null]}
+{"time":"2025-6-13 21:51:6:362","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x21a234fae3cd","_accessibilityForceTouchEnabledChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:6:561","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x25a234fae3cd","_accessibilityBoldTextChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:6:761","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x25a234fae3cd","_handleEffectiveUserInterfaceStyleChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:6:960","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x25a234fae3cd","_accessibilityTraitFlagsChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:7:161","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x25a234fae3cd","_handleForcedUserInterfaceLayoutDirectionChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:7:314","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClassNumber","29",""]}
+{"time":"2025-6-13 21:51:7:466","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClassNumber","29","0xca827762a1c0da9a"]}
+{"time":"2025-6-13 21:51:7:618","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerReleaseType","23",""]}
+{"time":"2025-6-13 21:51:7:770","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerReleaseType","23","0x8c8b1fb44fa340f5"]}
+{"time":"2025-6-13 21:51:7:819","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:51:7:825","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:51:7:825","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x21a234f44179",null,"0x4"]}
+{"time":"2025-6-13 21:51:7:826","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:51:7:827","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x21a234f44179",null,"0x4"]}
+{"time":"2025-6-13 21:51:7:921","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234fae2dd","0x1421358caa0103e0","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:51:8:15","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234fae2dd","0x1421358caa0103e0","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:51:8:108","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x21a234fae2dd","_postContentSizeCategoryDidChangeNotification","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:8:202","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x234fae198","adjustForAccessibilityIfNeeded:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:8:295","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x234fae198","adjustForAccessibilityIfNeeded:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:8:388","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x234fae198","adjustForAccessibilityIfNeeded:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:8:481","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x234fae198","adjustForAccessibilityIfNeeded:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:8:575","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x234fae198","adjustFocusForAccessibilityIfNeeded:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:8:599","lib":"Foundation","func":"NSClassFromString","args":["DTBAds"]}
+{"time":"2025-6-13 21:51:8:600","lib":"Foundation","func":"NSClassFromString","args":["UMPDebugSettings"]}
+{"time":"2025-6-13 21:51:8:601","lib":"Foundation","func":"NSClassFromString","args":["UMPConsentForm"]}
+{"time":"2025-6-13 21:51:8:602","lib":"Foundation","func":"NSClassFromString","args":["UMPRequestParameters"]}
+{"time":"2025-6-13 21:51:8:603","lib":"Foundation","func":"NSClassFromString","args":["MFMailComposeViewController"]}
+{"time":"2025-6-13 21:51:8:604","lib":"Foundation","func":"NSClassFromString","args":["DTBAdLoader"]}
+{"time":"2025-6-13 21:51:8:605","lib":"Foundation","func":"NSClassFromString","args":["DTBAdSize"]}
+{"time":"2025-6-13 21:51:8:606","lib":"Foundation","func":"NSClassFromString","args":["UMPConsentInformation"]}
+{"time":"2025-6-13 21:51:8:606","lib":"Foundation","func":"NSClassFromString","args":["DTBAdSize"]}
+{"time":"2025-6-13 21:51:8:606","lib":"Foundation","func":"NSClassFromString","args":["CMMotionManager"]}
+{"time":"2025-6-13 21:51:8:665","lib":"Foundation","func":"NSSelectorFromString","args":["dealloc"]}
+{"time":"2025-6-13 21:51:8:676","lib":"Foundation","func":"NSSelectorFromString","args":["dealloc"]}
+{"time":"2025-6-13 21:51:8:901","lib":"Foundation","func":"NSSelectorFromString","args":["purgeAllUnassignedFramebuffers"]}
+{"time":"2025-6-13 21:51:9:86","lib":"Foundation","func":"NSClassFromString","args":["NSURLSessionTask"]}
+{"time":"2025-6-13 21:51:10:336","lib":"libSystem.B.dylib","func":"open","args":["/Library/Preferences/com.apple.networkd.plist","0x0"]}
+{"time":"2025-6-13 21:51:10:529","lib":"libSystem.B.dylib","func":"open","args":["/Library/Preferences/com.apple.networkd.plist","0x0"]}
+{"time":"2025-6-13 21:51:10:580","lib":"Foundation","func":"NSClassFromString","args":["NSSharedKeyDictionary"]}
+{"time":"2025-6-13 21:51:10:581","lib":"Foundation","func":"NSClassFromString","args":["__NSCFString"]}
+{"time":"2025-6-13 21:51:10:582","lib":"Foundation","func":"NSClassFromString","args":["__NSCFConstantString"]}
+{"time":"2025-6-13 21:51:10:868","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerHasBaseband","23","0x16f7aec40"]}
+{"time":"2025-6-13 21:51:10:943","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Frameworks/CFNetwork.framework/Localizable.loctable","0x0"]}
+{"time":"2025-6-13 21:51:11:97","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerHasBaseband","23",""]}
+{"time":"2025-6-13 21:51:11:109","lib":"Foundation","func":"NSStringFromSelector","args":["signalStrengthChanged:info:"]}
+{"time":"2025-6-13 21:51:11:109","lib":"Foundation","func":"NSStringFromSelector","args":["cellChanged:cell:"]}
+{"time":"2025-6-13 21:51:11:110","lib":"Foundation","func":"NSStringFromSelector","args":["regDataModeChanged:dataMode:"]}
+{"time":"2025-6-13 21:51:11:110","lib":"Foundation","func":"NSStringFromSelector","args":["currentDataServiceDescriptorChanged:"]}
+{"time":"2025-6-13 21:51:11:110","lib":"Foundation","func":"NSStringFromSelector","args":["carrierBundleChange:"]}
+{"time":"2025-6-13 21:51:11:660","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Documents/com.anythink.psInfo.new"]}
+{"time":"2025-6-13 21:51:12:213","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Library/Caches/com.anythink.psInfo.new"]}
+{"time":"2025-6-13 21:51:12:716","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/EBF57DBA-48B1-4063-BF58-D1473E0BD37D/Library/Caches/com.anythink.psInfo.new","0x0"]}
+{"time":"2025-6-13 21:51:13:260","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x21a1145875a5","checkAppSetting:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:13:714","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x21a114587af5","handleApplicationDidBecomeActiveNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:14:167","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x25a114587af5","handleApplicationWillResignActiveNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:14:872","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x21a1145809cd","handleApplicationWillResignActiveNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:15:574","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x41a234f4bab1","addObserver:selector:name:object:","0x25a1145809cd","handleApplicationDidBecomeActiveNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:51:16:272","lib":"Foundation","func":"NSClassFromString","args":["WXApi"]}
+{"time":"2025-6-13 21:51:16:963","lib":"Foundation","func":"NSSelectorFromString","args":["isWXAppInstalled"]}
+{"time":"2025-6-13 21:51:17:657","lib":"NSURL","func":"+ URLWithString:","args":["weixin://"]}

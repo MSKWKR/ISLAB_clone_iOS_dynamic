@@ -1,0 +1,43 @@
+0,Skip,
+1,Pass,"NSURL with HTTPs https://bdtag.firstbank.com.tw/POST2GET/pageTagSecure
+NSURL with HTTPs https://bdtag.firstbank.com.tw/POST2GET/pageTagSecure
+NSURL with HTTPs https://bdtag.firstbank.com.tw/POST2GET/pageTagSecure
+NSURL with HTTPs https://bdtag.firstbank.com.tw/POST2GET/pageTagSecure
+NSURL with HTTPs https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp
+NSURL with HTTPs https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp
+NSURL with HTTPs https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp
+NSURL with HTTPs https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp
+NSURL with HTTPs https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp
+NSURL with HTTPs https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp
+"
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Manual,"{""valid"": True, ""detail"": {""url"": ""https://bdtag.firstbank.com.tw/POST2GET/pageTagSecure"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2025-01-29 15:59:59"", ""not valid before"": ""2024-03-11 04:22:15"", ""serial number"": 95579800571917544698757256870532077596, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=bdtag.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://bdtag.firstbank.com.tw/POST2GET/pageTagSecure"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2025-01-29 15:59:59"", ""not valid before"": ""2024-03-11 04:22:15"", ""serial number"": 95579800571917544698757256870532077596, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=bdtag.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://bdtag.firstbank.com.tw/POST2GET/pageTagSecure"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2025-01-29 15:59:59"", ""not valid before"": ""2024-03-11 04:22:15"", ""serial number"": 95579800571917544698757256870532077596, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=bdtag.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://bdtag.firstbank.com.tw/POST2GET/pageTagSecure"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2025-01-29 15:59:59"", ""not valid before"": ""2024-03-11 04:22:15"", ""serial number"": 95579800571917544698757256870532077596, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=bdtag.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2024-09-15 15:59:59"", ""not valid before"": ""2023-08-17 09:44:40"", ""serial number"": 95574608275058518723440023194678967220, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=mbank.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2024-09-15 15:59:59"", ""not valid before"": ""2023-08-17 09:44:40"", ""serial number"": 95574608275058518723440023194678967220, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=mbank.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2024-09-15 15:59:59"", ""not valid before"": ""2023-08-17 09:44:40"", ""serial number"": 95574608275058518723440023194678967220, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=mbank.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2024-09-15 15:59:59"", ""not valid before"": ""2023-08-17 09:44:40"", ""serial number"": 95574608275058518723440023194678967220, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=mbank.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2024-09-15 15:59:59"", ""not valid before"": ""2023-08-17 09:44:40"", ""serial number"": 95574608275058518723440023194678967220, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=mbank.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://mbank.firstbank.com.tw:8443/fbp/MBProxy.jsp"", ""issuer"": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, ""not valid after"": ""2024-09-15 15:59:59"", ""not valid before"": ""2023-08-17 09:44:40"", ""serial number"": 95574608275058518723440023194678967220, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=TW,ST=Taiwan,L=Taipei,O=FIRST COMMERCIAL BANK CO.\, LTD.,CN=mbank.firstbank.com.tw)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}"
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with fcb://
+"
+22,Manual,"Use CC_MD5 with [""434F251E-811A-46F4-A3A5-B245B2F1AEAC\x02"", ""36"", """"]
+Use CC_MD5 with [""0xe8f3d7080e1a0108"", ""341"", """"]
+Use CC_MD5 with [""434F251E-811A-46F4-A3A5-B245B2F1AEAC\x01"", ""36"", """"]
+"
+23,Undetect,
+24,Manual,"Make use of log function NSLog with [""XPC connection interrupted""]
+"
+25,Manual,"Autocorrecting keyboard is detected, Please close the function by setting the UITextfield
+"
+26,Pass,

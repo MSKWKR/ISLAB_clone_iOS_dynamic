@@ -1,0 +1,48 @@
+0,Skip,
+1,Fail,"NSURL with HTTP http://maavatar1.meitudata.com/91385fbafad8f1d25aa9ae398d3a2a54.png
+NSURL with HTTP http://maavatar1.meitudata.com/91385fbafad8f1d25aa9ae398d3a2a54.png
+NSURL with Resources weixin://
+"
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Undetect,
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with wx93ef3e8fcb0538bc://
+"
+22,Undetect,
+23,Manual,Detected storing plist locally. Storing data in plist is unsafe.Please store your data to somewhere safe.
+24,Manual,"Make use of log function NSLog with [""[AppCIA] %@""]
+Make use of log function NSLog with [""%@ %s""]
+Make use of log function NSLog with [""[AppCIA] app uuid now: %@, last: %@""]
+Make use of log function NSLog with [""[PreloadLanding] Warning: uid be canceled is empty.""]
+Make use of log function NSLog with [""[AppCIA] initialized %ld file nodes, node size = %ld bytes""]
+Make use of log function NSLog with [""[AppCIA]  ----- [File] 2 Documents ----  \n 个数:%ld 路径:%@""]
+Make use of log function NSLog with [""[AppCIA] get anr data nil""]
+Make use of log function NSLog with [""[AppCIA] get lag data nil""]
+Make use of log function NSLog with [""[AppCIA] anr issue data nil""]
+Make use of log function NSLog with [""[AppCIA] lag issue data nil""]
+Make use of log function NSLog with [""[AppCIA] Documents 指定路径个数:%ld 指定路径:%@""]
+"
+25,Manual,"Autocorrecting keyboard is detected, Please close the function by setting the UITextfield
+"
+26,Pass,
+27,Undetect,
+28,Pass,Debug mode is disabled.
+29,Pass,No sensitive data leakage detected in IPC mechanisms.
+30,Pass,App is running on a physical device.
+31,Pass,Password validation log does not indicate any failures.

@@ -1,0 +1,38 @@
+0,Skip,
+1,Pass,"NSURL with HTTPs https://idmsa.apple.com.cn/appleauth/auth/authorize/signin
+NSURL with HTTPs https://idmsa.apple.com.cn/appleauth/auth/authorize/signin
+NSURL with HTTPs https://appleid.apple.com/auth/authorize
+NSURL with HTTPs https://appleid.apple.com/auth/authorize
+NSURL with HTTPs https://idmsa.apple.com/appleauth/auth/authorize/signin
+NSURL with HTTPs https://idmsa.apple.com/appleauth/auth/authorize/signin
+"
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Manual,"{""valid"": True, ""detail"": {""url"": ""https://idmsa.apple.com.cn/appleauth/auth/authorize/signin"", ""issuer"": <Name(CN=Apple IST CA 2 - G1,OU=Certification Authority,O=Apple Inc.,C=US)>, ""not valid after"": ""2023-05-05 16:21:14"", ""not valid before"": ""2022-04-05 16:21:15"", ""serial number"": 80668450533936069632275799911989147556, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=idmsa.apple.com.cn,O=Apple Inc.,ST=California,C=US)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://idmsa.apple.com.cn/appleauth/auth/authorize/signin"", ""issuer"": <Name(CN=Apple IST CA 2 - G1,OU=Certification Authority,O=Apple Inc.,C=US)>, ""not valid after"": ""2023-05-05 16:21:14"", ""not valid before"": ""2022-04-05 16:21:15"", ""serial number"": 80668450533936069632275799911989147556, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=idmsa.apple.com.cn,O=Apple Inc.,ST=California,C=US)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://appleid.apple.com/auth/authorize"", ""issuer"": <Name(CN=Apple Public Server RSA CA 12 - G1,O=Apple Inc.,ST=California,C=US)>, ""not valid after"": ""2023-08-23 10:56:39"", ""not valid before"": ""2023-02-24 10:46:39"", ""serial number"": 146223595521062323404235309789466801942, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=apple-shield.apple.com,O=Apple Inc.,ST=California,C=US)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://appleid.apple.com/auth/authorize"", ""issuer"": <Name(CN=Apple Public Server RSA CA 12 - G1,O=Apple Inc.,ST=California,C=US)>, ""not valid after"": ""2023-08-23 10:56:39"", ""not valid before"": ""2023-02-24 10:46:39"", ""serial number"": 146223595521062323404235309789466801942, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=apple-shield.apple.com,O=Apple Inc.,ST=California,C=US)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://idmsa.apple.com/appleauth/auth/authorize/signin"", ""issuer"": <Name(CN=Apple IST CA 2 - G1,OU=Certification Authority,O=Apple Inc.,C=US)>, ""not valid after"": ""2023-08-07 21:08:10"", ""not valid before"": ""2023-02-08 20:58:10"", ""serial number"": 65216082230534759689535399055666655046, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=idmsa.apple.com,O=Apple Inc.,ST=California,C=US)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://idmsa.apple.com/appleauth/auth/authorize/signin"", ""issuer"": <Name(CN=Apple IST CA 2 - G1,OU=Certification Authority,O=Apple Inc.,C=US)>, ""not valid after"": ""2023-08-07 21:08:10"", ""not valid before"": ""2023-02-08 20:58:10"", ""serial number"": 65216082230534759689535399055666655046, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=idmsa.apple.com,O=Apple Inc.,ST=California,C=US)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}"
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with jp.mufg.bk.applisp.01://
+Use URL schemes with krt-e8fce022c2473be3329d807108d13b10://
+Use URL schemes with jp.mufg.bk.applisp.app.af://
+Use URL schemes with krt-a316f49cff803b6a8e7d868fbff8e831://
+Use URL schemes with krt-7ff85aabff1e67c5c266e1fab8b4e479://
+"
+22,Undetect,
+23,Skip,
+24,Manual,"Make use of log function NSLog with [""Can""t find keyplane that supports type %ld for keyboard %@; using %@""]
+"
+25,Fail,{}

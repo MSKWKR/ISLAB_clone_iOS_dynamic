@@ -1,0 +1,579 @@
+{
+    "system": "ios",
+    "lang": "zh-tw",
+    "rule": {
+        "lab_ID": {
+            "title": "Test name",
+            "mas": "\u5de5\u696d\u5c40\u7de8\u865f",
+            "mast": "\u5de5\u696d\u5c40\u5206\u985e",
+            "real_mstg": "MSTG",
+            "platform": "Platform",
+            "owasp_mobile": "OWASP Mobile Top10 (2016)",
+            "level": "Level",
+            "cve": "CVE",
+            "desc": "Desc"
+        },
+        "lab_1": {
+            "title": "SSL connection check",
+            "mas": "4.1.2.4.1|4.1.2.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE 4|MSTG-NETWORK-1|MSTG-NETWORK-2",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "URL with http found, please check if this URL need to be protected with SSL or not ,Keyword: NSURL with http / NSURL startswith(http://)"
+        },
+        "lab_2": {
+            "title": "Make use of security method",
+            "mas": "4.1.2.3.6",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-14|\nMSTG CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Cipher function found. Ensure no weak cipher function used in this application. Message digest function found. Ensure no weak message degist function used in this application. Signature function found. Ensure no weak signature function used in this application. MAC function found. Ensure no weak MAC function used in this application."
+        },
+        "lab_3": {
+            "title": "Make use of security class",
+            "mas": "4.1.2.3.6",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-14|\nMSTG CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Cipher function found. Ensure no weak cipher function used in this application. Message digest function found. Ensure no weak message degist function used in this application. Signature function found. Ensure no weak signature function used in this application. MAC function found. Ensure no weak MAC function used in this application."
+        },
+        "lab_4": {
+            "title": "Master Key Vulnerability checking",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-CRYPTO-2|MSTG-CRYPTO-4",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "CVE-2013-4787",
+            "desc": ""
+        },
+        "lab_5": {
+            "title": "Network access",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "MSTG-NETWORK-3",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_6": {
+            "title": "Make use of SQLite deprecated functions ",
+            "mas": "4.1.5.3.1",
+            "mast": "",
+            "real_mstg": "MSTG-NETWORK-6|MSTG-CODE-5",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "sqlite3_aggregate_count',\n\t'sqlite3_expired',\n\t'sqlite3_global_recover',\n\t'sqlite3_memory_alarm',\n\t'sqlite3_soft_heap_limit',\n\t'sqlite3_thread_cleanup',\n\t'sqlite3_transfer_bindings' These functions are deprecated. In order to maintain backwards compatibility with older code, these functions continue to be supported. However, new applications should avoid the use of these functions. Keyword: libsqlite3.dylib"
+        },
+        "lab_7": {
+            "title": "List all native method",
+            "mas": "4.2.2.1.2",
+            "mast": "",
+            "real_mstg": "MSTG-PLATFORM-6",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_8": {
+            "title": "Clipboard manipulation check",
+            "mas": "4.1.2.3.13",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-7",
+            "platform": "Universal",
+            "owasp_mobile": "M4",
+            "level": "",
+            "cve": "",
+            "desc": "Any app on an iOS device can access the most recent thing copied to your clipboard.Theoretically, a malicious app can read what\u2019s on your iOS clipboard and then feed that information back to a remote server. That remote server can be easily accessed by someone stealing your personal and sensitive information. Keyword: Foundation, copy: ,cut: ,paste:"
+        },
+        "lab_9": {
+            "title": "Make use of SMS related code",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "M3",
+            "level": "",
+            "cve": "",
+            "desc": "This application sends SMS message. One of the most common vulnerabilities of SMS verification codes is weak security protocols. Many SMS verification codes are sent over unencrypted channels, making them vulnerable to interception.Make sure it do this action with user permission. Keyword: MFMessageComposeViewController,canSendText"
+        },
+        "lab_10": {
+            "title": "Certificate check",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3|MSTG-NETWORK-4",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "Check the SSL Certificate information.We use SSLlab to check your cert,more information https://www.ssllabs.com/ssltest/ Keyword: NSURL startswith https://"
+        },
+        "lab_11": {
+            "title": "Base64 String decoding",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "MSTG-CRYPTO-1|MSTG-CRYPTO-2|MSTG-CRYPTO-3",
+            "platform": "Universal",
+            "owasp_mobile": " M3",
+            "level": "NOTICE",
+            "cve": "CVE-2015-3200",
+            "desc": "Base64-encoded or base64-decoded string found Applications may Base64-encode parameters to conceal them from users or to ease the transfer of binary data. The existence of Base64-encoded data might suggest security-sensitive information or functionality that should be investigated further. Keyword: Base64"
+        },
+        "lab_12": {
+            "title": "Make use of javascript in webview",
+            "mas": "4.2.2.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-ARCH-2|MSTG-NETWORK-4|MSTG-PLATFORM-5|MSTG-PLATFORM-6|MSTG-PLATFORM-7",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "WARNING",
+            "cve": "CVE-2013-4710",
+            "desc": "Webview JavaScript Enabled, the webview use setJavaScriptEnabled to allow javascript. It is potentially dangerous because it may allow the external website to do XSS attack in the webview. Keyword: UIWebView - stringByEvaluationgJavaScriptFromString in webview"
+        },
+        "lab_13": {
+            "title": "Screenshot detection",
+            "mas": "4.1.2.3.9",
+            "mast": "\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-12",
+            "platform": "Universal",
+            "owasp_mobile": "M10",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "This application allows users to take screenshots.Please check screenshots function and turn it off. Keyword:UIApplication - _handleScreenshot to detect screenshot"
+        },
+        "lab_14": {
+            "title": "HTTPS ALLOW_ALL_HOSTNAME_VERIFIER check",
+            "mas": "4.1.4.2.3|4.1.4.2.4|4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3",
+            "platform": "Universal",
+            "owasp_mobile": "M5",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "This application use ALLOW_ALL_HOSTNAME_VERIFIER to verify all the CN. It is dangerous and may cause man-in-the-middle attack."
+        },
+        "lab_15": {
+            "title": "SSL Certificate check",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-CODE-5|MSTG-PLATFORM-8|MSTG-PLATFORM-9",
+            "platform": "Universal",
+            "owasp_mobile": "M5",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Check the SSL Certificate information."
+        },
+        "lab_16": {
+            "title": "Potential XSS in webview",
+            "mas": "4.1.5.4.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-PLATFORM-2",
+            "platform": "Universal",
+            "owasp_mobile": " ",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_17": {
+            "title": "Use SQLite database",
+            "mas": "4.1.5.1.1",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-1|MSTG-STORAGE-2",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": " CVE-2011-3901",
+            "desc": ""
+        },
+        "lab_18": {
+            "title": "WebView setAllowFileAccess",
+            "mas": "4.1.2.3.7|4.1.2.5.3",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE 4|MSTG-PLATFORM-3|MSTG-PLATFORM-4",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "Allow local file access with webview. Please ensure your code not to allow path traversal."
+        },
+        "lab_19": {
+            "title": "SSL Verification Fail",
+            "mas": "4.1.4.2.2|4.1.4.2.3",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3|MSTG-NETWORK-4",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "NOTICE",
+            "cve": " CVE-2015-1816",
+            "desc": "Check the SSL Certificate information."
+        },
+        "lab_20": {
+            "title": "Possible hardcoded information",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "The use of a hard-coded password increases the possibility of password guessing tremendously. Keyword: CCCrypt, CCAlgorithm"
+        },
+        "lab_21": {
+            "title": "USE URL",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "URL found during analysis, check if there are some suspisious URL. Keyword:Use URL schemes with"
+        },
+        "lab_22": {
+            "title": "ENCRYPTION_AES/DES/MD5 Cipher&Degist Method found",
+            "mas": "4.1.2.3.6",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-14|MSTG-CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": " ",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_23": {
+            "title": "Keychain dump",
+            "mas": "4.1.2.3.10",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-1|MSTG-STORAGE-2",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "While it can improve the efficiency and availability of the application, it also carries risks. To protect the security of sensitive user information, a better approach is to store the keychain in iOS's secure storage areas, such as the Secure Enclave or iCloud Keychain. Keyword:PrivateFrameworks"
+        },
+        "lab_24": {
+            "title": "Make use of log function",
+            "mas": "4.1.2.3.4|4.1.2.3.5",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-3|MSTG-STORAGE-13",
+            "platform": "Universal",
+            "owasp_mobile": "M10",
+            "level": "",
+            "cve": "",
+            "desc": "Log function in this application, you should notice is there sensitive information in these logs. Keyword: Foundation, NSLog"
+        },
+        "lab_25": {
+            "title": "Keyboard cache",
+            "mas": "4.1.2.3.11",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-5|MSTG-PLATFORM-11",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "Notice",
+            "cve": "",
+            "desc": "Because the keyboard cache file is stored on the device, if the device is lost, it may be recovered, thereby revealing any sensitive information contained within. Check the keyboard cache ability open or not. Keyword: libSystem.B.dylib, Caches"
+        },
+        "lab_26": {
+            "title": "Official store release",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        }
+    },
+    "result": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "timestamp": "Mon, 01 May 2023 01:17:09 GMT",
+        "app_name": "",
+        "app_version": "",
+        "average_cvss": 0,
+        "build": "",
+        "bundle_id": "jp.co.smbc.direct",
+        "file_name": "",
+        "mast_report": {
+            "lab_0": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_1": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "NSURL with HTTPs https://gpskeeper.popinfo.jp/api/2.0/location/upsert/iphone/0336d4fe-b255-46dc-94ef-9fe2190a24f0/\nNSURL with HTTPs https://gpskeeper.popinfo.jp/api/2.0/location/upsert/iphone/0336d4fe-b255-46dc-94ef-9fe2190a24f0/\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_2": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_3": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_4": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_5": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_6": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_7": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_8": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_9": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_10": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_11": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_12": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_13": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_14": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_15": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_16": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_17": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_18": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_19": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_20": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_21": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "Use URL schemes with prefs://\nUse URL schemes with smbcintgapp://\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_22": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "Use CC_SHA1 with [\"IOS\", \"3\", \"\"]\nUse CC_SHA1 with [\"DA \", \"3\", \"\"]\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_23": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_24": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "Make use of log function NSLogv with [\"AdobeAnalytics event\"eventEmpty\": \"nil\" \"]\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_25": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "[\n    {\n        \"screenshotUrls\": [\n            \"https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/a8/26/98/a82698ad-0bee-dcf5-26f5-32f9e2f4b813/9f4565d8-1d59-4429-92ff-48774f34b7c7_iPhone8_01.png/392x696bb.png\",\n            \"https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/99/da/d1/99dad19d-a795-b685-22ce-7c47b83deba4/94a8c5ee-545d-4a5f-8cb2-7af179918111_iPhone8_02.png/392x696bb.png\",\n            \"https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/66/27/af/6627af4f-0317-2398-d1d7-e0b5900944a0/ab2ee54f-8329-40e9-8e82-d14af035ee22_iPhone8_03.png/392x696bb.png\",\n            \"https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/fa/8f/8c/fa8f8c90-29fd-9f42-8ac5-f863e74f577f/666ad402-99ae-4707-b69f-9e7a9bcdf8ec_iPhone8_04.png/392x696bb.png\",\n            \"https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/42/32/89/423289c9-0944-f941-8a88-9a81bd2a25a4/87ed71be-ae37-4f22-aedf-c9aa9c21c8e4_iPhone8_05.png/392x696bb.png\",\n            \"https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/48/6b/70/486b7034-bc69-ad3a-f087-a2d4787287f6/36c6efa0-cb81-4471-9ce7-50b7b5a9c095_iPhone8_06.png/392x696bb.png\",\n            \"https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/bf/89/8a/bf898ace-3d47-fdb2-fddb-327e0d8938db/2a2a73a3-044b-4a82-aa92-2e8794aa872f_iPhone8_07.png/392x696bb.png\",\n            \"https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/eb/e0/d7/ebe0d72b-86f0-1676-394a-8323fa6323a2/d56fafa7-0a7b-4f4c-ac5c-5c752e572c84_iPhone8_08.png/392x696bb.png\",\n            \"https://is5-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/14/70/24/1470246f-49aa-2b67-e761-056f8fb6041b/62a090e7-777f-45c1-88ac-2447c80e536f_iPhone8_09.png/392x696bb.png\",\n            \"https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/c8/92/87/c89287fd-186e-fb77-9d8f-6fdda2d7a44c/0aa4a1fb-9891-40ac-90b2-3cce855881c5_iPhone8_10.png/392x696bb.png\"\n        ],\n        \"ipadScreenshotUrls\": [],\n        \"appletvScreenshotUrls\": [],\n        \"artworkUrl60\": \"https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/23/ec/1e/23ec1ee1-2e21-4b0d-9baa-10216c4c4e34/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg\",\n        \"artworkUrl512\": \"https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/23/ec/1e/23ec1ee1-2e21-4b0d-9baa-10216c4c4e34/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg\",\n        \"artworkUrl100\": \"https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/23/ec/1e/23ec1ee1-2e21-4b0d-9baa-10216c4c4e34/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg\",\n        \"artistViewUrl\": \"https://apps.apple.com/tw/developer/sumitomo-mitsui-banking-corporation/id473879498?uo=4\",\n        \"advisories\": [],\n        \"supportedDevices\": [\n            \"iPhone5s-iPhone5s\",\n            \"iPadAir-iPadAir\",\n            \"iPadAirCellular-iPadAirCellular\",\n            \"iPadMiniRetina-iPadMiniRetina\",\n            \"iPadMiniRetinaCellular-iPadMiniRetinaCellular\",\n            \"iPhone6-iPhone6\",\n            \"iPhone6Plus-iPhone6Plus\",\n            \"iPadAir2-iPadAir2\",\n            \"iPadAir2Cellular-iPadAir2Cellular\",\n            \"iPadMini3-iPadMini3\",\n            \"iPadMini3Cellular-iPadMini3Cellular\",\n            \"iPodTouchSixthGen-iPodTouchSixthGen\",\n            \"iPhone6s-iPhone6s\",\n            \"iPhone6sPlus-iPhone6sPlus\",\n            \"iPadMini4-iPadMini4\",\n            \"iPadMini4Cellular-iPadMini4Cellular\",\n            \"iPadPro-iPadPro\",\n            \"iPadProCellular-iPadProCellular\",\n            \"iPadPro97-iPadPro97\",\n            \"iPadPro97Cellular-iPadPro97Cellular\",\n            \"iPhoneSE-iPhoneSE\",\n            \"iPhone7-iPhone7\",\n            \"iPhone7Plus-iPhone7Plus\",\n            \"iPad611-iPad611\",\n            \"iPad612-iPad612\",\n            \"iPad71-iPad71\",\n            \"iPad72-iPad72\",\n            \"iPad73-iPad73\",\n            \"iPad74-iPad74\",\n            \"iPhone8-iPhone8\",\n            \"iPhone8Plus-iPhone8Plus\",\n            \"iPhoneX-iPhoneX\",\n            \"iPad75-iPad75\",\n            \"iPad76-iPad76\",\n            \"iPhoneXS-iPhoneXS\",\n            \"iPhoneXSMax-iPhoneXSMax\",\n            \"iPhoneXR-iPhoneXR\",\n            \"iPad812-iPad812\",\n            \"iPad834-iPad834\",\n            \"iPad856-iPad856\",\n            \"iPad878-iPad878\",\n            \"Watch4-Watch4\",\n            \"iPadMini5-iPadMini5\",\n            \"iPadMini5Cellular-iPadMini5Cellular\",\n            \"iPadAir3-iPadAir3\",\n            \"iPadAir3Cellular-iPadAir3Cellular\",\n            \"iPodTouchSeventhGen-iPodTouchSeventhGen\",\n            \"iPhone11-iPhone11\",\n            \"iPhone11Pro-iPhone11Pro\",\n            \"iPadSeventhGen-iPadSeventhGen\",\n            \"iPadSeventhGenCellular-iPadSeventhGenCellular\",\n            \"iPhone11ProMax-iPhone11ProMax\",\n            \"iPhoneSESecondGen-iPhoneSESecondGen\",\n            \"iPadProSecondGen-iPadProSecondGen\",\n            \"iPadProSecondGenCellular-iPadProSecondGenCellular\",\n            \"iPadProFourthGen-iPadProFourthGen\",\n            \"iPadProFourthGenCellular-iPadProFourthGenCellular\",\n            \"iPhone12Mini-iPhone12Mini\",\n            \"iPhone12-iPhone12\",\n            \"iPhone12Pro-iPhone12Pro\",\n            \"iPhone12ProMax-iPhone12ProMax\",\n            \"iPadAir4-iPadAir4\",\n            \"iPadAir4Cellular-iPadAir4Cellular\",\n            \"iPadEighthGen-iPadEighthGen\",\n            \"iPadEighthGenCellular-iPadEighthGenCellular\",\n            \"iPadProThirdGen-iPadProThirdGen\",\n            \"iPadProThirdGenCellular-iPadProThirdGenCellular\",\n            \"iPadProFifthGen-iPadProFifthGen\",\n            \"iPadProFifthGenCellular-iPadProFifthGenCellular\",\n            \"iPhone13Pro-iPhone13Pro\",\n            \"iPhone13ProMax-iPhone13ProMax\",\n            \"iPhone13Mini-iPhone13Mini\",\n            \"iPhone13-iPhone13\",\n            \"iPadMiniSixthGen-iPadMiniSixthGen\",\n            \"iPadMiniSixthGenCellular-iPadMiniSixthGenCellular\",\n            \"iPadNinthGen-iPadNinthGen\",\n            \"iPadNinthGenCellular-iPadNinthGenCellular\",\n            \"iPhoneSEThirdGen-iPhoneSEThirdGen\",\n            \"iPadAirFifthGen-iPadAirFifthGen\",\n            \"iPadAirFifthGenCellular-iPadAirFifthGenCellular\",\n            \"iPhone14-iPhone14\",\n            \"iPhone14Plus-iPhone14Plus\",\n            \"iPhone14Pro-iPhone14Pro\",\n            \"iPhone14ProMax-iPhone14ProMax\",\n            \"iPadTenthGen-iPadTenthGen\",\n            \"iPadTenthGenCellular-iPadTenthGenCellular\",\n            \"iPadPro11FourthGen-iPadPro11FourthGen\",\n            \"iPadPro11FourthGenCellular-iPadPro11FourthGenCellular\",\n            \"iPadProSixthGen-iPadProSixthGen\",\n            \"iPadProSixthGenCellular-iPadProSixthGenCellular\"\n        ],\n        \"isGameCenterEnabled\": false,\n        \"features\": [],\n        \"kind\": \"software\",\n        \"currency\": \"TWD\",\n        \"minimumOsVersion\": \"12.0\",\n        \"sellerName\": \"Sumitomo Mitsui Banking Corporation\",\n        \"artistId\": 473879498,\n        \"artistName\": \"Sumitomo Mitsui Banking Corporation\",\n        \"genres\": [\n            \"\u8ca1\u7d93\"\n        ],\n        \"price\": 0.0,\n        \"primaryGenreName\": \"Finance\",\n        \"primaryGenreId\": 6015,\n        \"trackCensoredName\": \"\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u30a2\u30d7\u30ea\",\n        \"languageCodesISO2A\": [\n            \"EN\",\n            \"JA\",\n            \"KO\",\n            \"ZH\",\n            \"VI\"\n        ],\n        \"fileSizeBytes\": \"142723072\",\n        \"description\": \"\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u304c\u63d0\u4f9b\u3059\u308b\u516c\u5f0f\u30a2\u30d7\u30ea\u3067\u3059\u3002\\n\\n\u6b8b\u9ad8\u3084\u5165\u51fa\u91d1\u660e\u7d30\u306e\u78ba\u8a8d\u3001\u632f\u8fbc\u30fb\u9001\u91d1\u3001SMBC\u30c0\u30a4\u30ec\u30af\u30c8\uff08\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\uff09\u306e\u30b5\u30fc\u30d3\u30b9\u3092\u7c21\u5358\u304b\u3064\u5b89\u5168\u306b\u3054\u5229\u7528\u3044\u305f\u3060\u3051\u307e\u3059\u3002\\n\u6307\u7d0b\u3084\u9854\u8a8d\u8a3c\u7b49\u3092\u5229\u7528\u3057\u3066\u30b9\u30e0\u30fc\u30ba\u306b\u30ed\u30b0\u30a4\u30f3\u53ef\u80fd\u300224\u6642\u9593\u3044\u3064\u3067\u3082\u3054\u5229\u7528\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\\n\\n\u307e\u305f\u3001\u300c\u53e3\u5ea7\u958b\u8a2d\uff08Olive\u30a2\u30ab\u30a6\u30f3\u30c8\u7533\u8fbc\uff09\u300d\u3082\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u30a2\u30d7\u30ea\u304b\u3089\uff01\\n\u6765\u5e97\u30fb\u5370\u9451\u4e0d\u8981\u3002\u672c\u4eba\u78ba\u8a8d\u66f8\u985e\u306e\u3054\u7528\u610f\u306e\u307f\u3067\u3001\u304b\u3093\u305f\u3093\u306b\u53e3\u5ea7\u958b\u8a2d\u306e\u304a\u7533\u8fbc\u304c\u53ef\u80fd\u3067\u3059\u3002\\n\\n\u25a0Olive\u30a2\u30ab\u30a6\u30f3\u30c8\u3068\u306f\uff1f\\n\u4ee5\u4e0b5\u3064\u306e\u30b5\u30fc\u30d3\u30b9\u3092\u5168\u3066\u304a\u7533\u8fbc\u3044\u305f\u3060\u3044\u305f\u304a\u5ba2\u3055\u307e\u3078\u3001\u304a\u5f97\u306a\u53e3\u5ea7\u7279\u5178\u306b\u52a0\u3048\u3001\u5404\u7a2e\u7279\u5178\u3092\u63d0\u4f9b\u3059\u308b\u30d1\u30c3\u30b1\u30fc\u30b8\u30b5\u30fc\u30d3\u30b9\u3067\u3059\u3002\\n\uff1c\u5bfe\u8c61\u30b5\u30fc\u30d3\u30b9\uff1e\\n\\n\u25cf\u6b8b\u9ad8\u5225\u91d1\u5229\u578b\u666e\u901a\u9810\u91d1\u307e\u305f\u306f\u666e\u901a\u9810\u91d1\\n\u25cfSMBC\u30c0\u30a4\u30ec\u30af\u30c8\\n\u25cfWeb\u901a\u5e33\uff08\u901a\u5e33\u4e0d\u767a\u884c\u65b9\u5f0f\uff09\\n\u25cfSMBC ID\\n\u25cfOlive\u30d5\u30ec\u30ad\u30b7\u30d6\u30eb\u30da\u30a4\\n\u203bOlive\u30a2\u30ab\u30a6\u30f3\u30c8\u306b\u3054\u5951\u7d04\u306e\u5834\u5408\u3001\u30ad\u30e3\u30c3\u30b7\u30e5\u30ab\u30fc\u30c9\u6a5f\u80fd\u3068\u30c7\u30d3\u30c3\u30c8\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30fb\u30dd\u30a4\u30f3\u30c8\u6255\u3044\u306e\u304a\u652f\u6255\u6a5f\u80fd\u304c\u4e00\u4f53\u3068\u306a\u3063\u305f\u300c\u30de\u30eb\u30c1\u30ca\u30f3\u30d0\u30fc\u30ec\u30b9\u30ab\u30fc\u30c9\uff08Olive\u30d5\u30ec\u30ad\u30b7\u30d6\u30eb\u30da\u30a4\uff09\u300d\u3092\u767a\u884c\u3044\u305f\u3057\u307e\u3059\u3002\\n\\n============================\\n\\n\u3010\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u30a2\u30d7\u30ea\u306e\u4e3b\u306a\u6a5f\u80fd\u3011\\n\u25a0\u53e3\u5ea7\u958b\u8a2d\\n\u25a0\u6b8b\u9ad8\u30fb\u5165\u51fa\u91d1\u660e\u7d30\u7167\u4f1a\\n\u25a0\u632f\u8fbc\u30fb\u632f\u66ff\\n\u25a0\u3053\u3068\u3089\u9001\u91d1\\n\u25a0\u7a0e\u91d1\u30fb\u5404\u7a2e\u6599\u91d1\u306e\u6255\u8fbc\\n\u25a0\u30ef\u30f3\u30bf\u30a4\u30e0\u30d1\u30b9\u30ef\u30fc\u30c9\\n\u25a0Olive\u30d5\u30ec\u30ad\u30b7\u30d6\u30eb\u30da\u30a4\\n\u25a0\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u306e\u660e\u7d30\u7167\u4f1a\\n\u25a0\u5404\u7a2e\uff08\u30d5\u30ec\u30ad\u30b7\u30d6\u30eb\u30da\u30a4\u30fb\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\uff09\u5229\u7528\u901a\u77e5\u30fb\u5229\u7528\u5236\u9650\\n\u25a0SMBC\u65e5\u8208\u8a3c\u5238\u53e3\u5ea7\u306e\u6b8b\u9ad8\u30fb\u660e\u7d30\u7167\u4f1a\\n\u25a0SBI\u8a3c\u5238\u53e3\u5ea7\u306e\u6b8b\u9ad8\u30fb\u660e\u7d30\u7167\u4f1a\\n\u25a0\u5bb6\u8a08\u7ba1\u7406\uff08\u30c7\u30b8\u30bf\u30eb\u5bb6\u8a08\u7c3f\uff09\\n\u25a0\u96fb\u8a71\u306b\u3088\u308b\u904b\u7528\u3054\u76f8\u8ac7(\u5bfe\u8c61\u5236\u9650\u3042\u308a)\\n\u25a0V\u30dd\u30a4\u30f3\u30c8\u306e\u6b8b\u9ad8\u78ba\u8a8d\u30fb\u7167\u4f1a\\n\u25a0Apple Pay\u8a2d\u5b9a\\n\u25a0\u901a\u77e5\\n\u25a0My\u901a\u5e33\u30fb\u30ab\u30ec\u30f3\u30c0\u30fc\u6a5f\u80fd\u3000\u3000\u7b49\\n\u3082\u3063\u3068\u304f\u308f\u3057\u3044\u30a2\u30d7\u30ea\u306e\u6a5f\u80fd\u306b\u3064\u3044\u3066\u306f\u3053\u3061\u3089\\nhttps://www.smbc.co.jp/kojin/spaplli/directapp/\\n\\n\u3010\u3054\u6ce8\u610f\u3011\\n\u25a0\u5bfe\u8c61OS\\niPhone 5s\u4ee5\u964d\u3067\u3001\u304b\u3064iOS12.0\u4ee5\u964d\u3092\u642d\u8f09\u3057\u305fdocomo\u30fbau\u30fb\u30bd\u30d5\u30c8\u30d0\u30f3\u30af\u30e2\u30d0\u30a4\u30eb\u306e\u7aef\u672b\\n\u203biPad\u3067\u672c\u30b5\u30fc\u30d3\u30b9\u3092\u3054\u5229\u7528\u306e\u5834\u5408\u3001\u6b63\u5e38\u306b\u52d5\u4f5c\u3057\u306a\u3044\u53ef\u80fd\u6027\u304c\u3042\u308a\u307e\u3059\u3002\\n\u25a0\u6a5f\u7a2e\u5909\u66f4\u3092\u3059\u308b\u5834\u5408\\n\u30a2\u30d7\u30ea\u5185\u306b\u4fdd\u5b58\u3055\u308c\u3066\u3044\u308b\u30c7\u30fc\u30bf\u3092\u5f15\u304d\u7d99\u3050\u306b\u306f\u3001\u4e8b\u524d\u306b\u30d1\u30bd\u30b3\u30f3\u306eiTunes\u306b\u30d0\u30c3\u30af\u30a2\u30c3\u30d7\u3092\u4fdd\u5b58\u3059\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002\\n\u4e0b\u8a18\u30da\u30fc\u30b8\u306e\u300c\u30a2\u30d7\u30ea\u306e\u30d0\u30c3\u30af\u30a2\u30c3\u30d7\u65b9\u6cd5\u300d\u3092\u3001\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002\\nhttps://www.smbc.co.jp/smartphone/service/directapp3/help13.html\\n\u203b\u6a5f\u7a2e\u5909\u66f4\u306e\u969b\u306b\u30a2\u30d7\u30ea\u304c\u7d42\u4e86\u3057\u3066\u3057\u307e\u3046\u304a\u5ba2\u3055\u307e\u3078\\n\u3000 \u4e0b\u8a18\u30da\u30fc\u30b8\u306e\u300c\u304a\u77e5\u3089\u305b\u300d\u3092\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002\\n   https://www.smbc.co.jp/kojin/spaplli/\\n\u25a0\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u3064\u3044\u3066\\n\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u3092\u3088\u308a\u5b89\u5168\u306b\u3054\u5229\u7528\u3044\u305f\u3060\u304f\u305f\u3081\u306b\u3001\u632f\u8fbc\u7b49\u306e\u91cd\u8981\u306a\u304a\u53d6\u5f15\u306b\u306f\u30ef\u30f3\u30bf\u30a4\u30e0\u30d1\u30b9\u30ef\u30fc\u30c9\u304c\u5fc5\u8981\u3067\u3059\u3002\\nhttps://www.smbc.co.jp/kojin/direct/securi/passca/app_otoriatsukai.html\\n\\n\u25a0\uff08\u3054\u53c2\u8003\uff09\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u30a2\u30d7\u30ea\u306f\u3053\u3093\u306a\u65b9\u306b\u304a\u3059\u3059\u3081\u3067\u3059\uff01\\n\\n\u30fb\u9280\u884c\u306b\u884c\u304b\u306a\u304f\u3066\u3082\u3001\u9280\u884c\u53e3\u5ea7\u306e\u6b8b\u9ad8\u78ba\u8a8d\u304c\u3067\u304d\u308b\u9280\u884c\u30a2\u30d7\u30ea\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u3084\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u306e\u5229\u7528\u5c65\u6b74\u3092\u5143\u306b\u652f\u51fa\u7ba1\u7406\u3057\u305f\u3044\\n\u30fb\u901a\u5e33\u8a18\u5e33\u3092\u884c\u308f\u305a\u306b\u5165\u51fa\u91d1\u7ba1\u7406\u3092\u3057\u305f\u3044\\n\u30fbSMBC\u30c0\u30a4\u30ec\u30af\u30c8\u306e\u6a5f\u80fd\u3082\u5229\u7528\u3067\u304d\u308b\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u30a2\u30d7\u30ea\u3092\u4f7f\u3044\u305f\u3044\\n\u30fb\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3084\u643a\u5e2f\u96fb\u8a71\u756a\u53f7\u3042\u3066\u306b\u9001\u91d1\u3067\u304d\u308b\u3053\u3068\u3089\u9001\u91d1\u306b\u8208\u5473\u304c\u3042\u308b\\n\u30fb\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u3092\u30ef\u30f3\u30bf\u30a4\u30e0\u30d1\u30b9\u30ef\u30fc\u30c9\u3067\u5b89\u5fc3\u3057\u3066\u4f7f\u3048\u308b\u9280\u884c\u306e\u30a2\u30d7\u30ea\u3092\u63a2\u3057\u3066\u3044\u308b\\n\u30fb\u9280\u884c\u53e3\u5ea7\u7ba1\u7406\u3092\u30a2\u30d7\u30ea1\u3064\u3067\u884c\u3044\u305f\u3044\\n\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u3084\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u306e\u660e\u7d30\u3092\u307e\u3068\u3081\u3066\u898b\u3089\u308c\u308b\u6b8b\u9ad8\u7167\u4f1a\u30a2\u30d7\u30ea\u304c\u6b32\u3057\u3044\\n\u30fb\u9280\u884c\u6b8b\u9ad8\u3060\u3051\u3067\u306a\u304f\u3001\u5165\u51fa\u91d1\u660e\u7d30\u3082\u898b\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u9280\u884c\u30a2\u30d7\u30ea\u3067\u3001\u53ce\u652f\u7ba1\u7406\u3092\u884c\u3044\u305f\u3044\\n\u30fb\u5b9a\u671f\u7684\u306bV\u30dd\u30a4\u30f3\u30c8\u306e\u6b8b\u9ad8\u78ba\u8a8d\u3092\u884c\u3044\u3001\u8a08\u753b\u7684\u306bV\u30dd\u30a4\u30f3\u30c8\u3092\u4f7f\u7528\u3057\u305f\u3044\\n\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u306e\u5229\u7528\u660e\u7d30\u3092\u5143\u306b\u3001\u51fa\u8cbb\u7ba1\u7406\u304c\u3067\u304d\u308b\u9280\u884c\u306e\u30a2\u30d7\u30ea\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u9280\u884c\u53e3\u5ea7\u306e\u6b8b\u9ad8\u3092\u30b9\u30de\u30db\u3067\u78ba\u8a8d\u3057\u305f\u3044\\n\u30fb\u5b9a\u671f\u9810\u91d1\u3084\u6295\u8cc7\u4fe1\u8a17\u7528\u306e\u53e3\u5ea7\u958b\u8a2d\u3082\u30a2\u30d7\u30ea\u3067\u884c\u3044\u305f\u3044\\n\u30fb\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u306e\u53e3\u5ea7\u306b\u52a0\u3048\u3066\u3001\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u3084\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u3092\u9023\u643a\u3057\u3001\u5165\u51fa\u91d1\u7ba1\u7406\u3092\u3057\u305f\u3044\\n\u30fb\u632f\u8fbc\u3084\u5f15\u304d\u843d\u3068\u3057\u306a\u3069\u306e\u652f\u6255\u3044\u7ba1\u7406\u3082\u3067\u304d\u308b\u9280\u884c\u30a2\u30d7\u30ea\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u3067\u306e\u632f\u8fbc\u5148\u3092\u767b\u9332\u3057\u3066\u304a\u304d\u305f\u3044\\n\u30fb\u6b8b\u9ad8\u78ba\u8a8d\u30a2\u30d7\u30ea\u3067\u3001\u53e3\u5ea7\u6b8b\u9ad8\u7167\u4f1a\u306f\u3082\u3061\u308d\u3093\u3001\u53ce\u5165\u7ba1\u7406\u3084\u652f\u51fa\u7ba1\u7406\u3082\u884c\u3044\u305f\u3044\\n\u30fb1\u3064\u306e\u30a2\u30d7\u30ea\u5185\u3067\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u306e\u30ef\u30f3\u30bf\u30a4\u30e0\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u8868\u793a\u3067\u304d\u308b\u9280\u884c\u30a2\u30d7\u30ea\u3092\u4f7f\u3044\u305f\u3044\\n\u30fb\u9280\u884c\u53e3\u5ea7\u756a\u53f7\u306a\u3057\u3067\u9001\u91d1\u3067\u304d\u308b\u3001\u3053\u3068\u3089\u9001\u91d1\u30b5\u30fc\u30d3\u30b9\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u30b7\u30f3\u30d7\u30eb\u306a\u901a\u5e33\u30a2\u30d7\u30ea\u3088\u308a\u3082\u3001\u9280\u884c\u6b8b\u9ad8\u78ba\u8a8d\u4ee5\u5916\u306e\u6a5f\u80fd\u304c\u5145\u5b9f\u3057\u3066\u3044\u308b\u901a\u5e33\u30a2\u30d7\u30ea\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u30e1\u30a4\u30f3\u3067\u3042\u308b\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u306e\u53e3\u5ea7\u306b\u52a0\u3048\u3001\u30cd\u30c3\u30c8\u9280\u884c\u306e\u53e3\u5ea7\u3082\u8907\u6570\u3042\u308b\u306e\u3067\u3001\u5165\u51fa\u91d1\u7ba1\u7406\u30921\u3064\u306e\u30a2\u30d7\u30ea\u3067\u884c\u3044\u305f\u3044\\n\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u7ba1\u7406\u3082\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u7ba1\u7406\u3082\u3067\u304d\u308b\u4fbf\u5229\u306a\u9280\u884c\u53e3\u5ea7\u7ba1\u7406\u30a2\u30d7\u30ea\u3092\u63a2\u3057\u3066\u3044\u308b\\n\u30fb\u9280\u884c\u30a2\u30d7\u30ea\u3067\u3001\u3088\u308a\u624b\u8efd\u306b\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u3092\u5229\u7528\u3067\u304d\u308b\u3082\u306e\u304c\u6b32\u3057\u3044\\n\u30fb\u9810\u91d1\u7ba1\u7406\u304c\u3057\u3084\u3059\u3044\u53e3\u5ea7\u6b8b\u9ad8\u7167\u4f1a\u30a2\u30d7\u30ea\u3092\u4f7f\u3044\u305f\u3044\\n\u30fb\u901a\u5e33\u8a18\u5e33\u3092\u884c\u3046\u6642\u9593\u304c\u306a\u3044\u306e\u3067\u3001\u901a\u5e33\u7ba1\u7406\u3068\u3057\u3066\u5165\u91d1\u7ba1\u7406\u3082\u51fa\u91d1\u7ba1\u7406\u3082\u3067\u304d\u308b\u901a\u5e33\u30a2\u30d7\u30ea\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u3053\u3068\u3089\u9001\u91d1\u3092\u5229\u7528\u3067\u304d\u308b\u7121\u6599\u306e\u9280\u884c\u30a2\u30d7\u30ea\u3092\u63a2\u3057\u3066\u3044\u308b\\n\u30fb\u30cd\u30c3\u30c8\u9280\u884c\u306e\u53e3\u5ea7\u3082\u9023\u643a\u3067\u304d\u308b\u3001\u53ce\u652f\u7ba1\u7406\u306b\u4fbf\u5229\u306a\u9280\u884c\u306e\u30a2\u30d7\u30ea\u3092\u63a2\u3057\u3066\u3044\u308b\\n\u30fb\u6b8b\u9ad8\u7167\u4f1a\u3001\u632f\u8fbc\u7b49\u3001\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u306b\u95a2\u3059\u308b\u64cd\u4f5c\u3092\u30b9\u30e0\u30fc\u30ba\u306b\u884c\u3048\u308b\u30a2\u30d7\u30ea\u304c\u6b32\u3057\u3044\\n\u30fb\u9280\u884c\u306e\u30a2\u30d7\u30ea\u3067\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u3084\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u306e\u7533\u8fbc\u3082\u6e08\u307e\u305b\u305f\u3044\\n\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u306e\u652f\u6255\u3044\u65e5\u306b\u306f\u3001\u5916\u51fa\u5148\u3067\u3082\u9280\u884c\u6b8b\u9ad8\u3092\u78ba\u8a8d\u3057\u3066\u304a\u304d\u305f\u3044\\n\u30fb\u304a\u793c\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u4ed8\u3051\u3066\u9001\u91d1\u304c\u3067\u304d\u308b\u3001\u3053\u3068\u3089\u9001\u91d1\u3092\u5229\u7528\u3057\u3066\u307f\u305f\u3044\\n\u30fb\u5165\u51fa\u91d1\u7ba1\u7406\u306f\u3082\u3061\u308d\u3093\u3001\u632f\u8fbc\u3084\u9280\u884c\u6b8b\u9ad8\u78ba\u8a8d\u3082\u3067\u304d\u308b\u9280\u884c\u7ba1\u7406\u30a2\u30d7\u30ea\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u90fd\u5e02\u9280\u884c\u30a2\u30d7\u30ea\u3067\u30cd\u30c3\u30c8\u9280\u884c\u306e\u53e3\u5ea7\u3082\u9023\u643a\u53ef\u80fd\u306a\u3082\u306e\u3092\u63a2\u3057\u3066\u3044\u308b\\n\u30fb\u73fe\u5728Web\u3067SMBC\u30c0\u30a4\u30ec\u30af\u30c8\u3092\u5229\u7528\u3057\u3066\u3044\u308b\u306e\u3067\u3001\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u30a2\u30d7\u30ea\u306b\u5207\u308a\u66ff\u3048\u305f\u3044\\n\u30fb\u9280\u884c\u6b8b\u9ad8\u3060\u3051\u3067\u306a\u304f\u3001\u6bce\u6708\u306e\u53ce\u652f\u3082\u540c\u6642\u306b\u78ba\u8a8d\u3057\u305f\u3044\\n\u30fb\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u306e\u5229\u7528\u5c65\u6b74\u3084\u3001Web\u901a\u5e33\u3067\u6b8b\u9ad8\u78ba\u8a8d\u304c\u3067\u304d\u308b\u9280\u884c\u30a2\u30d7\u30ea\u3092\u4f7f\u3044\u305f\u3044\\n\u30fb\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0(SMBC\u30c0\u30a4\u30ec\u30af\u30c8)\u306e\u6a5f\u80fd\u3092\u30a2\u30d7\u30ea\u3067\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u9280\u884c\u53e3\u5ea7\u958b\u8a2d\u304c\u7c21\u5358\u624b\u7d9a\u304d\u3067\u6e08\u3080\u9280\u884c\u30a2\u30d7\u30ea\u304c\u6b32\u3057\u3044\\n\u30fb\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u3001\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u306e\u660e\u7d30\u7167\u4f1a\u304c\u3067\u304d\u308b\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u306e\u30b5\u30fc\u30d3\u30b9\u304c\u77e5\u308a\u305f\u3044\\n\u30fb\u3059\u3050\u4f7f\u3048\u308b\u30ef\u30f3\u30bf\u30a4\u30e0\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u5165\u91d1\u3084\u53e3\u5ea7\u632f\u66ff\u306a\u3069\u306e\u51fa\u91d1\u660e\u7d30\u304c\u898b\u3089\u308c\u308b\u3001\u9280\u884c\u6b8b\u9ad8\u78ba\u8a8d\u30a2\u30d7\u30ea\u304c\u6b32\u3057\u3044\\n\u30fb\u3088\u304f\u9280\u884c\u632f\u8fbc\u3092\u3059\u308b\u6a5f\u4f1a\u304c\u3042\u308b\u306e\u3067\u3001\u9280\u884c\u30a2\u30d7\u30ea\u3067\u632f\u8fbc\u5148\u3092\u767b\u9332\u3057\u3066\u304a\u304d\u305f\u3044\\n\u30fb\u6b8b\u9ad8\u7167\u4f1a\u3092\u3057\u305f\u3044\u304c\u9280\u884c\u306b\u884c\u304f\u6642\u9593\u304c\u306a\u3044\\n\u30fb\u5bb6\u8a08\u7c3f\u4ee3\u308f\u308a\u306b\u3082\u306a\u308b\u5bb6\u8a08\u7ba1\u7406\u6a5f\u80fd\u4ed8\u304d\u306e\u9280\u884c\u30a2\u30d7\u30ea\u304c\u6b32\u3057\u3044\\n\u30fbWeb\u901a\u5e33\u5bfe\u5fdc\u306e\u901a\u5e33\u30a2\u30d7\u30ea\u3067\u3001\u3044\u3064\u3067\u3082\u6b8b\u9ad8\u78ba\u8a8d\u3067\u304d\u308b\u3088\u3046\u306b\u3057\u3066\u304a\u304d\u305f\u3044\\n\u30fb\u9280\u884c\u3084ATM\u306b\u884c\u304b\u306a\u304f\u3066\u3082\u632f\u8fbc\u3067\u304d\u308b\u3088\u3046\u306b\u3057\u305f\u3044\\n\u30fb\u3044\u3064\u3067\u3082\u5165\u91d1\u3001\u51fa\u91d1\u660e\u7d30\u304c\u78ba\u8a8d\u3067\u304d\u3066\u3001\u6599\u91d1\u306e\u6255\u8fbc\u3082\u53ef\u80fd\u306a\u30a2\u30d7\u30ea\u3092\u4f7f\u3044\u305f\u3044\\n\u30fb\u304b\u3093\u305f\u3093\u306b\u9280\u884c\u53e3\u5ea7\u958b\u8a2d\u304c\u3067\u304d\u308b\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u3092\u63a2\u3057\u3066\u3044\u308b\\n\u30fb\u9001\u91d1\u30a2\u30d7\u30ea\u3092\u5229\u7528\u3057\u624b\u6570\u6599\u3092\u6291\u3048\u305f\u3044\\n\u30fb\u7c21\u5358\u624b\u7d9a\u304d\u3067\u53e3\u5ea7\u958b\u8a2d\u304c\u3067\u304d\u308b\u4fbf\u5229\u306a\u30a2\u30d7\u30ea\u3092\u4f7f\u3044\u305f\u3044\\n\u30fb\u53e3\u5ea7\u6b8b\u9ad8\u3092\u898b\u3066\u9810\u8caf\u91d1\u3092\u78ba\u8a8d\u3057\u305f\u3044\\n\u30fb\u30cd\u30c3\u30c8\u9280\u884c\u3082\u9023\u643a\u3067\u304d\u308b\u30a2\u30d7\u30ea\u3067\u9280\u884c\u53e3\u5ea7\u7ba1\u7406\u3092\u3057\u305f\u3044\\n\u30fb\u3053\u3068\u3089\u9001\u91d1\u30b5\u30fc\u30d3\u30b9\u3092\u5229\u7528\u3057\u3001\u76f8\u624b\u306b\u30e1\u30c3\u30bb\u30fc\u30b8\u3082\u4e00\u7dd2\u306b\u5c4a\u3051\u305f\u3044\\n\u30fb\u6642\u9593\u3092\u304b\u3051\u305a\u306b\u30a2\u30d7\u30ea\u3067\u9280\u884c\u53e3\u5ea7\u958b\u8a2d\u3092\u7533\u3057\u8fbc\u307f\u305f\u3044\\n\u30fb\u30c7\u30d3\u30c3\u30c8\u30ab\u30fc\u30c9\u304c\u3059\u3050\u5fc5\u8981\u306a\u306e\u3067\u30a2\u30d7\u30ea\u3067\u624b\u7d9a\u304d\u3057\u305f\u3044\\n\u30fb\u8fd1\u6240\u306b\u9280\u884c\u304c\u306a\u3044\u305f\u3081\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fbOlive\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u3063\u3068\u304a\u5f97\u306bV\u30dd\u30a4\u30f3\u30c8\u3092\u8caf\u3081\u305f\u3044\\n\u30fb\u304a\u7d66\u6599\u65e5\u306b\u3001\u3059\u3050\u6b8b\u9ad8\u7167\u4f1a\u3092\u3057\u3066\u53e3\u5ea7\u6b8b\u9ad8\u3092\u78ba\u8a8d\u3057\u305f\u3044\\n\u30fb\u9280\u884c\u306b\u884c\u304b\u305a\u3068\u3082\u53e3\u5ea7\u958b\u8a2d\u3084\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u767a\u884c\u304c\u3067\u304d\u308b\u9280\u884c\u30a2\u30d7\u30ea\u304c\u6b32\u3057\u3044\\n\u30fb\u624b\u5143\u306b\u30ad\u30e3\u30c3\u30b7\u30e5\u30ab\u30fc\u30c9\u304c\u306a\u304f\u3066\u3082\u9280\u884c\u6b8b\u9ad8\u78ba\u8a8d\u3092\u3067\u304d\u308b\u3088\u3046\u306b\u3057\u3066\u304a\u304d\u305f\u3044\\n\u30fb\u30ef\u30f3\u30bf\u30a4\u30e0\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u767a\u884c\u3067\u304d\u308b\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u306e\u30a2\u30d7\u30ea\u3092\u4f7f\u3044\u305f\u3044\\n\u30fb\u53e3\u5ea7\u958b\u8a2d\u3092\u3059\u308b\u305f\u3081\u306b\u9280\u884c\u306b\u884c\u304f\u6642\u9593\u304c\u306a\u3044\u306e\u3067\u30a2\u30d7\u30ea\u3092\u5229\u7528\u3057\u305f\u3044\\n\u30fb\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30d0\u30f3\u30ad\u30f3\u30b0\u306e\u30a2\u30d7\u30ea\u3067\u9280\u884c\u53e3\u5ea7\u958b\u8a2d\u3092\u6e08\u307e\u305b\u305f\u3044\",\n        \"isVppDeviceBasedLicensingEnabled\": true,\n        \"currentVersionReleaseDate\": \"2023-03-22T02:30:18Z\",\n        \"genreIds\": [\n            \"6015\"\n        ],\n        \"releaseDate\": \"2018-05-23T23:51:45Z\",\n        \"bundleId\": \"jp.co.smbc.direct\",\n        \"formattedPrice\": \"\u514d\u8cbb\",\n        \"contentAdvisoryRating\": \"4+\",\n        \"averageUserRatingForCurrentVersion\": 4.74684,\n        \"userRatingCountForCurrentVersion\": 158,\n        \"averageUserRating\": 4.74684,\n        \"trackViewUrl\": \"https://apps.apple.com/tw/app/%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E9%8A%80%E8%A1%8C%E3%82%A2%E3%83%97%E3%83%AA/id594457652?uo=4\",\n        \"trackContentRating\": \"4+\",\n        \"trackId\": 594457652,\n        \"trackName\": \"\u4e09\u4e95\u4f4f\u53cb\u9280\u884c\u30a2\u30d7\u30ea\",\n        \"releaseNotes\": \"\u65b0\u3057\u3044\u30b5\u30fc\u30d3\u30b9\u30fb\u6a5f\u80fd\u304c\u8ffd\u52a0\u3055\u308c\u307e\u3057\u305f\u3002\\n \\n\u2460Olive\u30a2\u30ab\u30a6\u30f3\u30c8\u65b0\u767b\u5834\uff01\\n\u30a2\u30d7\u30ea\u304b\u3089Olive\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u7533\u8fbc\uff08\u53e3\u5ea7\u958b\u8a2d\uff09\u3001\u5207\u66ff\u304c\u53ef\u80fd\u306b\u306a\u308a\u307e\u3057\u305f\u3002\\n\u2461\u9078\u3079\u308b\u7279\u5178\u3084\uff36\u30dd\u30a4\u30f3\u30c8\u30a2\u30c3\u30d7\u30d7\u30ed\u30b0\u30e9\u30e0\\n\u5404\u7a2e\u7279\u5178\u3092\u6bce\u6708\u9078\u629e\u3057\u305f\u308a\u3001\u3053\u308c\u307e\u3067\u4ee5\u4e0a\u306b\uff36\u30dd\u30a4\u30f3\u30c8\u304c\u8caf\u3081\u3089\u308c\u308b\u3088\u3046\u306a\u308a\u307e\u3057\u305f\u3002\\n\u2462Olive\u30d5\u30ec\u30ad\u30b7\u30d6\u30eb\u30da\u30a4\\n\u652f\u6255\u3044\u30e2\u30fc\u30c9\u306e\u5909\u66f4\u3084\u3001\u3054\u5229\u7528\u660e\u7d30\u304c\u78ba\u8a8d\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3057\u305f\u3002\\n\u2463SMBC ID\\n\u5171\u901a\u306eID\u3067\u3042\u308bSMBC ID\u3067\u30ed\u30b0\u30a4\u30f3\u3057\u305f\u308a\u3001\u4e09\u4e95\u4f4f\u53cb\u30ab\u30fc\u30c9\uff08Vpass\uff09\u306e\u60c5\u5831\u3082\u4e00\u62ec\u7ba1\u7406\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3057\u305f\u3002\\n\u2464SBI\u8a3c\u5238\\nSBI\u8a3c\u5238\u306e\u53e3\u5ea7\u958b\u8a2d\u3084\u3001\u6295\u8cc7\u4fe1\u8a17\u306e\u8cfc\u5165\u7b49\u304c\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3057\u305f\u3002\\n\\n3\u670822\u65e5\u3000\u4e00\u90e8\u4e0d\u5177\u5408\u3092\u4fee\u6b63\u3057\u307e\u3057\u305f\u3002\",\n        \"version\": \"10.2.0\",\n        \"wrapperType\": \"software\",\n        \"userRatingCount\": 158\n    }\n]",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            }
+        },
+        "min_os_version": "",
+        "sdk_name": "iphoneos13.3.1",
+        "url_list": ""
+    }
+}

@@ -1,0 +1,42 @@
+0,Skip,
+1,Pass,"NSURL with HTTPs https://secure.rat.rakuten.co.jp/
+NSURL with HTTPs https://secure.rat.rakuten.co.jp/
+"
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Manual,"{""valid"": True, ""detail"": {""url"": ""https://secure.rat.rakuten.co.jp/"", ""issuer"": <Name(C=US,O=DigiCert Inc,CN=DigiCert TLS RSA SHA256 2020 CA1)>, ""not valid after"": ""2024-02-25 23:59:59"", ""not valid before"": ""2023-01-25 00:00:00"", ""serial number"": 6276309922644787417747011289068427708, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=JP,ST=Tokyo,L=Setagaya-ku,O=Rakuten Group\, Inc.,CN=secure.rat.rakuten.co.jp)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://secure.rat.rakuten.co.jp/"", ""issuer"": <Name(C=US,O=DigiCert Inc,CN=DigiCert TLS RSA SHA256 2020 CA1)>, ""not valid after"": ""2024-02-25 23:59:59"", ""not valid before"": ""2023-01-25 00:00:00"", ""serial number"": 6276309922644787417747011289068427708, ""signature algorithm"": ""sha256"", ""subject"": <Name(C=JP,ST=Tokyo,L=Setagaya-ku,O=Rakuten Group\, Inc.,CN=secure.rat.rakuten.co.jp)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}"
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with rakutenbank://
+Use URL schemes with rakutenbanklink://
+Use URL schemes with rakutenbankfxlogin://
+Use URL schemes with fb794286367267908://
+Use URL schemes with vb1017://
+Use URL schemes with rakutenbankbillsplit://
+Use URL schemes with rakutenbankapplylogin://
+Use URL schemes with rakutenbankrpaylogin://
+Use URL schemes with rakutenbankcustomersetup://
+Use URL schemes with rakutenbanklogpassreissue://
+"
+22,Manual,"Use CC_MD5 with [""67975943-7FE3-4A90-ADD9-B958C93CC972"", ""36"", """"]
+Use CC_MD5 with [""0x99e7ba080e1a0108"", ""361"", """"]
+Use CC_MD5 with [""67975943-7FE3-4A90-ADD9-B958C93CC972\x01"", ""36"", """"]
+Use CC_MD5 with [""67975943-7FE3-4A90-ADD9-B958C93CC972\x02"", ""36"", """"]
+"
+23,Skip,
+24,Undetect,
+25,Fail,{}

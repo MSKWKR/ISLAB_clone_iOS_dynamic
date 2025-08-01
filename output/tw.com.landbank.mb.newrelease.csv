@@ -1,0 +1,30 @@
+0,Skip,
+1,Undetect,
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Undetect,
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with prefs://
+"
+22,Undetect,
+23,Manual,Detected storing plist locally. Storing data in plist is unsafe.Please store your data to somewhere safe.Detected storing Coredata locally. Storing data in Coredata is unsafe.Please store your data to somewhere safe.
+24,Manual,"Make use of log function NSLog with [""Failed to set (%@) user defined inspected property on (%@): %@""]
+Make use of log function NSLog with [""XPC connection interrupted""]
+"
+25,Undetect,
+26,Pass,

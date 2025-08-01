@@ -1,0 +1,38 @@
+0,Skip,
+1,Undetect,
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Undetect,
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with commbank://
+Use URL schemes with fb220833517951250://
+Use URL schemes with cba.commbank.phone://
+"
+22,Manual,"Use CC_MD5 with [""{\n  ""sut"" : 191265189,\n  ""av"" : ""4.35.0"",\n  ""ec"" : 734971792756,\n  ""pcl"" : 0,\n  ""mv"" : ""4.35.0.90991"",\n  ""url"" : ""https:\\/\\/assets.adobedtm.com\\/340f0e73ee43\\/66875293a06f\\/launch-7e5d93fc121a-rules.zip"",\n  ""dmo"" : ""iPhone8,1"",\n  ""sessionCounter"" : -1,\n  ""et"" : 1713278993010,\n  ""eut"" : 191265221,\n  ""osv"" : ""13.3.1"",\n  ""cc"" : ""2"",\n  ""tm"" : ""2007"",\n  ""is"" : ""AppDynamics.NSURLSession"",\n  ""ct"" : ""offline"",\n  ""type"" : ""network-request"",\n  ""ne"" : ""The Internet connection appears to be offline."",\n  ""agv"" : ""2022.2.0"",\n  ""ab"" : ""7c779f9a9071aab91bf0860a2e17d926b4b9813f"",\n  ""userdata"" : {\n    ""deviceID"" : ""UR1756041223""\n  },\n  ""eid"" : ""e565a15f-a544-4b0b-8bc4-f544f3f419af"",\n  ""ds"" : ""15248"",\n  ""cf"" : ""825"",\n  ""bkgd"" : true,\n  ""st"" : 1713278992978\n}"", ""749"", ""0x108d2de52""]
+Use CC_MD5 with [""{\n  ""sut"" : 191265201,\n  ""av"" : ""4.35.0"",\n  ""ec"" : 734971792757,\n  ""pcl"" : 0,\n  ""mv"" : ""4.35.0.90991"",\n  ""url"" : ""https:\\/\\/assets.adobedtm.com\\/340f0e73ee43\\/66875293a06f\\/launch-7e5d93fc121a-rules.zip"",\n  ""dmo"" : ""iPhone8,1"",\n  ""sessionCounter"" : -1,\n  ""et"" : 1713278993036,\n  ""eut"" : 191265248,\n  ""osv"" : ""13.3.1"",\n  ""cc"" : ""2"",\n  ""tm"" : ""2007"",\n  ""is"" : ""AppDynamics.NSURLSession"",\n  ""ct"" : ""offline"",\n  ""type"" : ""network-request"",\n  ""ne"" : ""The Internet connection appears to be offline."",\n  ""agv"" : ""2022.2.0"",\n  ""ab"" : ""7c779f9a9071aab91bf0860a2e17d926b4b9813f"",\n  ""userdata"" : {\n    ""deviceID"" : ""UR1756041223""\n  },\n  ""eid"" : ""b1f7ea74-de5c-4b88-9ca2-b47f9ab46da2"",\n  ""ds"" : ""15248"",\n  ""cf"" : ""825"",\n  ""bkgd"" : true,\n  ""st"" : 1713278992989\n}"", ""749"", ""0x2832ee9a0""]
+Use CC_MD5 with [""0x7475732220200a7b"", ""865"", ""0x2832ecc90""]
+Use CC_MD5 with [""{\n  ""sut"" : 191265798,\n  ""av"" : ""4.35.0"",\n  ""ec"" : 734971792759,\n  ""pcl"" : 0,\n  ""mv"" : ""4.35.0.90991"",\n  ""url"" : ""https:\\/\\/www.commbank.com.au\\/swf\\/xml\\/mobileappxml\\/UniversalAppStaticOffers.xml"",\n  ""dmo"" : ""iPhone8,1"",\n  ""sessionCounter"" : -1,\n  ""et"" : 1713278993592,\n  ""eut"" : 191265804,\n  ""osv"" : ""13.3.1"",\n  ""cc"" : ""2"",\n  ""tm"" : ""2007"",\n  ""is"" : ""AppDynamics.NSURLSession"",\n  ""ct"" : ""offline"",\n  ""type"" : ""network-request"",\n  ""ne"" : ""The Internet connection appears to be offline."",\n  ""agv"" : ""2022.2.0"",\n  ""ab"" : ""7c779f9a9071aab91bf0860a2e17d926b4b9813f"",\n  ""userdata"" : {\n    ""deviceID"" : ""UR1756041223""\n  },\n  ""eid"" : ""3709453f-2395-4be1-be33-fdbfcdce0f88"",\n  ""ds"" : ""15248"",\n  ""cf"" : ""825"",\n  ""bkgd"" : true,\n  ""st"" : 1713278993586\n}"", ""744"", ""0x2832e0090""]
+Use CC_MD5 with [""{\n  ""sut"" : 191265954,\n  ""av"" : ""4.35.0"",\n  ""ec"" : 734971792760,\n  ""pcl"" : 0,\n  ""mv"" : ""4.35.0.90991"",\n  ""url"" : ""https:\\/\\/www.my.commbank.com.au\\/Switchblade.PublicProxy\\/v1\\/apps\\/CommBank%20Mobile\\/4.35.0\\/actions\\/bootstrap"",\n  ""dmo"" : ""iPhone8,1"",\n  ""sessionCounter"" : -1,\n  ""et"" : 1713278993749,\n  ""eut"" : 191265960,\n  ""osv"" : ""13.3.1"",\n  ""cc"" : ""2"",\n  ""tm"" : ""2007"",\n  ""is"" : ""AppDynamics.NSURLSession"",\n  ""ct"" : ""offline"",\n  ""type"" : ""network-request"",\n  ""ne"" : ""The Internet connection appears to be offline."",\n  ""agv"" : ""2022.2.0"",\n  ""ab"" : ""7c779f9a9071aab91bf0860a2e17d926b4b9813f"",\n  ""userdata"" : {\n    ""deviceID"" : ""UR1756041223""\n  },\n  ""eid"" : ""fb97de4e-325f-4eca-af6b-9a8cd8c90c89"",\n  ""ds"" : ""15248"",\n  ""qcl"" : 76982,\n  ""cf"" : ""825"",\n  ""bkgd"" : true,\n  ""st"" : 1713278993742\n}\x07"", ""792"", """"]
+Use CC_MD5 with [""0x7475732220200a7b"", ""744"", ""0x2832b25e0""]
+Use CC_MD5 with [""0x7475732220200a7b"", ""834"", ""0x28322edf0""]
+"
+23,Undetect,
+24,Undetect,
+25,Undetect,
+26,Pass,
+27,Undetect,

@@ -1,0 +1,856 @@
+{"time":"2022-8-25 13:33:43:985","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/Info.plist","0x0"]}
+{"time":"2022-8-25 13:33:43:989","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/Richart","0x0"]}
+{"time":"2022-8-25 13:33:43:999","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app","0x0"]}
+{"time":"2022-8-25 13:33:44:0","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/Info.plist","0x0"]}
+{"time":"2022-8-25 13:33:44:1","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/Richart","0x0"]}
+{"time":"2022-8-25 13:34:10:144","lib":"Infoplist","func":"CFBundleURLTypes","args":"richart://"}
+{"time":"2022-8-25 13:34:17:454","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d544d99d","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:17:477","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d5451cc9","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:17:622","lib":"Foundation","func":"NSSelectorFromString","args":["sceneID:sendActions:"]}
+{"time":"2022-8-25 13:34:17:673","lib":"Foundation","func":"NSStringFromSelector","args":["sceneID:sendActions:"]}
+{"time":"2022-8-25 13:34:17:674","lib":"Foundation","func":"NSClassFromString","args":["BSXPCServiceConnectionMessage"]}
+{"time":"2022-8-25 13:34:17:676","lib":"Foundation","func":"NSClassFromString","args":["UIStatusBarTapAction"]}
+{"time":"2022-8-25 13:34:17:677","lib":"Foundation","func":"NSClassFromString","args":["UIStatusBarTapAction"]}
+{"time":"2022-8-25 13:34:17:678","lib":"Foundation","func":"NSClassFromString","args":["BSMachPortTransferableSendRight"]}
+{"time":"2022-8-25 13:34:17:679","lib":"Foundation","func":"NSClassFromString","args":["BSMachPortSendRight"]}
+{"time":"2022-8-25 13:34:17:680","lib":"Foundation","func":"NSClassFromString","args":["BSObjCMethod"]}
+{"time":"2022-8-25 13:34:17:680","lib":"Foundation","func":"NSClassFromString","args":["NSObject"]}
+{"time":"2022-8-25 13:34:18:67","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d5456bb7","applicationWindowRotated:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:18:82","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2022-8-25 13:34:18:83","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2022-8-25 13:34:18:84","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventDeferringEnvironment"]}
+{"time":"2022-8-25 13:34:18:85","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventDeferringToken"]}
+{"time":"2022-8-25 13:34:18:85","lib":"Foundation","func":"NSClassFromString","args":["NSSet"]}
+{"time":"2022-8-25 13:34:18:86","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:34:18:87","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:34:18:88","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:34:18:89","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommandsRegistration"]}
+{"time":"2022-8-25 13:34:18:108","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a1d541b859","էZա!","0x901064c8aa0103e0","0x1d2fdcfd8",null,"0x4"]}
+{"time":"2022-8-25 13:34:18:110","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d544d94d","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:19:99","lib":"Foundation","func":"NSSelectorFromString","args":["show:"]}
+{"time":"2022-8-25 13:34:19:242","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d54526cd","_applicationDidEnterBackground:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:19:368","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d54526cd","_applicationWillEnterForeground:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:19:497","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d5458af7","_accessibilityButtonShapesChangedNotification:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:19:571","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:19:645","lib":"Foundation","func":"NSSelectorFromString","args":["hideKeyBoard:"]}
+{"time":"2022-8-25 13:34:19:745","lib":"Foundation","func":"NSLog","args":["hideKeyBoardTriggered"]}
+{"time":"2022-8-25 13:34:19:849","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d5456bb7","applicationWindowRotated:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:19:924","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:19:953","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:19:981","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:10","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:39","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:68","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:96","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:125","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:154","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:183","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:212","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:240","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:269","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:298","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:326","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:354","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:382","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:409","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:438","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:465","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:493","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:521","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:549","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:577","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:605","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:633","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:660","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:688","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:716","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:743","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:771","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:799","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:827","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:855","lib":"Foundation","func":"NSSelectorFromString","args":["shouldOverrideLoadWithRequest:navigationType:"]}
+{"time":"2022-8-25 13:34:20:966","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:20:992","lib":"NSURL","func":"+ URLWithString:","args":["https://idmsa.apple.com.cn/appleauth/auth/authorize/signin"]}
+{"time":"2022-8-25 13:34:21:43","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://idmsa.apple.com.cn/appleauth/auth/authorize/signin","nil"]}
+{"time":"2022-8-25 13:34:21:95","lib":"NSURL","func":"+ URLWithString:","args":["https://appleid.apple.com/auth/authorize"]}
+{"time":"2022-8-25 13:34:21:147","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://appleid.apple.com/auth/authorize","nil"]}
+{"time":"2022-8-25 13:34:21:173","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:21:199","lib":"NSURL","func":"+ URLWithString:","args":["https://idmsa.apple.com/appleauth/auth/authorize/signin"]}
+{"time":"2022-8-25 13:34:21:251","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://idmsa.apple.com/appleauth/auth/authorize/signin","nil"]}
+{"time":"2022-8-25 13:34:21:355","lib":"Foundation","func":"NSSelectorFromString","args":["hide:"]}
+{"time":"2022-8-25 13:34:21:483","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:34:21:505","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:21:681","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:21:729","lib":"Foundation","func":"NSSelectorFromString","args":["trackView:"]}
+{"time":"2022-8-25 13:34:21:781","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:21:949","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:22:1","lib":"Foundation","func":"NSStringFromSelector","args":["defaultTracker"]}
+{"time":"2022-8-25 13:34:22:23","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:22:118","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:22:239","lib":"Foundation","func":"NSSelectorFromString","args":["backgroundColorByHexString:"]}
+{"time":"2022-8-25 13:34:22:291","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:34:22:455","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:22:483","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:34:22:586","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:34:22:711","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:22:835","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:22:861","lib":"Foundation","func":"NSStringFromSelector","args":["setCampaignParametersFromUrl:"]}
+{"time":"2022-8-25 13:34:23:11","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:23:137","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:34:23:191","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:23:216","lib":"Foundation","func":"NSClassFromString","args":["NSDictionary"]}
+{"time":"2022-8-25 13:34:23:220","lib":"Foundation","func":"NSClassFromString","args":["NSNull"]}
+{"time":"2022-8-25 13:34:23:220","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:34:23:221","lib":"Foundation","func":"NSClassFromString","args":["NSDictionary"]}
+{"time":"2022-8-25 13:34:23:222","lib":"Foundation","func":"NSClassFromString","args":["NSNull"]}
+{"time":"2022-8-25 13:34:23:223","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:34:23:382","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:34:23:610","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:34:23:657","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:34:23:678","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:23:705","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Caches/google-sdks-events/GDTCORFlatFileStorage/gdt_library_data/GDTCCTUploaderLastDailyUpload-1001","0x0"]}
+{"time":"2022-8-25 13:34:23:799","lib":"libSystem.B.dylib","func":"open","args":["/private/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/tmp/（正在由Richart儲存的文件）/GDTCCTUploaderLastDailyUpload-1001","0xa02"]}
+{"time":"2022-8-25 13:34:23:893","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Caches/google-sdks-events/GDTCORFlatFileStorage/gdt_library_data/GDTCORFlatFileStorageBatchIDCounter","0x0"]}
+{"time":"2022-8-25 13:34:23:945","lib":"Foundation","func":"NSStringFromSelector","args":["createScreenView"]}
+{"time":"2022-8-25 13:34:23:967","lib":"NSURL","func":"+ URLWithString:","args":["https://ssl.google-analytics.com/batch"]}
+{"time":"2022-8-25 13:34:23:993","lib":"libSystem.B.dylib","func":"open","args":["/private/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/tmp/（正在由Richart儲存的文件）/GDTCORFlatFileStorageBatchIDCounter","0xa02"]}
+{"time":"2022-8-25 13:34:24:20","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement/google-app-measurement.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:34:24:185","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Caches/google-sdks-events/GDTCORFlatFileStorage/gdt_event_data/1001/CBB06A1CBC2A42ADADB88E73E0D552ED-1-1662010433-137","0x0"]}
+{"time":"2022-8-25 13:34:24:237","lib":"Foundation","func":"NSStringFromSelector","args":["setAll:"]}
+{"time":"2022-8-25 13:34:24:259","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://ssl.google-analytics.com/batch","nil"]}
+{"time":"2022-8-25 13:34:24:380","lib":"Foundation","func":"NSClassFromString","args":["GDTCOREvent"]}
+{"time":"2022-8-25 13:34:24:524","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:34:24:641","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:24:668","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:34:24:746","lib":"Foundation","func":"NSStringFromSelector","args":["send:"]}
+{"time":"2022-8-25 13:34:24:898","lib":"libboringssl.dylib","func":"SSL_CTX_set_custom_verify","args":["0x1cb11ea90","3","0xa9086ffcd10383ff"]}
+{"time":"2022-8-25 13:34:25:20","lib":"Foundation","func":"NSClassFromString","args":["GDTCORClock"]}
+{"time":"2022-8-25 13:34:25:68","lib":"Foundation","func":"NSClassFromString","args":["__SwiftValue"]}
+{"time":"2022-8-25 13:34:25:251","lib":"Foundation","func":"NSClassFromString","args":["NSDate"]}
+{"time":"2022-8-25 13:34:25:343","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:34:25:442","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement","0x1000000"]}
+{"time":"2022-8-25 13:34:25:468","lib":"Foundation","func":"NSClassFromString","args":["NSMutableData"]}
+{"time":"2022-8-25 13:34:25:638","lib":"Foundation","func":"NSSelectorFromString","args":["isAdvertisingTrackingEnabled"]}
+{"time":"2022-8-25 13:34:25:832","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2022-8-25 13:34:25:880","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:34:26:153","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x16f53e340"]}
+{"time":"2022-8-25 13:34:26:454","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:34:26:691","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement/google-app-measurement.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:34:26:718","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26",""]}
+{"time":"2022-8-25 13:34:27:6","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:27:50","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:34:27:225","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:27:464","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/SC_Info"]}
+{"time":"2022-8-25 13:34:27:563","lib":"Foundation","func":"NSSelectorFromString","args":["isAdvertisingTrackingEnabled"]}
+{"time":"2022-8-25 13:34:27:656","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2022-8-25 13:34:27:678","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:34:28:324","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library","0x1000000"]}
+{"time":"2022-8-25 13:34:28:351","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x16fab6220"]}
+{"time":"2022-8-25 13:34:28:611","lib":"Foundation","func":"NSClassFromString","args":[null]}
+{"time":"2022-8-25 13:34:28:899","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:34:28:978","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:34:29:194","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102c768c0"]}
+{"time":"2022-8-25 13:34:29:469","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:29:591","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:34:29:708","lib":"Foundation","func":"NSClassFromString","args":["ADClient"]}
+{"time":"2022-8-25 13:34:29:723","lib":"libboringssl.dylib","func":"SSL_get_psk_identity","args":["0x1cb11ea90"]}
+{"time":"2022-8-25 13:34:29:746","lib":"Foundation","func":"NSClassFromString","args":["NSDictionary"]}
+{"time":"2022-8-25 13:34:29:747","lib":"Foundation","func":"NSClassFromString","args":["NSNull"]}
+{"time":"2022-8-25 13:34:29:748","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:34:29:749","lib":"Foundation","func":"NSClassFromString","args":["NSDictionary"]}
+{"time":"2022-8-25 13:34:29:751","lib":"Foundation","func":"NSClassFromString","args":["NSNull"]}
+{"time":"2022-8-25 13:34:29:751","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:34:30:17","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:30:136","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:34:30:252","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:30:486","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102c790e0"]}
+{"time":"2022-8-25 13:34:30:781","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102d71c60"]}
+{"time":"2022-8-25 13:34:30:962","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:30:969","lib":"Foundation","func":"NSClassFromString","args":["NSDictionary"]}
+{"time":"2022-8-25 13:34:30:970","lib":"Foundation","func":"NSClassFromString","args":["NSNull"]}
+{"time":"2022-8-25 13:34:30:970","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:34:30:990","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement","0x1000000"]}
+{"time":"2022-8-25 13:34:31:104","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:31:174","lib":"NSURL","func":"+ URLWithString:","args":["https://ssl.google-analytics.com/collect?dm=iPhone8%2C1&cid=8ba64f8f-9ee7-418f-ae18-062544acbf10&_u=.oKKDK9BL&cd1=00000000-0000-0000-0000-000000000000&a=1185105123&_v=mi3.1.4&cd=%E7%99%BB%E5%85%A5%E5%89%8D_%E6%88%91%E7%9A%84Richart%E5%B8%B3%E8%99%9F_%E6%9C%AA%E8%A8%AD%E5%AE%9A&sr=750x1334&cd6=0FFCC14E-B185-4DB1-98A8-A9FFDFB33E81&_crc=0&an=Richart&tid=UA-72250086-2&av=2.30.0&t=screenview&ul=zh-hant-us&v=1&ds=app&_s=14&aid=tw.com.taishinbank.richart&ht=1661405668331&qt=2639&z=8647210013654476907"]}
+{"time":"2022-8-25 13:34:31:243","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://ssl.google-analytics.com/collect?dm=iPhone8%2C1&cid=8ba64f8f-9ee7-418f-ae18-062544acbf10&_u=.oKKDK9BL&cd1=00000000-0000-0000-0000-000000000000&a=1185105123&_v=mi3.1.4&cd=%E7%99%BB%E5%85%A5%E5%89%8D_%E6%88%91%E7%9A%84Richart%E5%B8%B3%E8%99%9F_%E6%9C%AA%E8%A8%AD%E5%AE%9A&sr=750x1334&cd6=0FFCC14E-B185-4DB1-98A8-A9FFDFB33E81&_crc=0&an=Richart&tid=UA-72250086-2&av=2.30.0&t=screenview&ul=zh-hant-us&v=1&ds=app&_s=14&aid=tw.com.taishinbank.richart&ht=1661405668331&qt=2639&z=8647210013654476907","nil"]}
+{"time":"2022-8-25 13:34:31:335","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:31:473","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:31:589","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:31:738","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:34:31:889","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102c768c0"]}
+{"time":"2022-8-25 13:34:31:982","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:34:35:206","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d544d99d","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:35:239","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d5451cc9","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:35:263","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d5456bb7","applicationWindowRotated:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:35:265","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2022-8-25 13:34:35:267","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2022-8-25 13:34:35:269","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventDeferringEnvironment"]}
+{"time":"2022-8-25 13:34:35:270","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventDeferringToken"]}
+{"time":"2022-8-25 13:34:35:272","lib":"Foundation","func":"NSClassFromString","args":["NSSet"]}
+{"time":"2022-8-25 13:34:35:274","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:34:35:275","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:34:35:276","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:34:35:277","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommandsRegistration"]}
+{"time":"2022-8-25 13:34:35:281","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d544d94d","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:34:35:443","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:34:35:602","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:34:35:652","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:34:35:703","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:35:777","lib":"Foundation","func":"NSSelectorFromString","args":["biometryType:"]}
+{"time":"2022-8-25 13:34:35:857","lib":"Foundation","func":"NSClassFromString","args":["TKTokenAuthOperation"]}
+{"time":"2022-8-25 13:34:35:879","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:35:905","lib":"Foundation","func":"NSClassFromString","args":["TKTokenAuthOperation"]}
+{"time":"2022-8-25 13:34:35:954","lib":"Foundation","func":"NSClassFromString","args":["TKTokenAuthOperation"]}
+{"time":"2022-8-25 13:34:36:5","lib":"Foundation","func":"NSClassFromString","args":["TKTokenAuthOperation"]}
+{"time":"2022-8-25 13:34:36:28","lib":"Foundation","func":"NSSelectorFromString","args":["getForKey:"]}
+{"time":"2022-8-25 13:34:36:103","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:36:177","lib":"Foundation","func":"NSSelectorFromString","args":["overlaysWebView:"]}
+{"time":"2022-8-25 13:34:36:251","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:36:326","lib":"Foundation","func":"NSSelectorFromString","args":["getCachedAccessToken:"]}
+{"time":"2022-8-25 13:34:36:403","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:36:478","lib":"Foundation","func":"NSSelectorFromString","args":["setTimeouts:"]}
+{"time":"2022-8-25 13:34:36:552","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:36:627","lib":"Foundation","func":"NSSelectorFromString","args":["postJson:"]}
+{"time":"2022-8-25 13:34:36:906","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x2837ac648"]}
+{"time":"2022-8-25 13:34:37:180","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:34:37:399","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:34:37:619","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:34:37:840","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:34:38:60","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:34:38:279","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:34:38:500","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:38:733","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x2837c8208"]}
+{"time":"2022-8-25 13:34:38:966","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:34:39:142","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:34:39:317","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:34:39:493","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:34:39:668","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:34:39:844","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:34:40:19","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:40:170","lib":"Foundation","func":"NSStringFromSelector","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:40:321","lib":"Foundation","func":"NSStringFromSelector","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:40:468","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice","nil"]}
+{"time":"2022-8-25 13:34:40:649","lib":"NSURL","func":"+ URLWithString:","args":["https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice"]}
+{"time":"2022-8-25 13:34:40:826","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice","nil"]}
+{"time":"2022-8-25 13:34:41:66","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:41:306","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:41:549","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:34:41:789","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:34:42:29","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:34:42:269","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:34:42:515","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x65a1014aaa6d","taskDidResume:","0x1d2fdcfd8","0xa5a2805f2405"]}
+{"time":"2022-8-25 13:34:42:761","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x65a1014aaa6d","taskDidSuspend:","0x1d2fdcfd8","0xa5a2805f2405"]}
+{"time":"2022-8-25 13:34:42:811","lib":"libboringssl.dylib","func":"SSL_CTX_set_custom_verify","args":["0x1cb11ea90","3","0xa9086ffcd10383ff"]}
+{"time":"2022-8-25 13:34:42:882","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:42:953","lib":"Security","func":"SecTrustEvaluate","args":["0x1a1d541b859",""]}
+{"time":"2022-8-25 13:34:42:964","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:34:43:5","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:34:43:50","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:34:43:76","lib":"Security","func":"SecTrustEvaluate","args":["0x1a1d541b859","P"]}
+{"time":"2022-8-25 13:34:43:99","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:34:43:109","lib":"libboringssl.dylib","func":"SSL_get_psk_identity","args":["0x1cb11ea90"]}
+{"time":"2022-8-25 13:34:43:124","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:34:43:169","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:43:310","lib":"Foundation","func":"NSSelectorFromString","args":["setTimeouts:"]}
+{"time":"2022-8-25 13:34:43:454","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:43:480","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:43:595","lib":"Foundation","func":"NSSelectorFromString","args":["postJson:"]}
+{"time":"2022-8-25 13:34:43:865","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:44:125","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x2837cb548"]}
+{"time":"2022-8-25 13:34:44:256","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:34:44:639","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:44:662","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:34:45:16","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:45:87","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:34:45:398","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:34:45:514","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:34:45:775","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:34:45:943","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:34:46:156","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:46:370","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:34:46:538","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:46:773","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:46:796","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:34:46:955","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:47:140","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:47:211","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:47:335","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:34:47:526","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:34:47:643","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x2837eb648"]}
+{"time":"2022-8-25 13:34:47:718","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:34:47:911","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:34:48:16","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:34:48:196","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:34:48:373","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:34:48:548","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:34:48:724","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:34:48:899","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:34:49:75","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:49:226","lib":"Foundation","func":"NSStringFromSelector","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:49:376","lib":"Foundation","func":"NSStringFromSelector","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:49:524","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount","nil"]}
+{"time":"2022-8-25 13:34:49:699","lib":"NSURL","func":"+ URLWithString:","args":["https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount"]}
+{"time":"2022-8-25 13:34:49:874","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount","nil"]}
+{"time":"2022-8-25 13:34:50:114","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:50:353","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:50:642","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:34:50:716","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:50:911","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:51:131","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:34:51:157","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:34:51:352","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:51:453","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:51:574","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:51:699","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:51:773","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:34:51:942","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:34:52:136","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:52:239","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:52:363","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:52:411","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:34:52:485","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:52:727","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:34:52:878","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:34:52:901","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x65a1014aaa6d","taskDidResume:","0x1d2fdcfd8","0xa5a2805f2405"]}
+{"time":"2022-8-25 13:34:53:24","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:34:53:220","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x65a1014aaa6d","taskDidSuspend:","0x1d2fdcfd8","0xa5a2805f2405"]}
+{"time":"2022-8-25 13:34:53:271","lib":"libboringssl.dylib","func":"SSL_CTX_set_custom_verify","args":["0x1cb11ea90","3","0xa9086ffcd10383ff"]}
+{"time":"2022-8-25 13:34:53:341","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:53:386","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:34:53:412","lib":"Security","func":"SecTrustEvaluate","args":["0x1a1d541b859",""]}
+{"time":"2022-8-25 13:34:53:434","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:34:53:479","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:34:53:523","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:34:53:549","lib":"Security","func":"SecTrustEvaluate","args":["0x1a1d541b859","P"]}
+{"time":"2022-8-25 13:34:53:567","lib":"libboringssl.dylib","func":"SSL_get_psk_identity","args":["0x1cb11ea90"]}
+{"time":"2022-8-25 13:34:53:572","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:34:53:617","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:53:759","lib":"Foundation","func":"NSSelectorFromString","args":["setTimeouts:"]}
+{"time":"2022-8-25 13:34:53:902","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:34:53:928","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:54:43","lib":"Foundation","func":"NSSelectorFromString","args":["postJson:"]}
+{"time":"2022-8-25 13:34:54:313","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:54:572","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x2837c9e48"]}
+{"time":"2022-8-25 13:34:54:702","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:34:55:85","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:55:108","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:34:55:463","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:55:533","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:34:55:844","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:34:55:960","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:34:56:221","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:34:56:389","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:34:56:604","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:56:817","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:34:56:985","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:57:220","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:57:243","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:34:57:402","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:34:57:588","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:34:57:658","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:57:782","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:34:57:973","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:34:58:90","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x2837caf08"]}
+{"time":"2022-8-25 13:34:58:165","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:34:58:356","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:34:58:458","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:34:58:634","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:34:58:810","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:34:58:986","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:34:59:161","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:34:59:337","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:34:59:512","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:59:663","lib":"Foundation","func":"NSStringFromSelector","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:59:814","lib":"Foundation","func":"NSStringFromSelector","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:34:59:961","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://mobile.richart.tw/TSDIB_restful/getVersion","nil"]}
+{"time":"2022-8-25 13:35:0:137","lib":"NSURL","func":"+ URLWithString:","args":["https://mobile.richart.tw/TSDIB_restful/getVersion"]}
+{"time":"2022-8-25 13:35:0:311","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://mobile.richart.tw/TSDIB_restful/getVersion","nil"]}
+{"time":"2022-8-25 13:35:0:552","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:0:793","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:1:37","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:35:1:278","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:35:1:521","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:1:761","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:2:7","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x65a1014aaa6d","taskDidResume:","0x1d2fdcfd8","0xa5a2805f2405"]}
+{"time":"2022-8-25 13:35:2:253","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x65a1014aaa6d","taskDidSuspend:","0x1d2fdcfd8","0xa5a2805f2405"]}
+{"time":"2022-8-25 13:35:2:304","lib":"libboringssl.dylib","func":"SSL_CTX_set_custom_verify","args":["0x1cb11ea90","3","0xa9086ffcd10383ff"]}
+{"time":"2022-8-25 13:35:2:374","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:2:419","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:35:2:445","lib":"Security","func":"SecTrustEvaluate","args":["0x1a1d541b859",""]}
+{"time":"2022-8-25 13:35:2:468","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:35:2:512","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:35:2:556","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:35:2:582","lib":"Security","func":"SecTrustEvaluate","args":["0x1a1d541b859","P"]}
+{"time":"2022-8-25 13:35:2:602","lib":"libboringssl.dylib","func":"SSL_get_psk_identity","args":["0x1cb11ea90"]}
+{"time":"2022-8-25 13:35:2:606","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:35:2:651","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:2:793","lib":"Foundation","func":"NSSelectorFromString","args":["show:"]}
+{"time":"2022-8-25 13:35:2:966","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:3:36","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d54526cd","_applicationDidEnterBackground:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:3:278","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d54526cd","_applicationWillEnterForeground:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:3:356","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:3:520","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d5458af7","_accessibilityButtonShapesChangedNotification:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:3:664","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:3:738","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:35:3:808","lib":"Foundation","func":"NSSelectorFromString","args":["hideKeyBoard:"]}
+{"time":"2022-8-25 13:35:3:998","lib":"Foundation","func":"NSLog","args":["hideKeyBoardTriggered"]}
+{"time":"2022-8-25 13:35:4:124","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:4:194","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d5456bb7","applicationWindowRotated:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:4:336","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:4:479","lib":"Foundation","func":"NSSelectorFromString","args":["getVoiceOverRunningStatus:"]}
+{"time":"2022-8-25 13:35:4:505","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:4:620","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:4:762","lib":"Foundation","func":"NSSelectorFromString","args":["setTimeouts:"]}
+{"time":"2022-8-25 13:35:4:887","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:35:4:910","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:5:48","lib":"Foundation","func":"NSSelectorFromString","args":["postJson:"]}
+{"time":"2022-8-25 13:35:5:272","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:35:5:580","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x2837f5ec8"]}
+{"time":"2022-8-25 13:35:5:659","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:6:41","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:6:112","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:35:6:273","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:6:460","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:6:531","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:35:6:646","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:6:831","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:35:6:945","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:35:7:15","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:35:7:195","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:7:358","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:35:7:384","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:7:601","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:35:7:820","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:35:8:39","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:8:271","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x2837f5ce8"]}
+{"time":"2022-8-25 13:35:8:510","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:35:8:689","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:35:8:865","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:35:9:41","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:35:9:215","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:35:9:390","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:35:9:563","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:9:714","lib":"Foundation","func":"NSStringFromSelector","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:9:863","lib":"Foundation","func":"NSStringFromSelector","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:10:10","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated","nil"]}
+{"time":"2022-8-25 13:35:10:184","lib":"NSURL","func":"+ URLWithString:","args":["https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated"]}
+{"time":"2022-8-25 13:35:10:358","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated","nil"]}
+{"time":"2022-8-25 13:35:10:597","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:10:836","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:11:76","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:35:11:320","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:35:11:561","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:11:800","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:12:45","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x65a1014aaa6d","taskDidResume:","0x1d2fdcfd8","0xa5a2805f2405"]}
+{"time":"2022-8-25 13:35:12:291","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x65a1014aaa6d","taskDidSuspend:","0x1d2fdcfd8","0xa5a2805f2405"]}
+{"time":"2022-8-25 13:35:12:341","lib":"libboringssl.dylib","func":"SSL_CTX_set_custom_verify","args":["0x1cb11ea90","3","0xa9086ffcd10383ff"]}
+{"time":"2022-8-25 13:35:12:412","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:12:456","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:35:12:482","lib":"Security","func":"SecTrustEvaluate","args":["0x1a1d541b859",""]}
+{"time":"2022-8-25 13:35:12:505","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:35:12:549","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:35:12:593","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:35:12:619","lib":"Security","func":"SecTrustEvaluate","args":["0x1a1d541b859","P"]}
+{"time":"2022-8-25 13:35:12:637","lib":"libboringssl.dylib","func":"SSL_get_psk_identity","args":["0x1cb11ea90"]}
+{"time":"2022-8-25 13:35:12:642","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:35:12:687","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:12:828","lib":"Foundation","func":"NSSelectorFromString","args":["getForKey:"]}
+{"time":"2022-8-25 13:35:12:972","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:12:998","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:13:112","lib":"Foundation","func":"NSSelectorFromString","args":["getForKey:"]}
+{"time":"2022-8-25 13:35:13:253","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:13:378","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:13:400","lib":"Foundation","func":"NSSelectorFromString","args":["trackView:"]}
+{"time":"2022-8-25 13:35:13:584","lib":"Foundation","func":"NSStringFromSelector","args":["defaultTracker"]}
+{"time":"2022-8-25 13:35:13:607","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:13:818","lib":"Foundation","func":"NSSelectorFromString","args":["backgroundColorByHexString:"]}
+{"time":"2022-8-25 13:35:13:870","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:13:918","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:35:14:31","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:14:111","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/wl.log.send","0x0"]}
+{"time":"2022-8-25 13:35:14:161","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:14:188","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/wl.log"]}
+{"time":"2022-8-25 13:35:14:287","lib":"Foundation","func":"NSLog","args":["[DEBUG] [OCLogger] The log file is empty. There are no persisted logs to send."]}
+{"time":"2022-8-25 13:35:14:383","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/wl.log.swap","0x0"]}
+{"time":"2022-8-25 13:35:14:435","lib":"Foundation","func":"NSStringFromSelector","args":["setCampaignParametersFromUrl:"]}
+{"time":"2022-8-25 13:35:14:488","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/wl.analytics.send","0x0"]}
+{"time":"2022-8-25 13:35:14:588","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api"]}
+{"time":"2022-8-25 13:35:14:614","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:14:688","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api","nil"]}
+{"time":"2022-8-25 13:35:14:737","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:14:790","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:14:887","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","nil"]}
+{"time":"2022-8-25 13:35:15:32","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:15:81","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x16f4b46e0"]}
+{"time":"2022-8-25 13:35:15:269","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:35:15:274","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:35:15:275","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:35:15:275","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:35:15:276","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:35:15:276","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:35:15:277","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:15:324","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:15:376","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:15:402","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:15:477","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:15:574","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:15:624","lib":"Foundation","func":"NSStringFromSelector","args":["createScreenView"]}
+{"time":"2022-8-25 13:35:15:650","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement/google-app-measurement.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:15:677","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:15:775","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","nil"]}
+{"time":"2022-8-25 13:35:15:923","lib":"Foundation","func":"NSStringFromSelector","args":["setAll:"]}
+{"time":"2022-8-25 13:35:16:202","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:35:16:229","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:16:527","lib":"Foundation","func":"NSStringFromSelector","args":["send:"]}
+{"time":"2022-8-25 13:35:16:576","lib":"libSystem.B.dylib","func":"open","args":["/private/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Cookies/Cookies.binarycookies","0x0"]}
+{"time":"2022-8-25 13:35:16:698","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:16:813","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","nil"]}
+{"time":"2022-8-25 13:35:16:982","lib":"Foundation","func":"NSClassFromString","args":["__SwiftValue"]}
+{"time":"2022-8-25 13:35:17:51","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x16f4b45a0"]}
+{"time":"2022-8-25 13:35:17:56","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:17:56","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:17:57","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0xc5a102a32c3d","taskDidResume:","0x1d2fdcfd8","0xe5a1d543b02d"]}
+{"time":"2022-8-25 13:35:17:57","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0xc5a102a32c3d","taskDidSuspend:","0x1d2fdcfd8","0xe5a1d543b02d"]}
+{"time":"2022-8-25 13:35:17:78","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:35:17:191","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:17:315","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement","0x1000000"]}
+{"time":"2022-8-25 13:35:17:338","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:17:552","lib":"Foundation","func":"NSSelectorFromString","args":["isAdvertisingTrackingEnabled"]}
+{"time":"2022-8-25 13:35:17:795","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2022-8-25 13:35:17:864","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:17:942","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:18:12","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:18:109","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:18:320","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:18:590","lib":"Foundation","func":"NSSelectorFromString","args":["show:"]}
+{"time":"2022-8-25 13:35:18:639","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:18:716","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:18:943","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement/google-app-measurement.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:19:60","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d54526cd","_applicationDidEnterBackground:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:19:182","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:19:482","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:19:525","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d54526cd","_applicationWillEnterForeground:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:19:552","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesReceived"]}
+{"time":"2022-8-25 13:35:19:949","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToReceive"]}
+{"time":"2022-8-25 13:35:20:24","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d5458af7","_accessibilityButtonShapesChangedNotification:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:20:99","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/SC_Info"]}
+{"time":"2022-8-25 13:35:20:286","lib":"Foundation","func":"NSSelectorFromString","args":["isAdvertisingTrackingEnabled"]}
+{"time":"2022-8-25 13:35:20:308","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:20:335","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesSent"]}
+{"time":"2022-8-25 13:35:20:470","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2022-8-25 13:35:20:539","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:20:587","lib":"Foundation","func":"NSSelectorFromString","args":["hideKeyBoard:"]}
+{"time":"2022-8-25 13:35:20:738","lib":"Foundation","func":"NSStringFromSelector","args":["countOfBytesExpectedToSend"]}
+{"time":"2022-8-25 13:35:21:58","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:21:81","lib":"Foundation","func":"NSLog","args":["hideKeyBoardTriggered"]}
+{"time":"2022-8-25 13:35:21:229","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:21:451","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:21:551","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:21:724","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:21:820","lib":"Foundation","func":"NSSelectorFromString","args":["setForKey:"]}
+{"time":"2022-8-25 13:35:22:62","lib":"Foundation","func":"NSLog","args":["save keychain status: %d"]}
+{"time":"2022-8-25 13:35:22:84","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library","0x1000000"]}
+{"time":"2022-8-25 13:35:22:110","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x16f7fa220"]}
+{"time":"2022-8-25 13:35:22:137","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:22:159","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:22:478","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:22:525","lib":"Foundation","func":"NSSelectorFromString","args":["getClientIdOrInvokeRegistration:"]}
+{"time":"2022-8-25 13:35:22:625","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:22:799","lib":"Foundation","func":"NSClassFromString","args":[null]}
+{"time":"2022-8-25 13:35:22:847","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:23:73","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:23:200","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","\u0002"]}
+{"time":"2022-8-25 13:35:23:422","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:23:552","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:23:578","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:23:857","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x16f4b58c0"]}
+{"time":"2022-8-25 13:35:23:930","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:24:80","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:24:102","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102c4d550"]}
+{"time":"2022-8-25 13:35:24:296","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:24:387","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api"]}
+{"time":"2022-8-25 13:35:24:511","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:24:727","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:35:24:775","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api","nil"]}
+{"time":"2022-8-25 13:35:24:946","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:24:995","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:25:163","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self"]}
+{"time":"2022-8-25 13:35:25:210","lib":"Foundation","func":"NSClassFromString","args":["ADClient"]}
+{"time":"2022-8-25 13:35:25:288","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:25:477","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self","nil"]}
+{"time":"2022-8-25 13:35:25:503","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:25:606","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0KKo\u0001"]}
+{"time":"2022-8-25 13:35:25:709","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:35:25:788","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:25:909","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:35:26:109","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:35:26:309","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:35:26:499","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:35:26:576","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement","0x1000000"]}
+{"time":"2022-8-25 13:35:26:648","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:35:26:749","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:26:852","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self","http://10.13.114.81:9080/mfp/api/registration/v1/self"]}
+{"time":"2022-8-25 13:35:26:953","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self","http://10.13.114.81:9080/mfp/api/registration/v1/self"]}
+{"time":"2022-8-25 13:35:27:55","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self","http://10.13.114.81:9080/mfp/api/registration/v1/self"]}
+{"time":"2022-8-25 13:35:27:156","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self"]}
+{"time":"2022-8-25 13:35:27:256","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self","nil"]}
+{"time":"2022-8-25 13:35:27:357","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self"]}
+{"time":"2022-8-25 13:35:27:458","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/registration/v1/self","nil"]}
+{"time":"2022-8-25 13:35:27:610","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x16f4b49f0"]}
+{"time":"2022-8-25 13:35:27:711","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:27:811","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:27:912","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0xe5a102a32c3d","taskDidResume:","0x1d2fdcfd8","0xa5a1d543b02d"]}
+{"time":"2022-8-25 13:35:28:12","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0xe5a102a32c3d","taskDidSuspend:","0x1d2fdcfd8","0xa5a1d543b02d"]}
+{"time":"2022-8-25 13:35:28:87","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:28:162","lib":"Foundation","func":"NSSelectorFromString","args":["setApplicationIconBadgeNumber:"]}
+{"time":"2022-8-25 13:35:28:237","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:28:268","lib":"Foundation","func":"NSSelectorFromString","args":["requestFailed:error:"]}
+{"time":"2022-8-25 13:35:28:298","lib":"Foundation","func":"NSLog","args":["[DEBUG] [OCLogger] Request to send analytics data has failed."]}
+{"time":"2022-8-25 13:35:28:331","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:28:358","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:28:443","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:28:593","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:28:644","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:28:693","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:28:767","lib":"Foundation","func":"NSSelectorFromString","args":["hide:"]}
+{"time":"2022-8-25 13:35:28:843","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:28:920","lib":"Foundation","func":"NSSelectorFromString","args":["hide:"]}
+{"time":"2022-8-25 13:35:28:996","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:29:75","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:29:228","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:29:256","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:29:328","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:29:403","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:29:553","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:29:602","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:29:651","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:29:727","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:29:876","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:29:904","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:29:977","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:30:51","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:30:200","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:30:250","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:30:300","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:30:375","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:30:524","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:30:553","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:30:624","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:30:699","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:30:849","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:30:877","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:30:949","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:31:24","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:31:174","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:31:223","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:31:272","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:31:347","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:31:504","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:31:555","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:31:604","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:31:679","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:31:827","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:31:855","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:31:927","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:32:2","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:32:150","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:32:178","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:32:250","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:32:325","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:32:474","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:32:523","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:32:572","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:32:646","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:32:795","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:32:823","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:32:895","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:35:894","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d544d99d","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:35:926","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d5451cc9","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:36:506","lib":"Foundation","func":"NSSelectorFromString","args":["trackView:"]}
+{"time":"2022-8-25 13:35:36:630","lib":"Foundation","func":"NSStringFromSelector","args":["defaultTracker"]}
+{"time":"2022-8-25 13:35:36:652","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:36:751","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:36:850","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:36:972","lib":"Foundation","func":"NSStringFromSelector","args":["setCampaignParametersFromUrl:"]}
+{"time":"2022-8-25 13:35:37:120","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:37:262","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:37:395","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:37:540","lib":"Foundation","func":"NSStringFromSelector","args":["createScreenView"]}
+{"time":"2022-8-25 13:35:37:566","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement/google-app-measurement.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:37:686","lib":"Foundation","func":"NSStringFromSelector","args":["setAll:"]}
+{"time":"2022-8-25 13:35:37:832","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:37:977","lib":"Foundation","func":"NSStringFromSelector","args":["send:"]}
+{"time":"2022-8-25 13:35:38:99","lib":"Foundation","func":"NSSelectorFromString","args":["requestFailed:error:"]}
+{"time":"2022-8-25 13:35:38:191","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:38:281","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:38:330","lib":"Foundation","func":"NSClassFromString","args":["__SwiftValue"]}
+{"time":"2022-8-25 13:35:38:419","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:38:492","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement","0x1000000"]}
+{"time":"2022-8-25 13:35:38:634","lib":"Foundation","func":"NSSelectorFromString","args":["isAdvertisingTrackingEnabled"]}
+{"time":"2022-8-25 13:35:38:776","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2022-8-25 13:35:38:798","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:39:159","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:39:317","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement/google-app-measurement.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:39:586","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:39:918","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/SC_Info"]}
+{"time":"2022-8-25 13:35:40:13","lib":"Foundation","func":"NSSelectorFromString","args":["isAdvertisingTrackingEnabled"]}
+{"time":"2022-8-25 13:35:40:104","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2022-8-25 13:35:40:126","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:40:767","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library","0x1000000"]}
+{"time":"2022-8-25 13:35:40:795","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26"," beo\u0001"]}
+{"time":"2022-8-25 13:35:41:54","lib":"Foundation","func":"NSClassFromString","args":[null]}
+{"time":"2022-8-25 13:35:41:342","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:41:450","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:41:614","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102d71f20"]}
+{"time":"2022-8-25 13:35:41:898","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:35:42:64","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:42:133","lib":"Foundation","func":"NSClassFromString","args":["ADClient"]}
+{"time":"2022-8-25 13:35:42:566","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:43:268","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement","0x1000000"]}
+{"time":"2022-8-25 13:35:45:648","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d5451cc9","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:45:704","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x5a1d5456bb7","applicationWindowRotated:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:45:707","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2022-8-25 13:35:45:709","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2022-8-25 13:35:45:711","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventDeferringEnvironment"]}
+{"time":"2022-8-25 13:35:45:714","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventDeferringToken"]}
+{"time":"2022-8-25 13:35:45:715","lib":"Foundation","func":"NSClassFromString","args":["NSSet"]}
+{"time":"2022-8-25 13:35:45:717","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:35:45:719","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:35:45:721","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2022-8-25 13:35:45:722","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommandsRegistration"]}
+{"time":"2022-8-25 13:35:45:726","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0x1a1d544d94d","_accessibilityForceSensitivityChanged:","0x1d2fdcfd8",null]}
+{"time":"2022-8-25 13:35:45:842","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:45:994","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:46:45","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:46:94","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:46:168","lib":"Foundation","func":"NSSelectorFromString","args":["getForKey:"]}
+{"time":"2022-8-25 13:35:46:242","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:46:323","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:46:489","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:46:544","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:46:593","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:46:667","lib":"Foundation","func":"NSSelectorFromString","args":["getForKey:"]}
+{"time":"2022-8-25 13:35:46:740","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:46:815","lib":"Foundation","func":"NSSelectorFromString","args":["trackView:"]}
+{"time":"2022-8-25 13:35:46:933","lib":"Foundation","func":"NSStringFromSelector","args":["defaultTracker"]}
+{"time":"2022-8-25 13:35:46:956","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:47:97","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:47:123","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:47:313","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:47:408","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:47:481","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:47:530","lib":"Foundation","func":"NSStringFromSelector","args":["setCampaignParametersFromUrl:"]}
+{"time":"2022-8-25 13:35:47:652","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:47:748","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:47:869","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:47:960","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:48:167","lib":"Foundation","func":"NSStringFromSelector","args":["set:value:"]}
+{"time":"2022-8-25 13:35:48:288","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:48:361","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:48:409","lib":"Foundation","func":"NSStringFromSelector","args":["createScreenView"]}
+{"time":"2022-8-25 13:35:48:435","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement/google-app-measurement.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:48:530","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:48:626","lib":"Foundation","func":"NSStringFromSelector","args":["setAll:"]}
+{"time":"2022-8-25 13:35:48:748","lib":"Foundation","func":"NSSelectorFromString","args":["writeFile:"]}
+{"time":"2022-8-25 13:35:48:843","lib":"Foundation","func":"NSStringFromSelector","args":["build"]}
+{"time":"2022-8-25 13:35:49:63","lib":"Foundation","func":"NSStringFromSelector","args":["send:"]}
+{"time":"2022-8-25 13:35:49:206","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log"]}
+{"time":"2022-8-25 13:35:49:298","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/RichartExceptionLog.log","0x0"]}
+{"time":"2022-8-25 13:35:49:440","lib":"Foundation","func":"NSClassFromString","args":["__SwiftValue"]}
+{"time":"2022-8-25 13:35:49:507","lib":"Foundation","func":"NSLog","args":["THREAD WARNING: ['%@'] took '%f' ms. Plugin should use a background thread."]}
+{"time":"2022-8-25 13:35:49:580","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:49:655","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement","0x1000000"]}
+{"time":"2022-8-25 13:35:49:776","lib":"Foundation","func":"NSSelectorFromString","args":["isAdvertisingTrackingEnabled"]}
+{"time":"2022-8-25 13:35:49:922","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2022-8-25 13:35:49:969","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:50:332","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:50:492","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement/google-app-measurement.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:50:755","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:50:781","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/wl.log.send","0x0"]}
+{"time":"2022-8-25 13:35:50:881","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/wl.log"]}
+{"time":"2022-8-25 13:35:50:924","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql"]}
+{"time":"2022-8-25 13:35:50:976","lib":"Foundation","func":"NSLog","args":["[DEBUG] [OCLogger] The log file is empty. There are no persisted logs to send."]}
+{"time":"2022-8-25 13:35:51:75","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/wl.log.swap","0x0"]}
+{"time":"2022-8-25 13:35:51:152","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:51:178","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Documents/wl.analytics.send","0x0"]}
+{"time":"2022-8-25 13:35:51:282","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api"]}
+{"time":"2022-8-25 13:35:51:387","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api","nil"]}
+{"time":"2022-8-25 13:35:51:491","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:51:594","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","nil"]}
+{"time":"2022-8-25 13:35:51:620","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/SC_Info"]}
+{"time":"2022-8-25 13:35:51:672","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:51:819","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceName","22","0x16f4b46e0"]}
+{"time":"2022-8-25 13:35:51:846","lib":"Foundation","func":"NSSelectorFromString","args":["isAdvertisingTrackingEnabled"]}
+{"time":"2022-8-25 13:35:52:17","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:52:68","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x81f11f7c0a54aae"]}
+{"time":"2022-8-25 13:35:52:73","lib":"Foundation","func":"NSSelectorFromString","args":["allowsCellularAccess"]}
+{"time":"2022-8-25 13:35:52:74","lib":"Foundation","func":"NSSelectorFromString","args":["cachePolicy"]}
+{"time":"2022-8-25 13:35:52:75","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldHandleCookies"]}
+{"time":"2022-8-25 13:35:52:75","lib":"Foundation","func":"NSSelectorFromString","args":["HTTPShouldUsePipelining"]}
+{"time":"2022-8-25 13:35:52:76","lib":"Foundation","func":"NSSelectorFromString","args":["networkServiceType"]}
+{"time":"2022-8-25 13:35:52:77","lib":"Foundation","func":"NSSelectorFromString","args":["timeoutInterval"]}
+{"time":"2022-8-25 13:35:52:96","lib":"Foundation","func":"NSSelectorFromString","args":["advertisingIdentifier"]}
+{"time":"2022-8-25 13:35:52:118","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/googleanalytics-aux-v4.sql-journal","0x1000202"]}
+{"time":"2022-8-25 13:35:52:170","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:52:196","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:52:327","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:52:405","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:52:456","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:52:555","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:52:632","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:52:658","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","nil"]}
+{"time":"2022-8-25 13:35:52:761","lib":"NSURL","func":"+ URLWithString:","args":["http://10.13.114.81:9080/mfp/api/loguploader"]}
+{"time":"2022-8-25 13:35:52:865","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["http://10.13.114.81:9080/mfp/api/loguploader","nil"]}
+{"time":"2022-8-25 13:35:53:63","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x16f4b45a0"]}
+{"time":"2022-8-25 13:35:53:64","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:53:64","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:35:53:65","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0xc5a102a32c3d","taskDidResume:","0x1d2fdcfd8","0xa5a1d543b02d"]}
+{"time":"2022-8-25 13:35:53:66","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x2a1a1d5424939","addObserver:selector:name:object:","0xc5a102a32c3d","taskDidSuspend:","0x1d2fdcfd8","0xa5a1d543b02d"]}
+{"time":"2022-8-25 13:35:53:142","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:53:412","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:53:485","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library","0x1000000"]}
+{"time":"2022-8-25 13:35:53:537","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:53:563","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductVersion","26","0x16fe8a220"]}
+{"time":"2022-8-25 13:35:53:713","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:53:880","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:54:0","lib":"Foundation","func":"NSClassFromString","args":[null]}
+{"time":"2022-8-25 13:35:54:249","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:54:443","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24",""]}
+{"time":"2022-8-25 13:35:54:470","lib":"Foundation","func":"NSClassFromString","args":["UIApplication"]}
+{"time":"2022-8-25 13:35:54:574","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:54:703","lib":"Foundation","func":"NSSelectorFromString","args":["sharedApplication"]}
+{"time":"2022-8-25 13:35:54:840","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102d6ddf0"]}
+{"time":"2022-8-25 13:35:55:116","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:35:55:237","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:55:354","lib":"Foundation","func":"NSClassFromString","args":["ADClient"]}
+{"time":"2022-8-25 13:35:55:360","lib":"Foundation","func":"NSClassFromString","args":["NSDictionary"]}
+{"time":"2022-8-25 13:35:55:361","lib":"Foundation","func":"NSClassFromString","args":["NSNull"]}
+{"time":"2022-8-25 13:35:55:362","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:35:55:363","lib":"Foundation","func":"NSClassFromString","args":["NSDictionary"]}
+{"time":"2022-8-25 13:35:55:364","lib":"Foundation","func":"NSClassFromString","args":["NSNull"]}
+{"time":"2022-8-25 13:35:55:365","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:35:55:366","lib":"Foundation","func":"NSClassFromString","args":["NSDictionary"]}
+{"time":"2022-8-25 13:35:55:366","lib":"Foundation","func":"NSClassFromString","args":["NSNull"]}
+{"time":"2022-8-25 13:35:55:367","lib":"Foundation","func":"NSClassFromString","args":["NSMutableString"]}
+{"time":"2022-8-25 13:35:55:585","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:35:55:726","lib":"NSURL","func":"+ URLWithString:","args":["https://ssl.google-analytics.com/batch"]}
+{"time":"2022-8-25 13:35:55:800","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["0xc7c2b5080e1a0108","405",""]}
+{"time":"2022-8-25 13:35:55:869","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["https://ssl.google-analytics.com/batch","nil"]}
+{"time":"2022-8-25 13:35:56:58","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:35:56:111","lib":"libboringssl.dylib","func":"SSL_CTX_set_custom_verify","args":["0x1cb11ea90","3","0xa9086ffcd10383ff"]}
+{"time":"2022-8-25 13:35:56:128","lib":"libboringssl.dylib","func":"SSL_get_psk_identity","args":["0x1cb11ea90"]}
+{"time":"2022-8-25 13:35:56:362","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:35:56:571","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/528D7A0E-1629-487D-88D4-E5C533631D61/Library/Application Support/Google/Measurement","0x1000000"]}
+{"time":"2022-8-25 13:35:56:592","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:35:56:739","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102d37a90"]}
+{"time":"2022-8-25 13:35:56:886","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x102d37a90"]}
+{"time":"2022-8-25 13:35:56:977","lib":"Foundation","func":"NSStringFromSelector","args":["logger"]}
+{"time":"2022-8-25 13:36:3:126","lib":"Foundation","func":"NSSelectorFromString","args":["requestFailed:error:"]}
+{"time":"2022-8-25 13:36:3:161","lib":"Foundation","func":"NSLog","args":["[DEBUG] [OCLogger] Request to send analytics data has failed."]}
+{"time":"2022-8-25 13:36:3:193","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-8-25 13:36:3:224","lib":"Foundation","func":"NSStringFromSelector","args":["fractionCompleted"]}
+{"time":"2022-10-6 16:39:49:65","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/Info.plist","0x0"]}
+{"time":"2022-10-6 16:39:49:68","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/Richart","0x0"]}
+{"time":"2022-10-6 16:39:49:85","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app","0x0"]}
+{"time":"2022-10-6 16:39:49:86","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/Info.plist","0x0"]}
+{"time":"2022-10-6 16:39:49:87","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/619B76BF-4301-4898-86F7-D66C680E246D/Richart.app/Richart","0x0"]}

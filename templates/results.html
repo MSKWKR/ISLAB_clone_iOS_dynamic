@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="/static/style.css">
+	<title>Results</title>
+</head>
+<body>
+	{% set critical = namespace(value=0) %}
+	{% set warning = namespace(value=0) %}
+	{% set notice = namespace(value=0) %}
+	{% for item in applist %}
+		{% if (item['descript'] != '') %}
+			{% for r in rules %}
+				{% if item['id'] == r['id'] and r['cvss'] == 'Critical'%}
+					{% set critical.value=critical.value+1 %}
+				{% elif item['id'] == r['id'] and r['cvss'] == 'Warning'%}
+					{% set warning.value=warning.value+1 %}
+				{% elif item['id'] == r['id'] and r['cvss'] == 'Notice'%}
+					{% set notice.value=notice.value+1 %}
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+	{% endfor %}	
+	<header>
+		<h1>IOS動態檢測</h1>
+	</header>
+	<div class="content">
+		<div class="header">
+			<h1>Report 檢測報告</h1>
+		</div>
+		<div class="content">
+			<h2>App Information 軟體資訊</h2>
+			<ul>
+				Status 狀態 : <span class="success">success</span>
+			</ul>
+			<ul>
+				Platform 平台: IOS
+			</ul>
+			<ul>
+				Package Name 應用程式名稱 : {{identifier}}
+			</ul>
+		</div>
+		<div class="content">
+			<h2>Report Summary 檢測報表大綱</h2>
+			<div class="table">
+				<div class="row">
+					<div class="cell_center center circleBase critical">
+						Critical 嚴重<br>{{critical.value}}
+					</div>
+					<div class="cell_center center circleBase warning">
+						Warning 警告<br>{{warning.value}}
+					</div>
+					<div class="cell_center center circleBase notice">
+						Notice 注意 <br>{{notice.value}}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<h2>Details 詳細內容</h2>
+			<ul>
+				<h3>Critical 嚴重</h3>
+				{% for item in applist %}
+					{% if (item['descript'] != '') %}
+					{% for r in rules %}
+						{% if item['id'] == r['id'] and r['cvss'] == 'Critical'%}
+						<ul>
+							<h4>[OWASP-{{r['owasp']}}][MAS-{{r['mas']}}][CVE-{{r['cve']}}]<br>{{r['rule']}} {{r['trans']}}</h4>
+							detail:<br>
+							{% autoescape false %}
+							{{item['descript']| replace("\n", "<br/>") | replace("}}", "}}<br/>")| regex_replace("[A-Z][0-9]{9}","<mark>\g<0></mark>") }}
+							{% endautoescape %}
+						</ul>
+						{% endif %}
+					{% endfor %}
+					{% endif %}
+				{% endfor %}	
+			</ul>
+			<ul>
+				<h3>Warning 警告</h3>
+				{% for item in applist %}
+					{% if (item['descript'] != '') %}
+					{% for r in rules %}
+						{% if item['id'] == r['id'] and r['cvss'] == 'Warning'%}
+						<ul>
+							<h4>[OWASP-{{r['owasp']}}][MAS-{{r['mas']}}][CVE-{{r['cve']}}]<br>{{r['rule']}} {{r['trans']}}</h4>
+							detail:<br>
+							{% autoescape false %}
+							{{item['descript']| replace("\n", "<br/>") | replace("}}", "}}<br/>") | regex_replace("[A-Z][0-9]{9}","<mark>\g<0></mark>") | replace('"',"")}}
+							{% endautoescape %}
+						</ul>
+						{% endif %}
+					{% endfor %}
+					{% endif %}
+				{% endfor %}	
+			</ul>
+			<ul>
+				<h3>Notice 注意</h3>
+				{% for item in applist %}
+					{% if (item['descript'] != '') %}
+					{% for r in rules %}
+						{% if item['id'] == r['id'] and r['cvss'] == 'Notice'%}
+						<ul>
+							<h4>[OWASP-{{r['owasp']}}][MAS-{{r['mas']}}][CVE-{{r['cve']}}]<br>{{r['rule']}} {{r['trans']}}</h4>
+							detail:<br>
+							{% autoescape false %}
+							{{item['descript'] | replace("\n", "<br/>") | replace("{", "") | replace("}", "") | replace("}}", "}}<br/>")| regex_replace("[A-Z][0-9]{9}","<mark>\g<0></mark>")| replace('"',"")}}
+							{% endautoescape %}
+						</ul>
+						{% endif %}
+					{% endfor %}
+					{% endif %}
+				{% endfor %}	
+			</ul>				
+		</div>
+		
+	</div>
+</body>
+</html>

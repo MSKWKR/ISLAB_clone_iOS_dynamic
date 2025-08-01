@@ -1,0 +1,336 @@
+[
+	{
+		"name": "Basic function",
+		"methods": [
+			{
+				"class_name": "UIApplication",
+				"method": "- _handleScreenshot"
+			},
+			{
+				"class_name": "UIApplication",
+				"method": "- openURL:"
+			},
+			{
+				"class_name": "MFMessageComposeViewController",
+				"method": "+ canSendText"
+			},
+			{
+				"class_name": "MFMessageComposeViewController",
+				"method": "+ _canSendText"
+			},
+			{
+				"class_name": "NSString",
+				"methods": [
+					"+ stringWithContentsOfFile:usingEncoding:",
+					"+ stringWithFileSystemRepresentation:"
+				]
+			},
+			{
+				"class_name": "UIWebView",
+				"method": "- stringByEvaluatingJavaScriptFromString:"
+			},
+			{
+				"class_name": "UIPasteboard",
+				"methods": [
+					"- setString:",
+					"- setName:",
+					"- setURLs:",
+					"- setURL:",
+					"- setItems:",
+					"- setStrings:",
+					"- setObjects:"
+				]
+			}, 
+			{
+				"name": "Basic Syscall",
+				"module_name": "libSystem.B.dylib",
+				"method": "open",
+				"args" : [
+					"char *",
+					"int"
+				]
+			},
+			{
+				"name": "Basic Fork",
+				"module_name": "libSystem.B.dylib",
+				"method": "fork",
+				"args" : [
+				]
+			},
+			{
+				"name": "JBDetection",
+				"class_name": "NSFileManager",
+				"method": "- fileExistsAtPath:",
+				"args" : [
+					"pointer"
+				]
+			},
+			{
+				"name": "NotificationCenter",
+				"module_name":"Foundation",
+				"method":"CFNotificationCenterAddObserver",
+				"args": [
+					"pointer",
+					"pointer",
+					"pointer",
+					"pointer",
+					"pointer",
+					"pointer"
+				]
+			}
+		]
+	},
+	{
+		"name": "SQLite3 deprecated functions",
+		"methods": [
+			{
+				"module_name": "libsqlite3.dylib",
+				"method": "sqlite3_aggregate_count"
+			},
+			{
+				"module_name": "libsqlite3.dylib",
+				"method": "sqlite3_expired"
+			},
+			{
+				"module_name": "libsqlite3.dylib",
+				"method": "sqlite3_global_recover"
+			},
+			{
+				"module_name": "libsqlite3.dylib",
+				"method": "sqlite3_memory_alarm"
+			},
+			{
+				"module_name": "libsqlite3.dylib",
+				"method": "sqlite3_soft_heap_limit"
+			},
+			{
+				"module_name": "libsqlite3.dylib",
+				"method": "sqlite3_thread_cleanup"
+			},
+			{
+				"module_name": "libsqlite3.dylib",
+				"method": "sqlite3_transfer_bindings"
+			}
+		]
+	},
+	{
+		"name": "Use Base64 encoding",
+		"methods": [
+			{
+				"class_name": "MFBase64Encoder",
+				"methods": [
+					"- appendData:",
+					"- done",
+					"- setStandardLineBreak",
+					"- setAllowSlash:",
+					"- setPadChar:",
+					"- initWithConsumers:",
+					"- setLineBreak:",
+					"- allowSlash",
+					"- lineBreak",
+					"- padChar"
+				]
+			}
+		]
+	},
+	{
+		"name": "SSL Connection Checking",
+		"methods": [
+			{
+				"class_name": "NSURL",
+				"methods": [
+					"+ URLWithString:relativeToURL:",
+					"+ URLWithString:",
+					"+ _web_URLWithString:relativeToURL:",
+					"+ _geo_URLWithString:tokenSubstitutions:"
+				]
+			}
+		]
+	},
+	{
+		"name": "Security methods finding"
+	},
+	{
+		"name": "Security classes finding"
+	},
+	{
+		"name": "Master Key Vulnerability checking"
+	},
+	{
+		"name": "Manifest Confirm"
+		
+	},
+	{
+		"name": "CCCryto",
+		"methods": [
+			{
+				"module_name": "libcommonCrypto.dylib",
+				"method": "CCCryptorFinal",
+				"args": [
+					"pointer",
+					"pointer",
+					"pointer",
+					"pointer",
+					"pointer",
+					"pointer"
+				]
+			},
+			{
+				"module_name": "libcommonCrypto.dylib",
+				"method": "CCCryptorCreate",
+				"args": [
+					"pointer",
+					"pointer",
+					"pointer",
+					"pointer"
+				]
+			},
+			{
+				"module_name": "libcommonCrypto.dylib",
+				"method": "CCCrypt",
+				"args": [
+					"Int32",
+					"Int32",
+					"pointer",
+					"pointer",
+					"Int32",
+					"pointer",
+					"pointer",
+					"Int32",
+					"pointer",
+					"pointer",
+					"pointer"
+				]
+			},
+			{
+				"module_name": "libcommonCrypto.dylib",
+				"method": "CC_MD2",
+				"args": [
+					"pointer",
+					"Int32",
+					"pointer"
+				]
+			},
+			{
+				"module_name": "libcommonCrypto.dylib",
+				"method": "CC_MD4",
+				"args": [
+					"pointer",
+					"Int32",
+					"pointer"
+				]
+			},
+			{
+				"module_name": "libcommonCrypto.dylib",
+				"method": "CC_MD5",
+				"args": [
+					"pointer",
+					"Int32",
+					"pointer"
+				]
+			},
+			{
+				"module_name": "libcommonCrypto.dylib",
+				"method": "CC_SHA1",
+				"args": [
+					"pointer",
+					"Int32",
+					"pointer"
+				]
+			},
+			{
+				"module_name": "libcommonCrypto.dylib",
+				"method": "CCHmac",
+				"args": [
+					"Int32",
+					"pointer",
+					"Int32",
+					"pointer",
+					"Int32",
+					"pointer"
+				]
+			}
+		]
+	},
+	{
+		"name": "SSL pinning",
+		"methods": [
+			{
+				"module_name": "libboringssl.dylib", 
+				"method": "SSL_CTX_set_custom_verify",
+				"args": [
+					"pointer",
+					"Int32",
+					"pointer"
+				]
+			},
+			{
+				"module_name": "libboringssl.dylib", 
+				"method": "SSL_get_psk_identity",
+				"args": [
+					"pointer"
+				]
+			},
+			{
+				"module_name": "Security",
+				"method": "SecTrustEvaluate",
+				"args": [
+					"pointer",
+					"pointer"
+				]
+			}
+		]
+	},
+	{
+		"name": "Make use of log function",
+		"methods": [
+			{
+				"module_name": "Foundation",
+				"method": "NSLog",
+				"args": [
+					"char *"
+				]
+			},
+			{
+				"module_name": "Foundation",
+				"method": "NSLogv",
+				"args": [
+					"char *"
+				]
+			}
+		]
+	},
+	{
+		"name": "Create class",
+		"methods": [
+			{
+				"module_name": "Foundation",
+				"method": "NSClassFromString",
+				"args": [
+					"char *"
+				]
+			},
+			{
+				"module_name": "Foundation",
+				"method": "NSSelectorFromString",
+				"args": [
+					"char *"
+				]
+			},
+			{
+				"module_name": "Foundation",
+				"method": "NSStringFromSelector",
+				"args": [
+					"char *"
+				]
+			},
+			{
+				"module_name": "Foundation",
+				"method": "NSProtocolFromString",
+				"args": [
+					"char *"
+				]
+			}
+		]
+	}
+]

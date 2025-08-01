@@ -1,0 +1,582 @@
+{"time":"2025-6-13 21:54:33:200","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Info.plist","0x0"]}
+{"time":"2025-6-13 21:54:33:635","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Assets.car","0x0"]}
+{"time":"2025-6-13 21:54:33:638","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:33:641","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:33:656","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:33:657","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:33:703","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphs.bundle/name_aliases.strings","0x0"]}
+{"time":"2025-6-13 21:54:33:705","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/Info.plist","0x0"]}
+{"time":"2025-6-13 21:54:33:717","lib":"Infoplist","func":"CFBundleURLTypes","args":"fbiphone://"}
+{"time":"2025-6-13 21:54:33:745","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/Assets.car","0x0"]}
+{"time":"2025-6-13 21:54:33:747","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:33:751","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:33:751","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:33:752","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:33:753","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x421a234f4bab1","addObserver:selector:name:object:","0x21a234fff9c9","_resourceUnPinnedNotification:","0x234f42f80","0x125a234f4a931"]}
+{"time":"2025-6-13 21:54:33:754","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x421a234f4bab1","addObserver:selector:name:object:","0x21a234fad299","_clearCachedResources:","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:33:754","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x421a234f4bab1","addObserver:selector:name:object:","0x25a234fad299","_clearCachedResources:","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:33:793","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/name_aliases.strings","0x0"]}
+{"time":"2025-6-13 21:54:33:819","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/PrivateFrameworks/TextInput.framework/Keyboard-default.plist"]}
+{"time":"2025-6-13 21:54:33:937","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/PrivateFrameworks/TextInput.framework/Keyboard-default.plist"]}
+{"time":"2025-6-13 21:54:34:49","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/PrivateFrameworks/TextInput.framework/Keyboard-default.plist","nil"]}
+{"time":"2025-6-13 21:54:34:121","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:34:157","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInput.framework/Keyboard-default.plist","0x0"]}
+{"time":"2025-6-13 21:54:34:159","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:34:267","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:34:373","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:34:444","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:34:445","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist"]}
+{"time":"2025-6-13 21:54:34:553","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist"]}
+{"time":"2025-6-13 21:54:34:661","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist","nil"]}
+{"time":"2025-6-13 21:54:34:732","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:34:768","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist","0x0"]}
+{"time":"2025-6-13 21:54:34:770","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:34:876","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:34:982","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:35:53","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:35:54","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist"]}
+{"time":"2025-6-13 21:54:35:161","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist"]}
+{"time":"2025-6-13 21:54:35:268","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist","nil"]}
+{"time":"2025-6-13 21:54:35:338","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:35:375","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist","0x0"]}
+{"time":"2025-6-13 21:54:35:377","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:35:483","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:35:589","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:35:660","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:35:660","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh-Zhuyin.plist"]}
+{"time":"2025-6-13 21:54:35:661","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh-Zhuyin.plist"]}
+{"time":"2025-6-13 21:54:35:661","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:35:767","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:35:872","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:35:943","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:35:944","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin.plist"]}
+{"time":"2025-6-13 21:54:35:944","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh_Hant-Zhuyin.plist"]}
+{"time":"2025-6-13 21:54:35:945","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:36:51","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:36:156","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:36:227","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:36:228","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh-iPhone.plist"]}
+{"time":"2025-6-13 21:54:36:228","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh-iPhone.plist"]}
+{"time":"2025-6-13 21:54:36:230","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:36:337","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:36:443","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:36:514","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:36:515","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh-Zhuyin-iPhone.plist"]}
+{"time":"2025-6-13 21:54:36:515","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh-Zhuyin-iPhone.plist"]}
+{"time":"2025-6-13 21:54:36:515","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:36:621","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:36:727","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:36:798","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:36:798","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist"]}
+{"time":"2025-6-13 21:54:36:903","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist"]}
+{"time":"2025-6-13 21:54:37:9","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist","nil"]}
+{"time":"2025-6-13 21:54:37:80","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:37:117","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist","0x0"]}
+{"time":"2025-6-13 21:54:37:118","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:37:225","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:37:331","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:37:402","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:37:403","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist"]}
+{"time":"2025-6-13 21:54:37:508","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist"]}
+{"time":"2025-6-13 21:54:37:614","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist","nil"]}
+{"time":"2025-6-13 21:54:37:685","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:37:721","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist","0x0"]}
+{"time":"2025-6-13 21:54:37:722","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:37:828","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:37:933","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:38:4","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:38:4","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist"]}
+{"time":"2025-6-13 21:54:38:110","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist"]}
+{"time":"2025-6-13 21:54:38:217","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist","nil"]}
+{"time":"2025-6-13 21:54:38:287","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:38:324","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist","0x0"]}
+{"time":"2025-6-13 21:54:38:324","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:38:431","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:38:538","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:38:608","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:38:609","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant_TW.plist"]}
+{"time":"2025-6-13 21:54:38:609","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh_Hant_TW.plist"]}
+{"time":"2025-6-13 21:54:38:610","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:38:715","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:38:821","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:38:892","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:38:893","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh-Zhuyin.plist"]}
+{"time":"2025-6-13 21:54:38:893","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh-Zhuyin.plist"]}
+{"time":"2025-6-13 21:54:38:894","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:39:2","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:39:108","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:39:180","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:39:180","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin.plist"]}
+{"time":"2025-6-13 21:54:39:181","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh_Hant-Zhuyin.plist"]}
+{"time":"2025-6-13 21:54:39:181","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:39:287","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:39:394","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:39:465","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:39:466","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh-iPhone.plist"]}
+{"time":"2025-6-13 21:54:39:466","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh-iPhone.plist"]}
+{"time":"2025-6-13 21:54:39:467","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:39:573","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:39:680","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:39:750","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:39:751","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh-Zhuyin-iPhone.plist"]}
+{"time":"2025-6-13 21:54:39:751","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh-Zhuyin-iPhone.plist"]}
+{"time":"2025-6-13 21:54:39:752","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:39:858","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:39:966","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:40:38","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:40:39","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist"]}
+{"time":"2025-6-13 21:54:40:147","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist"]}
+{"time":"2025-6-13 21:54:40:254","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist","nil"]}
+{"time":"2025-6-13 21:54:40:324","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:40:361","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist","0x0"]}
+{"time":"2025-6-13 21:54:40:374","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/Fonts/CoreUI/SFUIRounded.ttf","0x0"]}
+{"time":"2025-6-13 21:54:40:379","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0xe1a234fa478d","preferencesControllerChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:381","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x45a234fa2ded","willResume:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:381","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x45a234fa2ded","didSuspend:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:383","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationWillSuspend","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:383","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationDidResume","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:384","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationWantsViewsToDisappear","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:384","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","accessibilityLargeTextDidChange","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:384","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","didSuspend:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:385","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","willResume:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:385","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","isHosted:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:385","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","shouldUpdateInputMode:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:392","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x21a234fa6d35","peripheralHostWillResume:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:392","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x25a234fa6d35","textEffectsWindowDidRotate:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:401","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationWillSuspend","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:401","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationDidResume","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:402","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationWantsViewsToDisappear","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:402","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","accessibilityLargeTextDidChange","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:406","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x21a234fa6ba5","contentSizeDidChange:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:407","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x21a234fa6ba5","contentSizeDidChange:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:408","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x441a234f4bab1","addObserver:selector:name:object:","0x21a234fa6ba5","contentSizeDidChange:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:412","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fad06d","matchDeviceOrientation:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:415","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:40:415","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:40:416","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","applicationWillSuspend","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:416","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","applicationDidResume","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:417","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","applicationWantsViewsToDisappear","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:417","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","accessibilityLargeTextDidChange","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:417","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","willResume:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:418","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","didSuspend:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:418","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","hostViewWillDisappear","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:419","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","hostViewDidEnterBackground","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:419","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","hostViewWillenterForeground","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:420","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","updateKeyboardDockViewVisibility","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:420","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","updateKeyboardDockViewVisibility","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:421","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","willBeginIndirectSelectionGesture","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:421","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","didEndIndirectSelectionGesture","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:422","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","presentationTransitionWillBegin:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:422","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","presentationTransitionDidEnd:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:40:424","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa81d","applicationWillSuspend","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:424","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa81d","applicationDidResume","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:425","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa81d","applicationWantsViewsToDisappear","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:425","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa81d","accessibilityLargeTextDidChange","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:40:508","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23",""]}
+{"time":"2025-6-13 21:54:40:582","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:40:654","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:40:727","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0x16dc1baf0"]}
+{"time":"2025-6-13 21:54:40:800","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:40:872","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:40:947","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0x1f780f68c"]}
+{"time":"2025-6-13 21:54:41:19","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:41:91","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:41:100","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa95d","refreshForDictationAvailablityDidChange","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:100","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa95d","nextToUseInputModeDidChange:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:101","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa95d","didTriggerDestructiveRenderConfigChange","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:102","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234f9564d","_accessibilityForceSensitivityChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:176","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23",""]}
+{"time":"2025-6-13 21:54:41:248","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:41:319","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:41:392","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0x1d4401e50"]}
+{"time":"2025-6-13 21:54:41:465","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:41:536","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:41:611","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:41:684","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:41:686","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x234fac5c8","applicationDidBecomeActive","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:686","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x234fac5c8","applicationWillResignActive","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:687","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x234fac5c8","viewServiceDidBecomeActive","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:687","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x234fac5c8","viewServiceWillResignActive","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:688","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x234fac5c8","applicationDidEnterBackgroundNotification","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:688","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x234fac5c8","siriPreferencesChanged","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:688","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x234fac5c8","remoteMicrophoneCapabilityChanged","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:689","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234facbe5","keyboardWillHide:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:689","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234facbe5","keyboardDidHide:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:689","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234facbe5","keyboardInputModeChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:690","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234facbe5","preferencesChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:690","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234facbe5","sendButtonPressedInMessages:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:702","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x25a2350122c5","0xa9024ff4d10103ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:54:41:704","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x21a234fa2235","afPreferencesChanged:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:41:778","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x228db8d68"]}
+{"time":"2025-6-13 21:54:41:851","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:41:852","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x45a2350122c5","0xa9024ff4d10103ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:54:41:852","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x65a2350122c5","0xa9024ff4d10103ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:54:41:926","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x16dc1b540"]}
+{"time":"2025-6-13 21:54:41:999","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:42:72","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:42:145","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:42:226","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","\u0001"]}
+{"time":"2025-6-13 21:54:42:299","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:42:372","lib":"libSystem.B.dylib","func":"open","args":["/AppleInternal/Library/Assistant/InternalConfig.plist","0x0"]}
+{"time":"2025-6-13 21:54:42:444","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerhorseman","20","0x8028"]}
+{"time":"2025-6-13 21:54:42:516","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerhorseman","20","0x5070f3a5de0ad75f"]}
+{"time":"2025-6-13 21:54:42:601","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23",""]}
+{"time":"2025-6-13 21:54:42:673","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:42:744","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:42:817","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0x1d4401e50"]}
+{"time":"2025-6-13 21:54:42:889","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:42:960","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:42:961","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x45a234fa9b75","applicationWillSuspend","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:42:961","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x45a234fa9b75","applicationDidResume","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:42:962","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x45a234fa9b75","applicationWantsViewsToDisappear","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:42:962","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x45a234fa9b75","accessibilityLargeTextDidChange","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:42:962","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x21a234faa90d","_didReceiveHandBiasChangeNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:42:973","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x65a234fa9b75","_dictationDidBeginNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:42:973","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x65a234fa9b75","updateDockItemsVisibility","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:43:50","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","\u0004"]}
+{"time":"2025-6-13 21:54:43:122","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:43:195","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:43:266","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:43:340","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:43:413","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:43:485","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:43:557","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:43:630","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:43:702","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:43:774","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x6a80f6668"]}
+{"time":"2025-6-13 21:54:43:846","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:43:919","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:43:991","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:44:63","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xffffffffffffffff"]}
+{"time":"2025-6-13 21:54:44:138","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:44:139","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:44:246","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:44:352","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:44:424","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:44:424","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist"]}
+{"time":"2025-6-13 21:54:44:532","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist"]}
+{"time":"2025-6-13 21:54:44:638","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist","nil"]}
+{"time":"2025-6-13 21:54:44:708","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:44:744","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist","0x0"]}
+{"time":"2025-6-13 21:54:44:745","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:44:853","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:44:959","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:45:31","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:45:32","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist"]}
+{"time":"2025-6-13 21:54:45:138","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist"]}
+{"time":"2025-6-13 21:54:45:246","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist","nil"]}
+{"time":"2025-6-13 21:54:45:317","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:45:352","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist","0x0"]}
+{"time":"2025-6-13 21:54:45:353","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:45:460","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_zh.bundle"]}
+{"time":"2025-6-13 21:54:45:566","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_zh.bundle","nil"]}
+{"time":"2025-6-13 21:54:45:637","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:45:638","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant_TW.plist"]}
+{"time":"2025-6-13 21:54:45:638","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_zh.bundle/Resources/Keyboard-zh_Hant_TW.plist"]}
+{"time":"2025-6-13 21:54:45:639","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_en.bundle"]}
+{"time":"2025-6-13 21:54:45:748","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_en.bundle"]}
+{"time":"2025-6-13 21:54:45:854","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_en.bundle","nil"]}
+{"time":"2025-6-13 21:54:45:925","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:45:926","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en.plist"]}
+{"time":"2025-6-13 21:54:46:32","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en.plist"]}
+{"time":"2025-6-13 21:54:46:139","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en.plist","nil"]}
+{"time":"2025-6-13 21:54:46:210","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:46:246","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en.plist","0x0"]}
+{"time":"2025-6-13 21:54:46:248","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_en.bundle"]}
+{"time":"2025-6-13 21:54:46:355","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_en.bundle"]}
+{"time":"2025-6-13 21:54:46:460","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_en.bundle","nil"]}
+{"time":"2025-6-13 21:54:46:531","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:46:532","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en_US.plist"]}
+{"time":"2025-6-13 21:54:46:640","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en_US.plist"]}
+{"time":"2025-6-13 21:54:46:745","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en_US.plist","nil"]}
+{"time":"2025-6-13 21:54:46:817","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:46:853","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en_US.plist","0x0"]}
+{"time":"2025-6-13 21:54:46:855","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_en.bundle"]}
+{"time":"2025-6-13 21:54:46:962","lib":"NSURL","func":"+ URLWithString:","args":["/System/Library/TextInput/TextInput_en.bundle"]}
+{"time":"2025-6-13 21:54:47:69","lib":"NSURL","func":"+ URLWithString:relativeToURL:","args":["/System/Library/TextInput/TextInput_en.bundle","nil"]}
+{"time":"2025-6-13 21:54:47:140","lib":"Foundation","func":"NSLog","args":["[Shadow] isPathRestricted: allowed path: %@"]}
+{"time":"2025-6-13 21:54:47:141","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_en.bundle/Keyboard-en-iPhone.plist"]}
+{"time":"2025-6-13 21:54:47:141","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/TextInput/TextInput_en.bundle/Resources/Keyboard-en-iPhone.plist"]}
+{"time":"2025-6-13 21:54:47:220","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermain-screen-class","29",""]}
+{"time":"2025-6-13 21:54:47:292","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermain-screen-class","29","0x2856f7a8b37ed87d"]}
+{"time":"2025-6-13 21:54:47:364","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductType","23","0x22a4fdc40"]}
+{"time":"2025-6-13 21:54:47:437","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductType","23","0x12ef23b8b1c3d887"]}
+{"time":"2025-6-13 21:54:47:439","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f428f1","0xa9034ff4d10143ff","0x234f42f80",null,"0x1"]}
+{"time":"2025-6-13 21:54:47:440","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f9e79d","0xa9017bfda9be4ff4","0x234f42f80",null,null]}
+{"time":"2025-6-13 21:54:47:441","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21","0x21a234f9e79d","0xa9017bfda9be4ff4","0x234f42f80",null,null]}
+{"time":"2025-6-13 21:54:47:444","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909017304237585489532387","0x100"]}
+{"time":"2025-6-13 21:54:47:444","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:54:47:444","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909017304237585488483810","0x100"]}
+{"time":"2025-6-13 21:54:47:455","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909017304237585491629541","0x100"]}
+{"time":"2025-6-13 21:54:47:521","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:47:594","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:47:667","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x16dc1b190"]}
+{"time":"2025-6-13 21:54:47:739","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:47:815","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:47:887","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:47:960","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x16dc1b540"]}
+{"time":"2025-6-13 21:54:48:33","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:48:40","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:54:48:42","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234f9a445","didDictationEnd","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:48:121","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductType","23","\r"]}
+{"time":"2025-6-13 21:54:48:195","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerProductType","23","0x12ef23b8b1c3d887"]}
+{"time":"2025-6-13 21:54:48:196","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x14c5a234fade57","_receivedKeyboardDidShowNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:48:226","lib":"libSystem.B.dylib","func":"open","args":["/usr/share/langid/langid.inv","0x0"]}
+{"time":"2025-6-13 21:54:48:227","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreNLP.framework/tokruleLE.data","0x0"]}
+{"time":"2025-6-13 21:54:48:229","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:54:48:243","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:48:244","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:48:322","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermain-screen-pitch","29",""]}
+{"time":"2025-6-13 21:54:48:397","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermain-screen-pitch","29","0x210561ba8305ed2"]}
+{"time":"2025-6-13 21:54:48:474","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x2818fd460"]}
+{"time":"2025-6-13 21:54:48:548","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:48:622","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x1d4401e50"]}
+{"time":"2025-6-13 21:54:48:695","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:48:774","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:48:849","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:48:925","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x16dc1d8c0"]}
+{"time":"2025-6-13 21:54:49:2","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:49:81","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","\u0004"]}
+{"time":"2025-6-13 21:54:49:158","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:49:234","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:49:311","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:49:316","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fa45ad","_screenDisconnected:","0x234f42f80","0x245a234fae3cd"]}
+{"time":"2025-6-13 21:54:49:316","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fa45ad","_screenInterfaceOrientationChanged:","0x234f42f80","0x245a234fae3cd"]}
+{"time":"2025-6-13 21:54:49:317","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234fa1d0d","_focusBehaviorDidChange:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:318","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fad045","matchDeviceOrientation:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:318","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:49:319","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:49:319","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","applicationWillSuspend","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:49:320","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","applicationDidResume","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:49:320","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","applicationWantsViewsToDisappear","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:49:320","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","accessibilityLargeTextDidChange","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:49:321","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","willResume:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:321","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","didSuspend:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:321","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","hostViewWillDisappear","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:322","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","hostViewDidEnterBackground","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:322","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","hostViewWillenterForeground","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:322","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","updateKeyboardDockViewVisibility","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:323","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","updateKeyboardDockViewVisibility","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:323","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","willBeginIndirectSelectionGesture","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:323","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","didEndIndirectSelectionGesture","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:324","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","presentationTransitionWillBegin:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:324","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234faa895","presentationTransitionDidEnd:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:326","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa9b75","applicationWillSuspend","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:49:326","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa9b75","applicationDidResume","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:49:326","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa9b75","applicationWantsViewsToDisappear","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:49:327","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa9b75","accessibilityLargeTextDidChange","0x234f42f80","0xc5a234fae717"]}
+{"time":"2025-6-13 21:54:49:327","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234faa90d","_didReceiveHandBiasChangeNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:329","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x45a234fa9b75","_dictationDidBeginNotification:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:329","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x45a234fa9b75","updateDockItemsVisibility","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:408","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","\u0004"]}
+{"time":"2025-6-13 21:54:49:480","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:49:553","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:49:626","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:49:629","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:49:629","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:49:634","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessPredicateImpl"]}
+{"time":"2025-6-13 21:54:49:634","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:54:49:634","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:635","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:635","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:636","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:636","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:637","lib":"Foundation","func":"NSStringFromSelector","args":["statesForPredicate:descriptor:error:"]}
+{"time":"2025-6-13 21:54:49:637","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:637","lib":"Foundation","func":"NSStringFromSelector","args":["statesForPredicate:descriptor:error:"]}
+{"time":"2025-6-13 21:54:49:637","lib":"Foundation","func":"NSStringFromSelector","args":["statesForPredicate:descriptor:error:"]}
+{"time":"2025-6-13 21:54:49:638","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:640","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:641","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessState"]}
+{"time":"2025-6-13 21:54:49:641","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:641","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessHandle"]}
+{"time":"2025-6-13 21:54:49:642","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:54:49:642","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:642","lib":"Foundation","func":"NSStringFromSelector","args":["lookupHandleForKey:error:"]}
+{"time":"2025-6-13 21:54:49:643","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:643","lib":"Foundation","func":"NSStringFromSelector","args":["lookupHandleForKey:error:"]}
+{"time":"2025-6-13 21:54:49:643","lib":"Foundation","func":"NSStringFromSelector","args":["lookupHandleForKey:error:"]}
+{"time":"2025-6-13 21:54:49:643","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:644","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessHandle"]}
+{"time":"2025-6-13 21:54:49:644","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:645","lib":"Foundation","func":"NSClassFromString","args":["RBSEmbeddedAppWithPersonaProcessIdentity"]}
+{"time":"2025-6-13 21:54:49:645","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:645","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:646","lib":"Foundation","func":"NSClassFromString","args":["BSAuditToken"]}
+{"time":"2025-6-13 21:54:49:646","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:646","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessBundle"]}
+{"time":"2025-6-13 21:54:49:647","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:647","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:648","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:648","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:649","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:649","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:649","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessAssertionInfo"]}
+{"time":"2025-6-13 21:54:49:650","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:650","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessAssertionInfo"]}
+{"time":"2025-6-13 21:54:49:650","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:651","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessAssertionInfo"]}
+{"time":"2025-6-13 21:54:49:651","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:651","lib":"Foundation","func":"NSClassFromString","args":["RBSProcessAssertionInfo"]}
+{"time":"2025-6-13 21:54:49:653","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:54:49:654","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:655","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x234f42f80",null,"0x4"]}
+{"time":"2025-6-13 21:54:49:655","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x21a234f43f21",null,"0xa9067bfdd101c3ff","0x21a234f44179",null,"0x4"]}
+{"time":"2025-6-13 21:54:49:656","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:658","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:659","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:659","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:659","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:660","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:660","lib":"Foundation","func":"NSStringFromSelector","args":["acquireAssertionWithDescriptor:error:"]}
+{"time":"2025-6-13 21:54:49:660","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:660","lib":"Foundation","func":"NSStringFromSelector","args":["acquireAssertionWithDescriptor:error:"]}
+{"time":"2025-6-13 21:54:49:660","lib":"Foundation","func":"NSStringFromSelector","args":["acquireAssertionWithDescriptor:error:"]}
+{"time":"2025-6-13 21:54:49:662","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:662","lib":"Foundation","func":"NSClassFromString","args":["RBSAssertionIdentifier"]}
+{"time":"2025-6-13 21:54:49:685","lib":"Foundation","func":"NSSelectorFromString","args":["async_didChangeInheritances:completion:"]}
+{"time":"2025-6-13 21:54:49:686","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:687","lib":"Foundation","func":"NSClassFromString","args":["RBSInheritanceChangeSet"]}
+{"time":"2025-6-13 21:54:49:687","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:688","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:688","lib":"Foundation","func":"NSClassFromString","args":["RBSInheritance"]}
+{"time":"2025-6-13 21:54:49:689","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:690","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:690","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:49:690","lib":"Foundation","func":"NSClassFromString","args":["RBSAssertionIdentifier"]}
+{"time":"2025-6-13 21:54:49:736","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnsweripad","16","0x16dc1d6b0"]}
+{"time":"2025-6-13 21:54:49:809","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnsweripad","16","0xef3bc4f9143ba7b8"]}
+{"time":"2025-6-13 21:54:49:812","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234f96ac5","_updateEffectForAccessibilityChanges:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:816","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234f9a305","windowWillAnimateRotation:","0x234f42f80","0x585a234fad047"]}
+{"time":"2025-6-13 21:54:49:816","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234f9a305","windowWillAnimateRotation:","0x234f42f80","0x6e5a234fad047"]}
+{"time":"2025-6-13 21:54:49:817","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234f9a305","windowWillAnimateRotation:","0x234f42f80","0x845a234fad047"]}
+{"time":"2025-6-13 21:54:49:817","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234f9a305","windowWillAnimateRotation:","0x234f42f80","0x9a5a234fad047"]}
+{"time":"2025-6-13 21:54:49:818","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x21a234f96ac5","_updateEffectForAccessibilityChanges:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:49:896","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","\u0004"]}
+{"time":"2025-6-13 21:54:49:969","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:50:43","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:50:116","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:50:119","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:50:120","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:50:198","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","\u0004"]}
+{"time":"2025-6-13 21:54:50:271","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:50:344","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:50:418","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:50:421","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:50:421","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:50:504","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClassNumber","29","0x16dc1c680"]}
+{"time":"2025-6-13 21:54:50:580","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClassNumber","29","0xca827762a1c0da9a"]}
+{"time":"2025-6-13 21:54:50:658","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClassNumber","29","0xb806de74bda7b21e"]}
+{"time":"2025-6-13 21:54:50:735","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClassNumber","29","0xca827762a1c0da9a"]}
+{"time":"2025-6-13 21:54:50:737","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationWillSuspend","0x234f42f80","0xe5a234fae717"]}
+{"time":"2025-6-13 21:54:50:737","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationDidResume","0x234f42f80","0xe5a234fae717"]}
+{"time":"2025-6-13 21:54:50:737","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","applicationWantsViewsToDisappear","0x234f42f80","0xe5a234fae717"]}
+{"time":"2025-6-13 21:54:50:738","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x25a234fa18fd","accessibilityLargeTextDidChange","0x234f42f80","0xe5a234fae717"]}
+{"time":"2025-6-13 21:54:50:813","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","\u0004"]}
+{"time":"2025-6-13 21:54:50:886","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:50:958","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:51:32","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:51:34","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:51:35","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:51:111","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","\u0004"]}
+{"time":"2025-6-13 21:54:51:183","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:51:255","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:51:329","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:51:332","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:51:333","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:51:336","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xa5a234fa973d","removeAllHUDOnContainerChange","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:336","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xa5a234fa973d","applicationWillSuspend","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:343","lib":"libSystem.B.dylib","func":"open","args":["//System/Library/PrivateFrameworks/CoreEmoji.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:54:51:343","lib":"libSystem.B.dylib","func":"open","args":["//System/Library/PrivateFrameworks/CoreEmoji.framework","0x0"]}
+{"time":"2025-6-13 21:54:51:344","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreEmoji.framework","0x0"]}
+{"time":"2025-6-13 21:54:51:345","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreEmoji.framework/emoji.dat","0x0"]}
+{"time":"2025-6-13 21:54:51:345","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreEmoji.framework/emojimeta.dat","0x0"]}
+{"time":"2025-6-13 21:54:51:348","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909017304237585493726695","0x100"]}
+{"time":"2025-6-13 21:54:51:361","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990905131104318940160238","0x100"]}
+{"time":"2025-6-13 21:54:51:363","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990905131104318940160241","0x100"]}
+{"time":"2025-6-13 21:54:51:364","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990908009173362078903170","0x100"]}
+{"time":"2025-6-13 21:54:51:365","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990907701030911865601506","0x100"]}
+{"time":"2025-6-13 21:54:51:367","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990907701030911865601511","0x100"]}
+{"time":"2025-6-13 21:54:51:369","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909017531282551374194162","0x100"]}
+{"time":"2025-6-13 21:54:51:371","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990905991081673118007290","0x100"]}
+{"time":"2025-6-13 21:54:51:372","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990905991081673118007293","0x100"]}
+{"time":"2025-6-13 21:54:51:373","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990904522813582489849670","0x100"]}
+{"time":"2025-6-13 21:54:51:376","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909018141004435938866285","0x100"]}
+{"time":"2025-6-13 21:54:51:377","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909018141004436475737198","0x100"]}
+{"time":"2025-6-13 21:54:51:378","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909016096568231788573679","0x100"]}
+{"time":"2025-6-13 21:54:51:379","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990902464926854415539222","0x100"]}
+{"time":"2025-6-13 21:54:51:381","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/76664466735990902464926854415539224","0x100"]}
+{"time":"2025-6-13 21:54:51:382","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Library/Caches/com.apple.keyboards/images/766644667359909010009063491238797473","0x100"]}
+{"time":"2025-6-13 21:54:51:386","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:54:51:387","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:51:387","lib":"Foundation","func":"NSStringFromSelector","args":["async_invalidateAssertionWithIdentifier:"]}
+{"time":"2025-6-13 21:54:51:387","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:51:387","lib":"Foundation","func":"NSStringFromSelector","args":["async_invalidateAssertionWithIdentifier:"]}
+{"time":"2025-6-13 21:54:51:456","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","applicationSuspendedEventsOnly:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:496","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","applicationResumedEventsOnly:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:535","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","applicationResumed:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:573","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","keyboardDidHide:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:613","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","selectionScrolling:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:650","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","selectionScrolling:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:689","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x41a234fa1e25","_firstResponderDidChange:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:726","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x481a234f4bab1","addObserver:selector:name:object:","0x45a234fa1e25","updateSelectableInputDelegateIfNecessary","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:765","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","_updateKeyboardSuppression:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:803","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","_updateKeyboardLanguage:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:842","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","scribbleWillBeginWriting:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:879","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","beginObservingInputOverlayContainerFrame","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:916","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0xe5a234fad1ff","endObservingInputOverlayContainerFrame","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:51:929","lib":"libSystem.B.dylib","func":"open","args":["/var/mobile/Containers/Data/Application/4767A372-C7A7-41BE-A8E0-3406FB10CB1B/Documents/FBIPhone Database","0x8000"]}
+{"time":"2025-6-13 21:54:51:964","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x41a2350d3705","managedKeyboardSettingDidChange:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:52:1","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0x461a234f4bab1","addObserver:selector:name:object:","0x45a2350d3705","profileSettingDidChange:","0x234f42f80",null]}
+{"time":"2025-6-13 21:54:52:74","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnsweripad","16","0x16dc1e420"]}
+{"time":"2025-6-13 21:54:52:147","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnsweripad","16","0xef3bc4f9143ba7b8"]}
+{"time":"2025-6-13 21:54:52:149","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/AvatarKit.framework/Info.plist","0x0"]}
+{"time":"2025-6-13 21:54:52:162","lib":"Foundation","func":"NSClassFromString","args":["UIColor"]}
+{"time":"2025-6-13 21:54:52:163","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2025-6-13 21:54:52:164","lib":"Foundation","func":"NSClassFromString","args":["NSURL"]}
+{"time":"2025-6-13 21:54:52:165","lib":"Foundation","func":"NSClassFromString","args":["UIImage"]}
+{"time":"2025-6-13 21:54:52:165","lib":"Foundation","func":"NSClassFromString","args":["NSAttributedString"]}
+{"time":"2025-6-13 21:54:52:169","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/CoreEmoji.framework/emoji.bitmap","0x0"]}
+{"time":"2025-6-13 21:54:52:286","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23",""]}
+{"time":"2025-6-13 21:54:52:327","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","\u0003"]}
+{"time":"2025-6-13 21:54:52:429","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:52:466","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswermultitasking","24","0x88eac936bb8b4044"]}
+{"time":"2025-6-13 21:54:52:470","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:54:52:471","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:471","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:472","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:472","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:473","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:473","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:474","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:474","lib":"Foundation","func":"NSStringFromSelector","args":["acquireAssertionWithDescriptor:error:"]}
+{"time":"2025-6-13 21:54:52:475","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:475","lib":"Foundation","func":"NSStringFromSelector","args":["acquireAssertionWithDescriptor:error:"]}
+{"time":"2025-6-13 21:54:52:475","lib":"Foundation","func":"NSStringFromSelector","args":["acquireAssertionWithDescriptor:error:"]}
+{"time":"2025-6-13 21:54:52:476","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:477","lib":"Foundation","func":"NSClassFromString","args":["RBSAssertionIdentifier"]}
+{"time":"2025-6-13 21:54:52:481","lib":"Foundation","func":"NSSelectorFromString","args":[null]}
+{"time":"2025-6-13 21:54:52:482","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:482","lib":"Foundation","func":"NSStringFromSelector","args":["async_invalidateAssertionWithIdentifier:"]}
+{"time":"2025-6-13 21:54:52:482","lib":"Foundation","func":"NSClassFromString","args":["OS_xpc_object"]}
+{"time":"2025-6-13 21:54:52:483","lib":"Foundation","func":"NSStringFromSelector","args":["async_invalidateAssertionWithIdentifier:"]}
+{"time":"2025-6-13 21:54:52:538","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:52:611","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0x1d4401e50"]}
+{"time":"2025-6-13 21:54:52:683","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:52:755","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:52:756","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:52:756","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2025-6-13 21:54:52:832","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21",""]}
+{"time":"2025-6-13 21:54:52:904","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:52:979","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0x281649fb0"]}
+{"time":"2025-6-13 21:54:53:52","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerdictation","21","0xc386c126855be6d6"]}
+{"time":"2025-6-13 21:54:53:125","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23",""]}
+{"time":"2025-6-13 21:54:53:197","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:53:269","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:53:343","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0x1d4401e50"]}
+{"time":"2025-6-13 21:54:53:416","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerDeviceClass","23","0xc517b9f9d01f75fb"]}
+{"time":"2025-6-13 21:54:53:488","lib":"libSystem.B.dylib","func":"open","args":["/System/Library/PrivateFrameworks/TextInputUI.framework/KBLayouts_iPhone.dat","0x0"]}
+{"time":"2025-6-13 21:54:53:651","lib":"Foundation","func":"NSStringFromSelector","args":["valuesForAttributes:forItemAtURL:completionHandler:"]}
+{"time":"2025-6-13 21:54:53:720","lib":"Foundation","func":"NSStringFromSelector","args":["valuesForAttributes:forItemAtURL:completionHandler:"]}
+{"time":"2025-6-13 21:54:53:725","lib":"Foundation","func":"NSStringFromSelector","args":["updateLastUsedDate:completionHandler:"]}
+{"time":"2025-6-13 21:54:53:725","lib":"Foundation","func":"NSStringFromSelector","args":["updateLastUsedDate:completionHandler:"]}

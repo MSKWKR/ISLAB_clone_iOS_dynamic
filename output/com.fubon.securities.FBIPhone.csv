@@ -1,0 +1,99 @@
+0,Skip,
+1,Pass,"NSURL with Resources /System/Library/PrivateFrameworks/TextInput.framework/Keyboard-default.plist
+NSURL with Resources /System/Library/PrivateFrameworks/TextInput.framework/Keyboard-default.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant-Zhuyin-iPhone.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle/Keyboard-zh_Hant.plist
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_zh.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle/Keyboard-en.plist
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle/Keyboard-en.plist
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle/Keyboard-en_US.plist
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle/Keyboard-en_US.plist
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle
+NSURL with Resources /System/Library/TextInput/TextInput_en.bundle
+"
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Undetect,
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with fbiphone://
+"
+22,Undetect,
+23,Manual,Detected storing plist locally. Storing data in plist is unsafe.Please store your data to somewhere safe.Detected storing Coredata locally. Storing data in Coredata is unsafe.Please store your data to somewhere safe.
+24,Manual,"Make use of log function NSLog with [""[Shadow] isPathRestricted: allowed path: %@""]
+"
+25,Manual,"Autocorrecting keyboard is detected, Please close the function by setting the UITextfield
+"
+26,Pass,
+27,Undetect,
+28,Pass,Debug mode is disabled.
+29,Pass,No sensitive data leakage detected in IPC mechanisms.
+30,Pass,App is running on a physical device.
+31,Pass,Password validation log does not indicate any failures.

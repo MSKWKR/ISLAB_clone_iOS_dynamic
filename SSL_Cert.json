@@ -1,0 +1,2142 @@
+{
+    "host": "rmm.ecdesk-us.org",
+    "port": 443,
+    "protocol": "http",
+    "isPublic": true,
+    "status": "READY",
+    "startTime": 1673188890891,
+    "testTime": 1673188952514,
+    "engineVersion": "2.1.10",
+    "criteriaVersion": "2009q",
+    "endpoints": [
+        {
+            "ipAddress": "173.255.227.99",
+            "serverName": "li237-99.members.linode.com",
+            "statusMessage": "Ready",
+            "grade": "A+",
+            "gradeTrustIgnored": "A+",
+            "hasWarnings": false,
+            "isExceptional": true,
+            "progress": 100,
+            "duration": 61155,
+            "delegation": 1,
+            "details": {
+                "hostStartTime": 1673188890891,
+                "certChains": [
+                    {
+                        "id": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                        "certIds": [
+                            "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                            "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                            "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f"
+                        ],
+                        "trustPaths": [
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Mozilla",
+                                        "isTrusted": true
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Mozilla",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "invalid certificate [Fingerprint SHA256: 0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739]"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Apple",
+                                        "isTrusted": true
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Apple",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "invalid certificate [Fingerprint SHA256: 0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739]"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Android",
+                                        "isTrusted": true
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Android",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "invalid certificate [Fingerprint SHA256: 0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739]"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Java",
+                                        "isTrusted": true
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Java",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "invalid certificate [Fingerprint SHA256: 0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739]"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Windows",
+                                        "isTrusted": true
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Windows",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "invalid certificate [Fingerprint SHA256: 0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739]"
+                                    }
+                                ]
+                            }
+                        ],
+                        "issues": 0,
+                        "noSni": false
+                    },
+                    {
+                        "id": "fa1a6b544dc82994963da9455d90d867144c58646ee980eff31fdb90582ec42c",
+                        "certIds": [
+                            "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                            "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                            "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f"
+                        ],
+                        "trustPaths": [
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Mozilla",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Mozilla",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Apple",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Apple",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Android",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Android",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Java",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Java",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Windows",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            },
+                            {
+                                "certIds": [
+                                    "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+                                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                                    "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+                                    "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+                                ],
+                                "trust": [
+                                    {
+                                        "rootStore": "Windows",
+                                        "isTrusted": false,
+                                        "trustErrorMessage": "validity check failed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "issues": 0,
+                        "noSni": true
+                    }
+                ],
+                "protocols": [
+                    {
+                        "id": 771,
+                        "name": "TLS",
+                        "version": "1.2"
+                    },
+                    {
+                        "id": 772,
+                        "name": "TLS",
+                        "version": "1.3"
+                    }
+                ],
+                "suites": [
+                    {
+                        "protocol": 771,
+                        "list": [
+                            {
+                                "id": 49171,
+                                "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                                "cipherStrength": 128,
+                                "kxType": "ECDH",
+                                "kxStrength": 15360,
+                                "namedGroupBits": 521,
+                                "namedGroupId": 25,
+                                "namedGroupName": "secp521r1",
+                                "q": 1
+                            },
+                            {
+                                "id": 158,
+                                "name": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+                                "cipherStrength": 128,
+                                "kxType": "DH",
+                                "kxStrength": 2048,
+                                "dhBits": 256,
+                                "dhP": 256,
+                                "dhG": 1,
+                                "dhYs": 256
+                            },
+                            {
+                                "id": 49199,
+                                "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                                "cipherStrength": 128,
+                                "kxType": "ECDH",
+                                "kxStrength": 15360,
+                                "namedGroupBits": 521,
+                                "namedGroupId": 25,
+                                "namedGroupName": "secp521r1"
+                            },
+                            {
+                                "id": 159,
+                                "name": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+                                "cipherStrength": 256,
+                                "kxType": "DH",
+                                "kxStrength": 2048,
+                                "dhBits": 256,
+                                "dhP": 256,
+                                "dhG": 1,
+                                "dhYs": 256
+                            },
+                            {
+                                "id": 49200,
+                                "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                                "cipherStrength": 256,
+                                "kxType": "ECDH",
+                                "kxStrength": 15360,
+                                "namedGroupBits": 521,
+                                "namedGroupId": 25,
+                                "namedGroupName": "secp521r1"
+                            },
+                            {
+                                "id": 52392,
+                                "name": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+                                "cipherStrength": 256,
+                                "kxType": "ECDH",
+                                "kxStrength": 15360,
+                                "namedGroupBits": 521,
+                                "namedGroupId": 25,
+                                "namedGroupName": "secp521r1"
+                            }
+                        ],
+                        "preference": false
+                    },
+                    {
+                        "protocol": 772,
+                        "list": [
+                            {
+                                "id": 4865,
+                                "name": "TLS_AES_128_GCM_SHA256",
+                                "cipherStrength": 128,
+                                "kxType": "ECDH",
+                                "kxStrength": 3072,
+                                "namedGroupBits": 256,
+                                "namedGroupId": 29,
+                                "namedGroupName": "x25519"
+                            },
+                            {
+                                "id": 4866,
+                                "name": "TLS_AES_256_GCM_SHA384",
+                                "cipherStrength": 256,
+                                "kxType": "ECDH",
+                                "kxStrength": 3072,
+                                "namedGroupBits": 256,
+                                "namedGroupId": 29,
+                                "namedGroupName": "x25519"
+                            },
+                            {
+                                "id": 4867,
+                                "name": "TLS_CHACHA20_POLY1305_SHA256",
+                                "cipherStrength": 256,
+                                "kxType": "ECDH",
+                                "kxStrength": 3072,
+                                "namedGroupBits": 256,
+                                "namedGroupId": 29,
+                                "namedGroupName": "x25519"
+                            }
+                        ],
+                        "preference": false
+                    }
+                ],
+                "namedGroups": {
+                    "list": [
+                        {
+                            "id": 23,
+                            "name": "secp256r1",
+                            "bits": 256,
+                            "namedGroupType": "EC"
+                        },
+                        {
+                            "id": 24,
+                            "name": "secp384r1",
+                            "bits": 384,
+                            "namedGroupType": "EC"
+                        },
+                        {
+                            "id": 25,
+                            "name": "secp521r1",
+                            "bits": 521,
+                            "namedGroupType": "EC"
+                        },
+                        {
+                            "id": 29,
+                            "name": "x25519",
+                            "bits": 256,
+                            "namedGroupType": "EC"
+                        },
+                        {
+                            "id": 30,
+                            "name": "x448",
+                            "bits": 224,
+                            "namedGroupType": "EC"
+                        }
+                    ],
+                    "preference": false
+                },
+                "serverSignature": "nginx",
+                "prefixDelegation": false,
+                "nonPrefixDelegation": true,
+                "vulnBeast": false,
+                "renegSupport": 2,
+                "sessionResumption": 1,
+                "compressionMethods": 0,
+                "supportsNpn": false,
+                "supportsAlpn": true,
+                "alpnProtocols": "http/1.1",
+                "sessionTickets": 0,
+                "ocspStapling": false,
+                "sniRequired": true,
+                "httpStatusCode": 302,
+                "httpForwarding": "https://gateway.ecdesk-us.org",
+                "supportsRc4": false,
+                "rc4WithModern": false,
+                "rc4Only": false,
+                "forwardSecrecy": 4,
+                "supportsAead": true,
+                "protocolIntolerance": 0,
+                "miscIntolerance": 0,
+                "sims": {
+                    "results": [
+                        {
+                            "client": {
+                                "id": 56,
+                                "name": "Android",
+                                "version": "2.3.7",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 58,
+                                "name": "Android",
+                                "version": "4.0.4",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 59,
+                                "name": "Android",
+                                "version": "4.1.1",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 60,
+                                "name": "Android",
+                                "version": "4.2.2",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 61,
+                                "name": "Android",
+                                "version": "4.3",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 62,
+                                "name": "Android",
+                                "version": "4.4.2",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 15360,
+                            "namedGroupBits": 521,
+                            "namedGroupId": 25,
+                            "namedGroupName": "secp521r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 88,
+                                "name": "Android",
+                                "version": "5.0.0",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 15360,
+                            "namedGroupBits": 521,
+                            "namedGroupId": 25,
+                            "namedGroupName": "secp521r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 129,
+                                "name": "Android",
+                                "version": "6.0",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 167,
+                                "name": "Android",
+                                "version": "7.0",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 52392,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 168,
+                                "name": "Android",
+                                "version": "8.0",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 52392,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 157,
+                                "name": "Android",
+                                "version": "8.1",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4867,
+                            "suiteName": "TLS_CHACHA20_POLY1305_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519"
+                        },
+                        {
+                            "client": {
+                                "id": 158,
+                                "name": "Android",
+                                "version": "9.0",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4867,
+                            "suiteName": "TLS_CHACHA20_POLY1305_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519"
+                        },
+                        {
+                            "client": {
+                                "id": 94,
+                                "name": "Baidu",
+                                "version": "Jan 2015",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 91,
+                                "name": "BingPreview",
+                                "version": "Jan 2015",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 15360,
+                            "namedGroupBits": 521,
+                            "namedGroupId": 25,
+                            "namedGroupName": "secp521r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 136,
+                                "name": "Chrome",
+                                "platform": "XP SP3",
+                                "version": "49",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 152,
+                                "name": "Chrome",
+                                "platform": "Win 7",
+                                "version": "69",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 153,
+                                "name": "Chrome",
+                                "platform": "Win 10",
+                                "version": "70",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4865,
+                            "suiteName": "TLS_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519"
+                        },
+                        {
+                            "client": {
+                                "id": 170,
+                                "name": "Chrome",
+                                "platform": "Win 10",
+                                "version": "80",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4865,
+                            "suiteName": "TLS_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519"
+                        },
+                        {
+                            "client": {
+                                "id": 84,
+                                "name": "Firefox",
+                                "platform": "Win 7",
+                                "version": "31.3.0 ESR",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 132,
+                                "name": "Firefox",
+                                "platform": "Win 7",
+                                "version": "47",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 137,
+                                "name": "Firefox",
+                                "platform": "XP SP3",
+                                "version": "49",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 151,
+                                "name": "Firefox",
+                                "platform": "Win 7",
+                                "version": "62",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 171,
+                                "name": "Firefox",
+                                "platform": "Win 10",
+                                "version": "73",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4865,
+                            "suiteName": "TLS_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519"
+                        },
+                        {
+                            "client": {
+                                "id": 145,
+                                "name": "Googlebot",
+                                "version": "Feb 2018",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49199,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 100,
+                                "name": "IE",
+                                "platform": "XP",
+                                "version": "6",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 19,
+                                "name": "IE",
+                                "platform": "Vista",
+                                "version": "7",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 101,
+                                "name": "IE",
+                                "platform": "XP",
+                                "version": "8",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 113,
+                                "name": "IE",
+                                "platform": "Win 7",
+                                "version": "8-10",
+                                "isReference": true
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 143,
+                                "name": "IE",
+                                "platform": "Win 7",
+                                "version": "11",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 134,
+                                "name": "IE",
+                                "platform": "Win 8.1",
+                                "version": "11",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 64,
+                                "name": "IE",
+                                "platform": "Win Phone 8.0",
+                                "version": "10",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 65,
+                                "name": "IE",
+                                "platform": "Win Phone 8.1",
+                                "version": "11",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 106,
+                                "name": "IE",
+                                "platform": "Win Phone 8.1 Update",
+                                "version": "11",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 131,
+                                "name": "IE",
+                                "platform": "Win 10",
+                                "version": "11",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 144,
+                                "name": "Edge",
+                                "platform": "Win 10",
+                                "version": "15",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 159,
+                                "name": "Edge",
+                                "platform": "Win 10",
+                                "version": "16",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 160,
+                                "name": "Edge",
+                                "platform": "Win 10",
+                                "version": "18",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 120,
+                                "name": "Edge",
+                                "platform": "Win Phone 10",
+                                "version": "13",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 25,
+                                "name": "Java",
+                                "version": "6u45",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 26,
+                                "name": "Java",
+                                "version": "7u25",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 147,
+                                "name": "Java",
+                                "version": "8u161",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 162,
+                                "name": "Java",
+                                "version": "11.0.3",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4865,
+                            "suiteName": "TLS_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1"
+                        },
+                        {
+                            "client": {
+                                "id": 163,
+                                "name": "Java",
+                                "version": "12.0.1",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4865,
+                            "suiteName": "TLS_AES_128_GCM_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1"
+                        },
+                        {
+                            "client": {
+                                "id": 27,
+                                "name": "OpenSSL",
+                                "version": "0.9.8y",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 99,
+                                "name": "OpenSSL",
+                                "version": "1.0.1l",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 15360,
+                            "namedGroupBits": 521,
+                            "namedGroupId": 25,
+                            "namedGroupName": "secp521r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 164,
+                                "name": "OpenSSL",
+                                "version": "1.0.2s",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 169,
+                                "name": "OpenSSL",
+                                "version": "1.1.0k",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 165,
+                                "name": "OpenSSL",
+                                "version": "1.1.1c",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4866,
+                            "suiteName": "TLS_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519"
+                        },
+                        {
+                            "client": {
+                                "id": 32,
+                                "name": "Safari",
+                                "platform": "OS X 10.6.8",
+                                "version": "5.1.9",
+                                "isReference": false
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 33,
+                                "name": "Safari",
+                                "platform": "iOS 6.0.1",
+                                "version": "6",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 34,
+                                "name": "Safari",
+                                "platform": "OS X 10.8.4",
+                                "version": "6.0.4",
+                                "isReference": true
+                            },
+                            "errorCode": 1,
+                            "errorMessage": "Protocol mismatch (not simulated)",
+                            "attempts": 0
+                        },
+                        {
+                            "client": {
+                                "id": 63,
+                                "name": "Safari",
+                                "platform": "iOS 7.1",
+                                "version": "7",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 35,
+                                "name": "Safari",
+                                "platform": "OS X 10.9",
+                                "version": "7",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 85,
+                                "name": "Safari",
+                                "platform": "iOS 8.4",
+                                "version": "8",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 87,
+                                "name": "Safari",
+                                "platform": "OS X 10.10",
+                                "version": "8",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49171,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 114,
+                                "name": "Safari",
+                                "platform": "iOS 9",
+                                "version": "9",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 111,
+                                "name": "Safari",
+                                "platform": "OS X 10.11",
+                                "version": "9",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 140,
+                                "name": "Safari",
+                                "platform": "iOS 10",
+                                "version": "10",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 138,
+                                "name": "Safari",
+                                "platform": "OS X 10.12",
+                                "version": "10",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 161,
+                                "name": "Safari",
+                                "platform": "MacOS 10.14.6 Beta",
+                                "version": "12.1.2",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4867,
+                            "suiteName": "TLS_CHACHA20_POLY1305_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519"
+                        },
+                        {
+                            "client": {
+                                "id": 166,
+                                "name": "Safari",
+                                "platform": "iOS 12.3.1",
+                                "version": "12.1.1",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "protocolId": 772,
+                            "suiteId": 4867,
+                            "suiteName": "TLS_CHACHA20_POLY1305_SHA256",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 29,
+                            "namedGroupName": "x25519"
+                        },
+                        {
+                            "client": {
+                                "id": 112,
+                                "name": "Apple ATS",
+                                "platform": "iOS 9",
+                                "version": "9",
+                                "isReference": true
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 3072,
+                            "namedGroupBits": 256,
+                            "namedGroupId": 23,
+                            "namedGroupName": "secp256r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 92,
+                                "name": "Yahoo Slurp",
+                                "version": "Jan 2015",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 7680,
+                            "namedGroupBits": 384,
+                            "namedGroupId": 24,
+                            "namedGroupName": "secp384r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        },
+                        {
+                            "client": {
+                                "id": 93,
+                                "name": "YandexBot",
+                                "version": "Jan 2015",
+                                "isReference": false
+                            },
+                            "errorCode": 0,
+                            "attempts": 1,
+                            "certChainId": "8157b7c51b71aa647f4b47fc8f6e9d0920d7130003c96e89316b829f8f8926ac",
+                            "protocolId": 771,
+                            "suiteId": 49200,
+                            "suiteName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                            "kxType": "ECDH",
+                            "kxStrength": 15360,
+                            "namedGroupBits": 521,
+                            "namedGroupId": 25,
+                            "namedGroupName": "secp521r1",
+                            "keyAlg": "RSA",
+                            "keySize": 2048,
+                            "sigAlg": "SHA256withRSA"
+                        }
+                    ]
+                },
+                "heartbleed": false,
+                "heartbeat": false,
+                "openSslCcs": 1,
+                "openSSLLuckyMinus20": 1,
+                "ticketbleed": 1,
+                "bleichenbacher": 1,
+                "poodle": false,
+                "poodleTls": 1,
+                "fallbackScsv": true,
+                "freak": false,
+                "hasSct": 1,
+                "dhPrimes": [
+                    "ffffffffffffffffadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695a9e13641146433fbcc939dce249b3ef97d2fe363630c75d8f681b202aec4617ad3df1ed5d5fd65612433f51f5f066ed0856365553ded1af3b557135e7f57c935984f0c70e0e68b77e2a689daf3efe8721df158a136ade73530acca4f483a797abc0ab182b324fb61d108a94bb2c8e3fbb96adab760d7f4681d4f42a3de394df4ae56ede76372bb190b07a7c8ee0a6d709e02fce1cdf7e2ecc03404cd28342f619172fe9ce98583ff8e4f1232eef28183c3fe3b1b4c6fad733bb5fcbc2ec22005c58ef1837d1683b2c6f34a26c1b2effa886b423861285c97ffffffffffffffff"
+                ],
+                "dhUsesKnownPrimes": 0,
+                "dhYsReuse": false,
+                "ecdhParameterReuse": false,
+                "logjam": false,
+                "hstsPolicy": {
+                    "LONG_MAX_AGE": 15552000,
+                    "header": "max-age=31536000; includeSubDomains; preload",
+                    "status": "present",
+                    "maxAge": 31536000,
+                    "includeSubDomains": true,
+                    "preload": true,
+                    "directives": {
+                        "includesubdomains": "",
+                        "max-age": "31536000",
+                        "preload": ""
+                    }
+                },
+                "hstsPreloads": [
+                    {
+                        "source": "Chrome",
+                        "hostname": "rmm.ecdesk-us.org",
+                        "status": "error",
+                        "error": "Temporarily unavailable"
+                    },
+                    {
+                        "source": "Edge",
+                        "hostname": "rmm.ecdesk-us.org",
+                        "status": "absent",
+                        "sourceTime": 1673188202872
+                    },
+                    {
+                        "source": "Firefox",
+                        "hostname": "rmm.ecdesk-us.org",
+                        "status": "absent",
+                        "sourceTime": 1673188202872
+                    },
+                    {
+                        "source": "IE",
+                        "hostname": "rmm.ecdesk-us.org",
+                        "status": "absent",
+                        "sourceTime": 1673188202872
+                    }
+                ],
+                "hpkpPolicy": {
+                    "status": "absent",
+                    "pins": [],
+                    "matchedPins": [],
+                    "directives": []
+                },
+                "hpkpRoPolicy": {
+                    "status": "absent",
+                    "pins": [],
+                    "matchedPins": [],
+                    "directives": []
+                },
+                "staticPkpPolicy": {
+                    "status": "unknown",
+                    "pins": [],
+                    "matchedPins": [],
+                    "forbiddenPins": [],
+                    "matchedForbiddenPins": []
+                },
+                "httpTransactions": [
+                    {
+                        "requestUrl": "https://rmm.ecdesk-us.org/",
+                        "statusCode": 302,
+                        "requestLine": "GET / HTTP/1.1",
+                        "requestHeaders": [
+                            "Host: rmm.ecdesk-us.org",
+                            "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0",
+                            "Accept: */*",
+                            "Connection: Close"
+                        ],
+                        "responseLine": "HTTP/1.1 302 Found",
+                        "responseHeadersRaw": [
+                            "Server: nginx",
+                            "Content-Type: text/html; charset=UTF-8",
+                            "Transfer-Encoding: chunked",
+                            "Connection: close",
+                            "Cache-Control: no-cache, private",
+                            "Date: Sun, 08 Jan 2023 14:41:41 GMT",
+                            "Location: https://gateway.ecdesk-us.org/request-access",
+                            "Set-Cookie: XSRF-TOKEN=eyJpdiI6IjVQaStpUElZRXRTMVFMb0paWUtkakE9PSIsInZhbHVlIjoiSkYwNGlCZjRxbjdCS2pZUlp5dENOQlMzRnZHVVlQZ09ZcnpSTVg1UEVVajBObEsrZjRiSmU2eCtHQlQ3cUl2cyIsIm1hYyI6IjRiYjEwMDU5OTBlNGRjNmZjNTUxOTZiNTgxZTZkYTkzOTkyYzgwZGRhMWJkMjcxZDIyN2U4NTQxMDkwZjQzOWQiLCJ0YWciOiIifQ%3D%3D; expires=Sun, 08-Jan-2023 22:41:41 GMT; Max-Age=28800; path=/",
+                            "Set-Cookie: rmm_session=eyJpdiI6InpkY0ZaTHBIYnUwSDR5M0ZnQkdwU2c9PSIsInZhbHVlIjoiTDlJNkp1TTJLM2Q0Ukh0QlFOTHFadklHVEtqaGlhUzM3ZlYzM1dnK0kyOFhKZVZZaHhMRUY1N3RUaTdCbmRXZitXVVBuZkVJVEZaZWJXeWtTMzA5NDVUajVzd1FPNC92NEptbnFmQkhMbThNUUg4Q3Z0cmtsVTR0MGplak9WS0EiLCJtYWMiOiJmMmEzYzVhNDgzNDMxNDA0MTRiNmIwMzIyZDVkYjQ2NjM2MTc0ZmY4MTk5ZGExOGQyOTljZDRiMjQxY2QyYmNlIiwidGFnIjoiIn0%3D; expires=Sun, 08-Jan-2023 22:41:41 GMT; Max-Age=28800; path=/; httponly",
+                            "X-Content-Type-Options: nosniff",
+                            "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload",
+                            "X-XSS-Protection: 1; mode=block",
+                            "X-Frame-Options: SAMEORIGIN",
+                            "Content-Security-Policy: frame-ancestors *.ecdesk-us.org ;",
+                            "Pragma: no-cache",
+                            "Cache-Control: no-cache, must-revalidate, proxy-revalidate",
+                            "X-Frame-Options: ALLOW-FROM js.api.here.com",
+                            "Content-Security-Policy: frame-ancestors js.api.here.com",
+                            "Feature-Policy: geolocation *;midi 'none';sync-xhr *;microphone 'none';camera 'none';magnetometer 'none';gyroscope 'none';fullscreen 'none';payment 'none';",
+                            "Referrer-Policy: no-referrer-when-downgrade"
+                        ],
+                        "responseHeaders": [
+                            {
+                                "name": "Server",
+                                "value": "nginx"
+                            },
+                            {
+                                "name": "Content-Type",
+                                "value": "text/html; charset=UTF-8"
+                            },
+                            {
+                                "name": "Transfer-Encoding",
+                                "value": "chunked"
+                            },
+                            {
+                                "name": "Connection",
+                                "value": "close"
+                            },
+                            {
+                                "name": "Cache-Control",
+                                "value": "no-cache, private"
+                            },
+                            {
+                                "name": "Date",
+                                "value": "Sun, 08 Jan 2023 14:41:41 GMT"
+                            },
+                            {
+                                "name": "Location",
+                                "value": "https://gateway.ecdesk-us.org/request-access"
+                            },
+                            {
+                                "name": "Set-Cookie",
+                                "value": "XSRF-TOKEN=eyJpdiI6IjVQaStpUElZRXRTMVFMb0paWUtkakE9PSIsInZhbHVlIjoiSkYwNGlCZjRxbjdCS2pZUlp5dENOQlMzRnZHVVlQZ09ZcnpSTVg1UEVVajBObEsrZjRiSmU2eCtHQlQ3cUl2cyIsIm1hYyI6IjRiYjEwMDU5OTBlNGRjNmZjNTUxOTZiNTgxZTZkYTkzOTkyYzgwZGRhMWJkMjcxZDIyN2U4NTQxMDkwZjQzOWQiLCJ0YWciOiIifQ%3D%3D; expires=Sun, 08-Jan-2023 22:41:41 GMT; Max-Age=28800; path=/"
+                            },
+                            {
+                                "name": "Set-Cookie",
+                                "value": "rmm_session=eyJpdiI6InpkY0ZaTHBIYnUwSDR5M0ZnQkdwU2c9PSIsInZhbHVlIjoiTDlJNkp1TTJLM2Q0Ukh0QlFOTHFadklHVEtqaGlhUzM3ZlYzM1dnK0kyOFhKZVZZaHhMRUY1N3RUaTdCbmRXZitXVVBuZkVJVEZaZWJXeWtTMzA5NDVUajVzd1FPNC92NEptbnFmQkhMbThNUUg4Q3Z0cmtsVTR0MGplak9WS0EiLCJtYWMiOiJmMmEzYzVhNDgzNDMxNDA0MTRiNmIwMzIyZDVkYjQ2NjM2MTc0ZmY4MTk5ZGExOGQyOTljZDRiMjQxY2QyYmNlIiwidGFnIjoiIn0%3D; expires=Sun, 08-Jan-2023 22:41:41 GMT; Max-Age=28800; path=/; httponly"
+                            },
+                            {
+                                "name": "X-Content-Type-Options",
+                                "value": "nosniff"
+                            },
+                            {
+                                "name": "Strict-Transport-Security",
+                                "value": "max-age=31536000; includeSubDomains; preload"
+                            },
+                            {
+                                "name": "X-XSS-Protection",
+                                "value": "1; mode=block"
+                            },
+                            {
+                                "name": "X-Frame-Options",
+                                "value": "SAMEORIGIN"
+                            },
+                            {
+                                "name": "Content-Security-Policy",
+                                "value": "frame-ancestors *.ecdesk-us.org ;"
+                            },
+                            {
+                                "name": "Pragma",
+                                "value": "no-cache"
+                            },
+                            {
+                                "name": "Cache-Control",
+                                "value": "no-cache, must-revalidate, proxy-revalidate"
+                            },
+                            {
+                                "name": "X-Frame-Options",
+                                "value": "ALLOW-FROM js.api.here.com"
+                            },
+                            {
+                                "name": "Content-Security-Policy",
+                                "value": "frame-ancestors js.api.here.com"
+                            },
+                            {
+                                "name": "Feature-Policy",
+                                "value": "geolocation *;midi 'none';sync-xhr *;microphone 'none';camera 'none';magnetometer 'none';gyroscope 'none';fullscreen 'none';payment 'none';"
+                            },
+                            {
+                                "name": "Referrer-Policy",
+                                "value": "no-referrer-when-downgrade"
+                            }
+                        ],
+                        "fragileServer": false
+                    }
+                ],
+                "drownHosts": [],
+                "drownErrors": false,
+                "drownVulnerable": false,
+                "implementsTLS13MandatoryCS": true,
+                "zeroRTTEnabled": 0,
+                "zombiePoodle": 1,
+                "goldenDoodle": 1,
+                "supportsCBC": true,
+                "zeroLengthPaddingOracle": 1,
+                "sleepingPoodle": 1
+            }
+        }
+    ],
+    "certs": [
+        {
+            "id": "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+            "subject": "CN=rmm.ecdesk-us.org",
+            "serialNumber": "04347212d098f353b981493b4feaad1b111f",
+            "commonNames": [
+                "rmm.ecdesk-us.org"
+            ],
+            "altNames": [
+                "rmm.ecdesk-us.org"
+            ],
+            "notBefore": 1670815565000,
+            "notAfter": 1678591564000,
+            "issuerSubject": "CN=R3, O=Let's Encrypt, C=US",
+            "sigAlg": "SHA256withRSA",
+            "revocationInfo": 2,
+            "ocspURIs": [
+                "http://r3.o.lencr.org"
+            ],
+            "revocationStatus": 2,
+            "crlRevocationStatus": 4,
+            "ocspRevocationStatus": 2,
+            "dnsCaa": false,
+            "mustStaple": false,
+            "sgc": 0,
+            "issues": 0,
+            "sct": true,
+            "sha1Hash": "e97e2c642aae9d0bfaef19d90b3d1a9fb75b153f",
+            "sha256Hash": "8e41c5d738b5913477ea08f234c64c65fbae7bc6cac5aeb0b3efbcfd677c4d3d",
+            "pinSha256": "jY76+61YRBRD07cyuOnvRNMVBut2zsdAldeA8vXPP2g=",
+            "keyAlg": "RSA",
+            "keySize": 2048,
+            "keyStrength": 2048,
+            "keyKnownDebianInsecure": false,
+            "raw": "-----BEGIN CERTIFICATE-----\nMIIFJzCCBA+gAwIBAgISBDRyEtCY81O5gUk7T+qtGxEfMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNV\r\nBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMjEyMTIwMzI2\r\nMDVaFw0yMzAzMTIwMzI2MDRaMBwxGjAYBgNVBAMTEXJtbS5lY2Rlc2stdXMub3JnMIIBIjANBgkq\r\nhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA30bUO6HCTrMmNEEP8snpIk6T4XJVKMSdybcaFYRVX++5\r\nHNcBrfzAlwzriU0ucpCPI5a4ZaGU256QCwHzIpkQDm4H0J5O5tNbjw7ock1KoinBPtqKxRW/tLU5\r\nITyiGT7DQOLAK5RNPr8d8hovgzP9ZvYpi1oFH6XszGBCWOUGuOx5M6Vw3eLfjFmwVmBCTafW2zRJ\r\nGFnRTTO7s1gbfBKAFCIwo2Xy3UU1AyMbahIRUSbIdPJlEwuev0AvXVitmweGanz57E3GobM0TvKN\r\nG/PDxMudMcOVasZpafMN7BDVJv4Ig9DTYRlkRS2dGYGpQ78hSB4sN14cshR6LL1PbdrWNQIDAQAB\r\no4ICSzCCAkcwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAM\r\nBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRTwJXX/Du82cWPWYnw53ZP22ZqszAfBgNVHSMEGDAWgBQU\r\nLrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9y\r\nMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzAcBgNVHREE\r\nFTATghFybW0uZWNkZXNrLXVzLm9yZzBMBgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLfEwEB\r\nATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCCAQMGCisGAQQB1nkC\r\nBAIEgfQEgfEA7wB2ALc++yTfnE26dfI5xbpY9Gxd/ELPep81xJ4dCYEl7bSZAAABhQSVNlAAAAQD\r\nAEcwRQIhANxxs5ypXhC/1b472C0757dpxKTYZJYq2mqvm6nUlfdeAiBxvpE3GEyR8bnjUlXowWxi\r\nP9CCg7kA72y3eA0j4TJopgB1AOg+0No+9QY1MudXKLyJa8kD08vREWvs62nhd31tBr1uAAABhQSV\r\nNlgAAAQDAEYwRAIgGhGzOau2bO124x0+gpvGHJFjLuBlEi/Y/cqejYyHaccCIB7RoBQ1dKcVVtTu\r\n8R9Vd2bVzlOZYCgoEbAOOS/bSH4SMA0GCSqGSIb3DQEBCwUAA4IBAQB/YL9DjNjbRgpkjVvJRuq8\r\n4u1e9vUn8+kFHyxsHMnV1qFZdYpa782AbrMbg0rx5BjesZBYF5w2gzb/D1woilf6eXRXNkGluUUO\r\n2hCwoLWJVlc5/+iXQZx3UNq1J6DypiSemwQkAw5Px5PfEbVqJAJCuAoNw8xlK6FMZEMBGnCK23rR\r\n/CPPyqhYwai30Uiq2FJDsZ0g20HfOSeS317Mfnf3Jo6ooUoyAj3s8NllbOF0NpscRNcTyrN5Ntxx\r\nNJMdjDIwpfV6sxvVcB3uWWzXihR+IMd9bdzec/uBnOasBjOPNem+xNlgohge6k4ymKXNaQx4HHYs\r\n+sIF1PpSOasM6vGZ\r\n-----END CERTIFICATE-----\n"
+        },
+        {
+            "id": "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+            "subject": "CN=R3, O=Let's Encrypt, C=US",
+            "serialNumber": "00912b084acf0c18a753f6d62e25a75f5a",
+            "commonNames": [
+                "R3"
+            ],
+            "notBefore": 1599177600000,
+            "notAfter": 1757952000000,
+            "issuerSubject": "CN=ISRG Root X1, O=Internet Security Research Group, C=US",
+            "sigAlg": "SHA256withRSA",
+            "revocationInfo": 1,
+            "crlURIs": [
+                "http://x1.c.lencr.org/"
+            ],
+            "revocationStatus": 2,
+            "crlRevocationStatus": 2,
+            "ocspRevocationStatus": 4,
+            "mustStaple": false,
+            "sgc": 0,
+            "issues": 0,
+            "sct": false,
+            "sha1Hash": "a053375bfe84e8b748782c7cee15827a6af5a405",
+            "sha256Hash": "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+            "pinSha256": "jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0=",
+            "keyAlg": "RSA",
+            "keySize": 2048,
+            "keyStrength": 2048,
+            "keyKnownDebianInsecure": false,
+            "raw": "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAwTzELMAkGA1UE\r\nBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQD\r\nEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAwWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQG\r\nEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEB\r\nAQUAA4IBDwAwggEKAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXI\r\no9cPR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdxsxPnHKzh\r\nm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8ZutmNHz6a4uPVymZ+DAXXbpy\r\nb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxgZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3\r\nP51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIB\r\nBDAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB\r\n/wQIMAYBAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaAFHm0\r\nWeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gx\r\nLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5vcmcvMCIG\r\nA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQBgt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5H\r\nPqP3hUSFvNVneLKYY611TR6WPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8\r\nkc607TkC53wlikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\r\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BImlJNXoB1lBMEK\r\nIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4avAuvDszue5L3sz85K+EC4Y/\r\nwFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4\r\njnkDrQoxB3UqQ9hVl3LEKQ73xF1OyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJo\r\ni5Lc5da149p90IdshCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxP\r\nFin+HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6ZvMldlTTKB\r\n3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqXnLRbwHOoq7hHwg==\r\n-----END CERTIFICATE-----\n"
+        },
+        {
+            "id": "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+            "subject": "CN=ISRG Root X1, O=Internet Security Research Group, C=US",
+            "serialNumber": "4001772137d4e942b8ee76aa3c640ab7",
+            "commonNames": [
+                "ISRG Root X1"
+            ],
+            "notBefore": 1611170043000,
+            "notAfter": 1727720043000,
+            "issuerSubject": "CN=DST Root CA X3, O=Digital Signature Trust Co.",
+            "sigAlg": "SHA256withRSA",
+            "revocationInfo": 1,
+            "crlURIs": [
+                "http://crl.identrust.com/DSTROOTCAX3CRL.crl"
+            ],
+            "revocationStatus": 2,
+            "crlRevocationStatus": 2,
+            "ocspRevocationStatus": 4,
+            "mustStaple": false,
+            "sgc": 0,
+            "issues": 0,
+            "sct": false,
+            "sha1Hash": "933c6ddee95c9c41a40f9f50493d82be03ad87bf",
+            "sha256Hash": "6d99fb265eb1c5b3744765fcbc648f3cd8e1bffafdc4c2f99b9d47cf7ff1c24f",
+            "pinSha256": "C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M=",
+            "keyAlg": "RSA",
+            "keySize": 4096,
+            "keyStrength": 4096,
+            "keyKnownDebianInsecure": false,
+            "raw": "-----BEGIN CERTIFICATE-----\nMIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/MSQwIgYDVQQK\r\nExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMTDkRTVCBSb290IENBIFgzMB4X\r\nDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1owTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIElu\r\ndGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIi\r\nMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B4\r\n93XCov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpLwYqGcWlK\r\nZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+DLtFJV4yAdLbaL9A4jXsD\r\ncCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/\r\niaNhUd6shweU9GNx7C7ib1uYgeGJXDR5bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeY\r\njzYIlefiN5YNNnWe+w5ysR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHdu\r\nRze6zqxZXmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4FQsD\r\nj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBcSLeCO5imfWCKoqMp\r\ngsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2qlPRmP6zjzZN7IKw0KKP/32+IVQtQi\r\n0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TNDTwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB\r\n/zAOBgNVHQ8BAf8EBAMCAQYwSwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBw\r\ncy5pZGVudHJ1c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx\r\n+tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEBATAwMC4GCCsG\r\nAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQub3JnMDwGA1UdHwQ1MDMwMaAv\r\noC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9EU1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYE\r\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oG\r\nrS+o44+/yQoDFVDC5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMr\r\nAdSW9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuGWCLKTVXk\r\ncGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9Ohe8Y4IWS6wY7bCkjCWDc\r\nRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFCDfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr\r\n6GtPAQw4dy753ec5\r\n-----END CERTIFICATE-----\n"
+        },
+        {
+            "id": "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6",
+            "subject": "CN=ISRG Root X1, O=Internet Security Research Group, C=US",
+            "serialNumber": "008210cfb0d240e3594463e0bb63828b00",
+            "commonNames": [
+                "ISRG Root X1"
+            ],
+            "notBefore": 1433415878000,
+            "notAfter": 2064567878000,
+            "issuerSubject": "CN=ISRG Root X1, O=Internet Security Research Group, C=US",
+            "sigAlg": "SHA256withRSA",
+            "revocationInfo": 0,
+            "revocationStatus": 0,
+            "crlRevocationStatus": 0,
+            "ocspRevocationStatus": 0,
+            "mustStaple": false,
+            "sgc": 0,
+            "issues": 0,
+            "sct": false,
+            "sha1Hash": "cabd2a79a1076a31f21d253635cb039d4329a5e8",
+            "sha256Hash": "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6",
+            "pinSha256": "C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M=",
+            "keyAlg": "RSA",
+            "keySize": 4096,
+            "keyStrength": 4096,
+            "keyKnownDebianInsecure": false,
+            "raw": "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UE\r\nBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQD\r\nEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4WhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQG\r\nEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMT\r\nDElTUkcgUm9vdCBYMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54r\r\nVygch77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+0TM8ukj1\r\n3Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6UA5/TR5d8mUgjU+g4rk8K\r\nb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sWT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCN\r\nAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyHB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ\r\n4Q7e2RCOFvu396j3x+UCB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf\r\n1b0SHzUvKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWnOlFu\r\nhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTnjh8BCNAw1FtxNrQH\r\nusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbwqHyGO0aoSCqI3Haadr8faqU9GY/r\r\nOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CIrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4G\r\nA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY\r\n9umbbjANBgkqhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\r\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ3BebYhtF8GaV\r\n0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KKNFtY2PwByVS5uCbMiogziUwt\r\nhDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5ORAzI4JMPJ+GslWYHb4phowim57iaztXOoJw\r\nTdwJx4nLCgdNbOhdjsnvzqvHu7UrTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nx\r\ne5AW0wdeRlN8NwdCjNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZA\r\nJzVcoyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq4RgqsahD\r\nYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPAmRGunUHBcnWEvgJBQl9n\r\nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57demyPxgcYxn/eR44/KJ4EBs+lVDR3veyJ\r\nm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\r\n-----END CERTIFICATE-----\n"
+        },
+        {
+            "id": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739",
+            "subject": "CN=DST Root CA X3, O=Digital Signature Trust Co.",
+            "serialNumber": "44afb080d6a327ba893039862ef8406b",
+            "commonNames": [
+                "DST Root CA X3"
+            ],
+            "notBefore": 970348339000,
+            "notAfter": 1633010475000,
+            "issuerSubject": "CN=DST Root CA X3, O=Digital Signature Trust Co.",
+            "sigAlg": "SHA1withRSA",
+            "revocationInfo": 0,
+            "revocationStatus": 0,
+            "crlRevocationStatus": 0,
+            "ocspRevocationStatus": 0,
+            "mustStaple": false,
+            "sgc": 0,
+            "issues": 260,
+            "sct": false,
+            "sha1Hash": "dac9024f54d8f6df94935fb1732638ca6ad77c13",
+            "sha256Hash": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739",
+            "pinSha256": "Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=",
+            "keyAlg": "RSA",
+            "keySize": 2048,
+            "keyStrength": 2048,
+            "keyKnownDebianInsecure": false,
+            "raw": "-----BEGIN CERTIFICATE-----\nMIIDSjCCAjKgAwIBAgIQRK+wgNajJ7qJMDmGLvhAazANBgkqhkiG9w0BAQUFADA/MSQwIgYDVQQK\r\nExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMTDkRTVCBSb290IENBIFgzMB4X\r\nDTAwMDkzMDIxMTIxOVoXDTIxMDkzMDE0MDExNVowPzEkMCIGA1UEChMbRGlnaXRhbCBTaWduYXR1\r\ncmUgVHJ1c3QgQ28uMRcwFQYDVQQDEw5EU1QgUm9vdCBDQSBYMzCCASIwDQYJKoZIhvcNAQEBBQAD\r\nggEPADCCAQoCggEBAN+v6ZdQCINXtMxiZfaQguzH0yxrMMpb7NnDfcdAwRgUi+DoM3ZJKuM/IUmT\r\nrE4Orz5Iy2Xu/NMhD2XSKtkyj4zl93ewEnu1lcCJo6m67XMuegwGMoOifooUMM0RoOEqOLl5CjH9\r\nUL2AZd+3UWODyOKIYepLYYHsUmu5ouJLGiifSKOeDNoJjj4XLh7dIN9bxiqKqy69cK3FCxolkHRy\r\nxXtqqzTWMIn/5WgTe1QLyNau7Fqckh49ZLOMxt+/yUFw7BZy1SbsOFU5Q9D8/RhcQPGX69Wam40d\r\nutolucbY38EVAjqr2m7xPi71XAicPNaDaeQQmxkqtilX4+U9m5/wAl0CAwEAAaNCMEAwDwYDVR0T\r\nAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFMSnsaR7LHH62+FLkHX/xBVghYkQ\r\nMA0GCSqGSIb3DQEBBQUAA4IBAQCjGiybFwBcqR7uKGY3Or+Dxz9LwwmglSBd49lZRNI+DT69ikug\r\ndB/OEIKcdBodfpga3csTS7MgROSR6cz8faXbauX+5v3gTt23ADq1cEmv8uXrAvHRAosZy5Q6XkjE\r\nGB5YGV8eAlrwDPGxrancWYaLbumR9YbK+rlmM6pZW87ipxZzR8srzJmwN0jP41ZL9c8PDHIyh8bw\r\nRLtTcm1D9SZImlJnt1ir/md2cXjbDaJWFBM5JDGFoqgCWjBH4d1QB7wCCZAA62RjYJsWvIjJEubS\r\nfZGL+T0yjWW06XyxV3bqxbYoOb8VZRzI9neWagqNdwvYkQsEjgfbKbYK7p2CNTUQ\r\n-----END CERTIFICATE-----\n"
+        },
+        {
+            "id": "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+            "subject": "CN=ecdesk-us.org",
+            "serialNumber": "04402e33e389b603e7b086c0f122e5ea321e",
+            "commonNames": [
+                "ecdesk-us.org"
+            ],
+            "altNames": [
+                "ecdesk-us.org"
+            ],
+            "notBefore": 1660544572000,
+            "notAfter": 1668320571000,
+            "issuerSubject": "CN=R3, O=Let's Encrypt, C=US",
+            "sigAlg": "SHA256withRSA",
+            "revocationInfo": 2,
+            "ocspURIs": [
+                "http://r3.o.lencr.org"
+            ],
+            "revocationStatus": 0,
+            "crlRevocationStatus": 0,
+            "ocspRevocationStatus": 0,
+            "mustStaple": false,
+            "sgc": 0,
+            "issues": 12,
+            "sct": true,
+            "sha1Hash": "4f4ae9ad125112861c0f4a39a8b49530d6e46852",
+            "sha256Hash": "be7aea69028caff77c2171c9ec1a56f04cb71aeeddd63d5bc49dc40f45c6bfd8",
+            "pinSha256": "IYZn4uvovyvWpYZqK9XV7SX4uYWAWZg7Y7mnq0i/50M=",
+            "keyAlg": "RSA",
+            "keySize": 2048,
+            "keyStrength": 2048,
+            "keyKnownDebianInsecure": false,
+            "raw": "-----BEGIN CERTIFICATE-----\nMIIFIDCCBAigAwIBAgISBEAuM+OJtgPnsIbA8SLl6jIeMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNV\r\nBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMjA4MTUwNjIy\r\nNTJaFw0yMjExMTMwNjIyNTFaMBgxFjAUBgNVBAMTDWVjZGVzay11cy5vcmcwggEiMA0GCSqGSIb3\r\nDQEBAQUAA4IBDwAwggEKAoIBAQDFFOHH3SbEI+r4LvUB+6qGFuaoQ4gBvRRsi+2FQ5038+MP5X0y\r\nsP1xg0WNopKypmvhFan1w2AQgsLXQj1PHoNoOHzPYG7ZrOXVWNTU5DyPwvVISMRaiGjiJQl/lGIP\r\nLhUPSMyNSlWGdz3GsKC4zOMot48QDqbB8fdIG/PltWNOQxMiRLu8Lz7xwZd0/Sbp5TglTdYFOH/M\r\nDdZ28YvM2UePK8eSNgNdFwe9mHBWKyDFryddV2qEucit7FYTuJiRJQEegkH4SQfSoSeOHfwATsd4\r\nhpefXpNB01pFRpGcmPoNdzJOuCGr/tyMnDAq8ThZ4JEzLs9f2CGykyt5KUQZZbG1AgMBAAGjggJI\r\nMIICRDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1Ud\r\nEwEB/wQCMAAwHQYDVR0OBBYEFN04Ngfe3cDZIldEhyQw0sNi4CeFMB8GA1UdIwQYMBaAFBQusxe3\r\nWFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8u\r\nbGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvMBgGA1UdEQQRMA+C\r\nDWVjZGVzay11cy5vcmcwTAYDVR0gBEUwQzAIBgZngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAmBggr\r\nBgEFBQcCARYaaHR0cDovL2Nwcy5sZXRzZW5jcnlwdC5vcmcwggEEBgorBgEEAdZ5AgQCBIH1BIHy\r\nAPAAdgBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAYKgYkoEAAAEAwBHMEUCIEc1\r\nRpUayos9SzvlJpj57ExNwbktl+wh8ABFwXpvVYB4AiEAluq7zRANPDHwLxaf0R87729OI4YdUcrD\r\nJb/wmGzS2HcAdgBvU3asMfAxGdiZAKRRFf93FRwR2QLBACkGjbIImjfZEwAAAYKgYkqRAAAEAwBH\r\nMEUCIQDFJsAMT3xlPfYN4ZnYNx2b/v1FdC9/4qqNGVxepBJaGwIgX/HBh4ntniLqDoIG5oRU89kk\r\n9FPjPODc+r0eSbwW8vIwDQYJKoZIhvcNAQELBQADggEBAE34akgkPukpTcM9Dgx8Zl8GSCWO8bda\r\nbNZnLXvqS7zVLItVLLvXqIqvBpAjvtSf0RYZ36mrnGR+zFLn7etYEkbAfdUCjjwviAH7RvwOUT5Y\r\nUARMu3EbyQ78GrHHFbbdpm/Y1S0pj7fT4h+z4paS7ttNERQLpSlVJ+ydDqBc5V96xUuO6i0yW/JI\r\nW4KCf9GtXTJKynxQI4GUReMF5R9VBb5gECDJo31/P02xn/h1oFlb+ARDRJm9wul4Zm1orbBSo7+m\r\n6eiEWY2R4tmYFxs2nT1VKutBQHWMjizoYzGt0AuZcvLPL5rOKkqkQ3mxwu1Y1TBwF34cZPGfdm8h\r\ng+ovofA=\r\n-----END CERTIFICATE-----\n"
+        }
+    ]
+}

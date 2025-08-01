@@ -1,0 +1,579 @@
+{
+    "system": "ios",
+    "lang": "zh-tw",
+    "rule": {
+        "lab_ID": {
+            "title": "Test name",
+            "mas": "\u5de5\u696d\u5c40\u7de8\u865f",
+            "mast": "\u5de5\u696d\u5c40\u5206\u985e",
+            "real_mstg": "MSTG",
+            "platform": "Platform",
+            "owasp_mobile": "OWASP Mobile Top10 (2016)",
+            "level": "Level",
+            "cve": "CVE",
+            "desc": "Desc"
+        },
+        "lab_1": {
+            "title": "SSL connection check",
+            "mas": "4.1.2.4.1|4.1.2.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE 4|MSTG-NETWORK-1|MSTG-NETWORK-2",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "URL with http found, please check if this URL need to be protected with SSL or not ,Keyword: NSURL with http / NSURL startswith(http://)"
+        },
+        "lab_2": {
+            "title": "Make use of security method",
+            "mas": "4.1.2.3.6",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-14|\nMSTG CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Cipher function found. Ensure no weak cipher function used in this application. Message digest function found. Ensure no weak message degist function used in this application. Signature function found. Ensure no weak signature function used in this application. MAC function found. Ensure no weak MAC function used in this application."
+        },
+        "lab_3": {
+            "title": "Make use of security class",
+            "mas": "4.1.2.3.6",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-14|\nMSTG CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Cipher function found. Ensure no weak cipher function used in this application. Message digest function found. Ensure no weak message degist function used in this application. Signature function found. Ensure no weak signature function used in this application. MAC function found. Ensure no weak MAC function used in this application."
+        },
+        "lab_4": {
+            "title": "Master Key Vulnerability checking",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-CRYPTO-2|MSTG-CRYPTO-4",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "CVE-2013-4787",
+            "desc": ""
+        },
+        "lab_5": {
+            "title": "Network access",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "MSTG-NETWORK-3",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_6": {
+            "title": "Make use of SQLite deprecated functions ",
+            "mas": "4.1.5.3.1",
+            "mast": "",
+            "real_mstg": "MSTG-NETWORK-6|MSTG-CODE-5",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "sqlite3_aggregate_count',\n\t'sqlite3_expired',\n\t'sqlite3_global_recover',\n\t'sqlite3_memory_alarm',\n\t'sqlite3_soft_heap_limit',\n\t'sqlite3_thread_cleanup',\n\t'sqlite3_transfer_bindings' These functions are deprecated. In order to maintain backwards compatibility with older code, these functions continue to be supported. However, new applications should avoid the use of these functions. Keyword: libsqlite3.dylib"
+        },
+        "lab_7": {
+            "title": "List all native method",
+            "mas": "4.2.2.1.2",
+            "mast": "",
+            "real_mstg": "MSTG-PLATFORM-6",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_8": {
+            "title": "Clipboard manipulation check",
+            "mas": "4.1.2.3.13",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-7",
+            "platform": "Universal",
+            "owasp_mobile": "M4",
+            "level": "",
+            "cve": "",
+            "desc": "Any app on an iOS device can access the most recent thing copied to your clipboard.Theoretically, a malicious app can read what\u2019s on your iOS clipboard and then feed that information back to a remote server. That remote server can be easily accessed by someone stealing your personal and sensitive information. Keyword: Foundation, copy: ,cut: ,paste:"
+        },
+        "lab_9": {
+            "title": "Make use of SMS related code",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "M3",
+            "level": "",
+            "cve": "",
+            "desc": "This application sends SMS message. One of the most common vulnerabilities of SMS verification codes is weak security protocols. Many SMS verification codes are sent over unencrypted channels, making them vulnerable to interception.Make sure it do this action with user permission. Keyword: MFMessageComposeViewController,canSendText"
+        },
+        "lab_10": {
+            "title": "Certificate check",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3|MSTG-NETWORK-4",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "Check the SSL Certificate information.We use SSLlab to check your cert,more information https://www.ssllabs.com/ssltest/ Keyword: NSURL startswith https://"
+        },
+        "lab_11": {
+            "title": "Base64 String decoding",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "MSTG-CRYPTO-1|MSTG-CRYPTO-2|MSTG-CRYPTO-3",
+            "platform": "Universal",
+            "owasp_mobile": " M3",
+            "level": "NOTICE",
+            "cve": "CVE-2015-3200",
+            "desc": "Base64-encoded or base64-decoded string found Applications may Base64-encode parameters to conceal them from users or to ease the transfer of binary data. The existence of Base64-encoded data might suggest security-sensitive information or functionality that should be investigated further. Keyword: Base64"
+        },
+        "lab_12": {
+            "title": "Make use of javascript in webview",
+            "mas": "4.2.2.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-ARCH-2|MSTG-NETWORK-4|MSTG-PLATFORM-5|MSTG-PLATFORM-6|MSTG-PLATFORM-7",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "WARNING",
+            "cve": "CVE-2013-4710",
+            "desc": "Webview JavaScript Enabled, the webview use setJavaScriptEnabled to allow javascript. It is potentially dangerous because it may allow the external website to do XSS attack in the webview. Keyword: UIWebView - stringByEvaluationgJavaScriptFromString in webview"
+        },
+        "lab_13": {
+            "title": "Screenshot detection",
+            "mas": "4.1.2.3.9",
+            "mast": "\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-12",
+            "platform": "Universal",
+            "owasp_mobile": "M10",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "This application allows users to take screenshots.Please check screenshots function and turn it off. Keyword:UIApplication - _handleScreenshot to detect screenshot"
+        },
+        "lab_14": {
+            "title": "HTTPS ALLOW_ALL_HOSTNAME_VERIFIER check",
+            "mas": "4.1.4.2.3|4.1.4.2.4|4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3",
+            "platform": "Universal",
+            "owasp_mobile": "M5",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "This application use ALLOW_ALL_HOSTNAME_VERIFIER to verify all the CN. It is dangerous and may cause man-in-the-middle attack."
+        },
+        "lab_15": {
+            "title": "SSL Certificate check",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-CODE-5|MSTG-PLATFORM-8|MSTG-PLATFORM-9",
+            "platform": "Universal",
+            "owasp_mobile": "M5",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Check the SSL Certificate information."
+        },
+        "lab_16": {
+            "title": "Potential XSS in webview",
+            "mas": "4.1.5.4.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-PLATFORM-2",
+            "platform": "Universal",
+            "owasp_mobile": " ",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_17": {
+            "title": "Use SQLite database",
+            "mas": "4.1.5.1.1",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-1|MSTG-STORAGE-2",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": " CVE-2011-3901",
+            "desc": ""
+        },
+        "lab_18": {
+            "title": "WebView setAllowFileAccess",
+            "mas": "4.1.2.3.7|4.1.2.5.3",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE 4|MSTG-PLATFORM-3|MSTG-PLATFORM-4",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "Allow local file access with webview. Please ensure your code not to allow path traversal."
+        },
+        "lab_19": {
+            "title": "SSL Verification Fail",
+            "mas": "4.1.4.2.2|4.1.4.2.3",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3|MSTG-NETWORK-4",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "NOTICE",
+            "cve": " CVE-2015-1816",
+            "desc": "Check the SSL Certificate information."
+        },
+        "lab_20": {
+            "title": "Possible hardcoded information",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "The use of a hard-coded password increases the possibility of password guessing tremendously. Keyword: CCCrypt, CCAlgorithm"
+        },
+        "lab_21": {
+            "title": "USE URL",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "URL found during analysis, check if there are some suspisious URL. Keyword:Use URL schemes with"
+        },
+        "lab_22": {
+            "title": "ENCRYPTION_AES/DES/MD5 Cipher&Degist Method found",
+            "mas": "4.1.2.3.6",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-14|MSTG-CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": " ",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_23": {
+            "title": "Keychain dump",
+            "mas": "4.1.2.3.10",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-1|MSTG-STORAGE-2",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "While it can improve the efficiency and availability of the application, it also carries risks. To protect the security of sensitive user information, a better approach is to store the keychain in iOS's secure storage areas, such as the Secure Enclave or iCloud Keychain. Keyword:PrivateFrameworks"
+        },
+        "lab_24": {
+            "title": "Make use of log function",
+            "mas": "4.1.2.3.4|4.1.2.3.5",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-3|MSTG-STORAGE-13",
+            "platform": "Universal",
+            "owasp_mobile": "M10",
+            "level": "",
+            "cve": "",
+            "desc": "Log function in this application, you should notice is there sensitive information in these logs. Keyword: Foundation, NSLog"
+        },
+        "lab_25": {
+            "title": "Keyboard cache",
+            "mas": "4.1.2.3.11",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-5|MSTG-PLATFORM-11",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "Notice",
+            "cve": "",
+            "desc": "Because the keyboard cache file is stored on the device, if the device is lost, it may be recovered, thereby revealing any sensitive information contained within. Check the keyboard cache ability open or not. Keyword: libSystem.B.dylib, Caches"
+        },
+        "lab_26": {
+            "title": "Official store release",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        }
+    },
+    "result": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "timestamp": "Mon, 01 May 2023 01:16:44 GMT",
+        "app_name": "",
+        "app_version": "",
+        "average_cvss": 0,
+        "build": "",
+        "bundle_id": "jp.co.rakuten-bank.sapp.rbapp",
+        "file_name": "",
+        "mast_report": {
+            "lab_0": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_1": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "NSURL with HTTPs https://secure.rat.rakuten.co.jp/\nNSURL with HTTPs https://secure.rat.rakuten.co.jp/\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_2": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_3": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_4": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_5": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_6": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_7": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_8": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_9": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_10": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "{\"valid\": True, \"detail\": {\"url\": \"https://secure.rat.rakuten.co.jp/\", \"issuer\": <Name(C=US,O=DigiCert Inc,CN=DigiCert TLS RSA SHA256 2020 CA1)>, \"not valid after\": \"2024-02-25 23:59:59\", \"not valid before\": \"2023-01-25 00:00:00\", \"serial number\": 6276309922644787417747011289068427708, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=JP,ST=Tokyo,L=Setagaya-ku,O=Rakuten Group\\, Inc.,CN=secure.rat.rakuten.co.jp)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://secure.rat.rakuten.co.jp/\", \"issuer\": <Name(C=US,O=DigiCert Inc,CN=DigiCert TLS RSA SHA256 2020 CA1)>, \"not valid after\": \"2024-02-25 23:59:59\", \"not valid before\": \"2023-01-25 00:00:00\", \"serial number\": 6276309922644787417747011289068427708, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=JP,ST=Tokyo,L=Setagaya-ku,O=Rakuten Group\\, Inc.,CN=secure.rat.rakuten.co.jp)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_11": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_12": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_13": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_14": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_15": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_16": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_17": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_18": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_19": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_20": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_21": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "Use URL schemes with rakutenbank://\nUse URL schemes with rakutenbanklink://\nUse URL schemes with rakutenbankfxlogin://\nUse URL schemes with fb794286367267908://\nUse URL schemes with vb1017://\nUse URL schemes with rakutenbankbillsplit://\nUse URL schemes with rakutenbankapplylogin://\nUse URL schemes with rakutenbankrpaylogin://\nUse URL schemes with rakutenbankcustomersetup://\nUse URL schemes with rakutenbanklogpassreissue://\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_22": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "Use CC_MD5 with [\"67975943-7FE3-4A90-ADD9-B958C93CC972\", \"36\", \"\"]\nUse CC_MD5 with [\"0x99e7ba080e1a0108\", \"361\", \"\"]\nUse CC_MD5 with [\"67975943-7FE3-4A90-ADD9-B958C93CC972\\x01\", \"36\", \"\"]\nUse CC_MD5 with [\"67975943-7FE3-4A90-ADD9-B958C93CC972\\x02\", \"36\", \"\"]\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_23": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_24": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_25": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "{}",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            }
+        },
+        "min_os_version": "",
+        "sdk_name": "iphoneos13.3.1",
+        "url_list": ""
+    }
+}

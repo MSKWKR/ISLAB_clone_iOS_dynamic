@@ -1,0 +1,217 @@
+{"time":"2024-4-17 0:25:55:83","lib":"Infoplist","func":"CFBundleURLTypes","args":"bendigobank://"}
+{"time":"2024-4-17 0:25:55:790","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:25:56:528","lib":"libboringssl.dylib","func":"SSL_CTX_set_custom_verify","args":["0x2023f2a90","3","0xa9086ffcd10383ff"]}
+{"time":"2024-4-17 0:25:56:542","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:25:56:582","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:25:56:777","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:25:56:970","lib":"libboringssl.dylib","func":"SSL_get_psk_identity","args":["0x2023f2a90"]}
+{"time":"2024-4-17 0:25:57:289","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:25:57:470","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0xb01a20c6f8939","addObserver:selector:name:object:","0x1a20c725cc9","_accessibilityForceSensitivityChanged:","0x20a2b0fd8",null]}
+{"time":"2024-4-17 0:25:57:482","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:25:57:700","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0xb01a20c6f8939","addObserver:selector:name:object:","0x1a20c725cc9","_accessibilityForceSensitivityChanged:","0x20a2b0fd8",null]}
+{"time":"2024-4-17 0:25:57:807","lib":"libcommonCrypto.dylib","func":"CC_MD5","args":["MGCopyAnswerUserAssignedDeviceName","34","0x1707ca360"]}
+{"time":"2024-4-17 0:25:57:824","lib":"Foundation","func":"NSClassFromString","args":["UIButton"]}
+{"time":"2024-4-17 0:25:57:829","lib":"Foundation","func":"NSClassFromString","args":["_UIButtonBarButton"]}
+{"time":"2024-4-17 0:25:57:830","lib":"Foundation","func":"NSClassFromString","args":["UITabBarButton"]}
+{"time":"2024-4-17 0:25:57:830","lib":"Foundation","func":"NSClassFromString","args":["UIToolbarButton"]}
+{"time":"2024-4-17 0:25:57:831","lib":"Foundation","func":"NSClassFromString","args":["UITableViewCellDetailDisclosureView"]}
+{"time":"2024-4-17 0:25:57:831","lib":"Foundation","func":"NSClassFromString","args":["UITableViewCellEditControl"]}
+{"time":"2024-4-17 0:25:57:832","lib":"Foundation","func":"NSClassFromString","args":["UIPrinterSetupPINView"]}
+{"time":"2024-4-17 0:25:57:832","lib":"Foundation","func":"NSClassFromString","args":["UITableViewCellReorderControl"]}
+{"time":"2024-4-17 0:25:57:833","lib":"Foundation","func":"NSClassFromString","args":["UITableViewCellReorderControl"]}
+{"time":"2024-4-17 0:25:57:834","lib":"Foundation","func":"NSClassFromString","args":["_UIActionSlider"]}
+{"time":"2024-4-17 0:25:57:834","lib":"Foundation","func":"NSClassFromString","args":["UIStepper"]}
+{"time":"2024-4-17 0:25:57:835","lib":"Foundation","func":"NSClassFromString","args":["UIPageControl"]}
+{"time":"2024-4-17 0:25:57:835","lib":"Foundation","func":"NSClassFromString","args":["UITableViewIndex"]}
+{"time":"2024-4-17 0:25:57:836","lib":"Foundation","func":"NSClassFromString","args":["UIPickerView"]}
+{"time":"2024-4-17 0:25:57:837","lib":"Foundation","func":"NSClassFromString","args":["UISwitch"]}
+{"time":"2024-4-17 0:25:57:837","lib":"Foundation","func":"NSClassFromString","args":["UISegmentedControl"]}
+{"time":"2024-4-17 0:25:57:838","lib":"Foundation","func":"NSClassFromString","args":["UISlider"]}
+{"time":"2024-4-17 0:25:57:838","lib":"Foundation","func":"NSClassFromString","args":["UIMovieScrubber"]}
+{"time":"2024-4-17 0:25:58:59","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:25:58:94","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0xb01a20c6f8939","addObserver:selector:name:object:","0x1a20c722cad","didReceiveMemoryWarning:","0x20a2b0fd8","0x45a20c726cbf"]}
+{"time":"2024-4-17 0:25:58:232","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/0BBABE75-FB76-44BD-BFB5-826A7CBE10C3/BBL.app/LogIn.storyboardc/Zf1-tb-0VN-view-kCX-lj-rN3.nib","0x0"]}
+{"time":"2024-4-17 0:25:58:296","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:297","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:297","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:297","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:298","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:299","lib":"Foundation","func":"NSSelectorFromString","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:299","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:300","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:300","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:300","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:301","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:301","lib":"Foundation","func":"NSSelectorFromString","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:302","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:302","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:303","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:303","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:304","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:304","lib":"Foundation","func":"NSSelectorFromString","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:305","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:305","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:305","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:306","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:309","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:309","lib":"Foundation","func":"NSSelectorFromString","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:310","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:328","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:329","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:330","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:330","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:331","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:331","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:332","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:332","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:332","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:333","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:333","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:334","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:334","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:334","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:335","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:335","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:336","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:336","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:337","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:337","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:337","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:338","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:338","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:25:58:338","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:339","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:339","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:340","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:340","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:341","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:341","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:342","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:342","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:342","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:343","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:343","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:343","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:344","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:344","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:345","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0xb01a20c6f8939","addObserver:selector:name:object:","0x5a20c72991f","_languageChanged","0x20a2b0fd8","0x45a20c726cbf"]}
+{"time":"2024-4-17 0:25:58:346","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0xb01a20c6f8939","addObserver:selector:name:object:","0x5a20c72991f","_darkenedSystemColorsChanged","0x20a2b0fd8",null]}
+{"time":"2024-4-17 0:25:58:346","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:347","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:347","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:347","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:25:58:347","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:348","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:348","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0xb21a20c6f8939","addObserver:selector:name:object:","0x5a20c72991f","_purgeReuseQueues","0x20a2b0fd8",null]}
+{"time":"2024-4-17 0:25:58:349","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorStyle:"]}
+{"time":"2024-4-17 0:25:58:349","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:370","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/lib/apt"]}
+{"time":"2024-4-17 0:25:58:405","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:750","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:58:857","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/Cydia.app/"]}
+{"time":"2024-4-17 0:25:59:245","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:25:59:963","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/blackra1n.app"]}
+{"time":"2024-4-17 0:26:0:388","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:26:1:309","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/FakeCarrier.app"]}
+{"time":"2024-4-17 0:26:1:488","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:1:895","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:26:2:480","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:2:873","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/Icy.app"]}
+{"time":"2024-4-17 0:26:3:108","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:26:4:54","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/IntelliScreen.app"]}
+{"time":"2024-4-17 0:26:4:154","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:26:5:303","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundColor:"]}
+{"time":"2024-4-17 0:26:5:450","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:5:670","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/MxTube.app"]}
+{"time":"2024-4-17 0:26:6:509","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:26:7:248","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/RockApp.app"]}
+{"time":"2024-4-17 0:26:7:594","lib":"Foundation","func":"NSLog","args":["XPC connection interrupted"]}
+{"time":"2024-4-17 0:26:7:976","lib":"NSNotificationCenter","func":"- addObserver:selector:name:object:","args":["0xb01a20c6f8939","addObserver:selector:name:object:","0x1a20c722cad","didReceiveMemoryWarning:","0x20a2b0fd8","0x45a20c726cbf"]}
+{"time":"2024-4-17 0:26:8:371","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/SBSettings.app"]}
+{"time":"2024-4-17 0:26:8:908","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2024-4-17 0:26:9:680","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:9:715","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["file:///Applications/WinterBoard.app"]}
+{"time":"2024-4-17 0:26:10:2","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2024-4-17 0:26:10:959","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2024-4-17 0:26:11:133","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:11:198","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/Library/MobileSubstrate/DynamicLibraries/LiveClock.plist"]}
+{"time":"2024-4-17 0:26:12:32","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2024-4-17 0:26:12:901","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:26:12:939","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/Library/MobileSubstrate/DynamicLibraries/Veency.plist"]}
+{"time":"2024-4-17 0:26:13:78","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2024-4-17 0:26:13:744","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:14:138","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneClientSettings"]}
+{"time":"2024-4-17 0:26:14:320","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/lib/apt"]}
+{"time":"2024-4-17 0:26:14:925","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:15:730","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2024-4-17 0:26:15:906","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/lib/cydia"]}
+{"time":"2024-4-17 0:26:16:635","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:26:17:56","lib":"Foundation","func":"NSClassFromString","args":["NSString"]}
+{"time":"2024-4-17 0:26:17:232","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/mobile/Library/SBSettings/Themes"]}
+{"time":"2024-4-17 0:26:18:101","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventDeferringEnvironment"]}
+{"time":"2024-4-17 0:26:18:278","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/lib/stash"]}
+{"time":"2024-4-17 0:26:19:148","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventDeferringToken"]}
+{"time":"2024-4-17 0:26:19:324","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/private/var/tmp/cydia.log"]}
+{"time":"2024-4-17 0:26:20:210","lib":"Foundation","func":"NSClassFromString","args":["NSSet"]}
+{"time":"2024-4-17 0:26:20:389","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/LaunchDaemons/com.ikey.bbot.plist"]}
+{"time":"2024-4-17 0:26:21:401","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:21:657","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2024-4-17 0:26:21:902","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/System/Library/LaunchDaemons/com.saurik.Cydia.Startup.plist"]}
+{"time":"2024-4-17 0:26:22:906","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2024-4-17 0:26:23:265","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:26:23:621","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/user/bin/sshd"]}
+{"time":"2024-4-17 0:26:24:57","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommand"]}
+{"time":"2024-4-17 0:26:24:815","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/user/libexec/sftp-server"]}
+{"time":"2024-4-17 0:26:25:21","lib":"Foundation","func":"NSClassFromString","args":["BKSHIDEventKeyCommandsRegistration"]}
+{"time":"2024-4-17 0:26:25:934","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/user/sbin/sshd"]}
+{"time":"2024-4-17 0:26:26:58","lib":"Foundation","func":"NSStringFromSelector","args":["setBackgroundColor:"]}
+{"time":"2024-4-17 0:26:27:37","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/etc/apt"]}
+{"time":"2024-4-17 0:26:27:66","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:26:28:51","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:28:320","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/bin/bash"]}
+{"time":"2024-4-17 0:26:28:416","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:26:29:315","lib":"NSFileManager","func":"- fileExistsAtPath:","args":["/Library/MobileSubstrate/MobileSubstrate.dylib"]}
+{"time":"2024-4-17 0:26:29:517","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:26:29:832","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:30:568","lib":"Foundation","func":"NSSelectorFromString","args":["sceneID:updateWithSettingsDiff:transitionContext:completion:"]}
+{"time":"2024-4-17 0:26:30:981","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:26:31:431","lib":"Foundation","func":"NSStringFromSelector","args":["sceneID:updateWithSettingsDiff:transitionContext:completion:"]}
+{"time":"2024-4-17 0:26:31:467","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:26:32:232","lib":"Foundation","func":"NSClassFromString","args":["BSXPCServiceConnectionMessage"]}
+{"time":"2024-4-17 0:26:32:603","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:26:32:947","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneSettingsDiff"]}
+{"time":"2024-4-17 0:26:33:87","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:26:33:651","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneSettingsDiff"]}
+{"time":"2024-4-17 0:26:33:951","lib":"Foundation","func":"NSClassFromString","args":["BSMutableSettings"]}
+{"time":"2024-4-17 0:26:34:220","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:26:34:255","lib":"Foundation","func":"NSClassFromString","args":["BSSettingsDiff"]}
+{"time":"2024-4-17 0:26:34:263","lib":"Foundation","func":"NSClassFromString","args":["BSMutableSettings"]}
+{"time":"2024-4-17 0:26:34:703","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:26:34:878","lib":"Foundation","func":"NSClassFromString","args":["UIApplicationSceneSettings"]}
+{"time":"2024-4-17 0:26:35:575","lib":"Foundation","func":"NSClassFromString","args":["UIApplicationSceneTransitionContext"]}
+{"time":"2024-4-17 0:26:35:847","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:26:36:292","lib":"Foundation","func":"NSClassFromString","args":["UIApplicationSceneTransitionContext"]}
+{"time":"2024-4-17 0:26:36:326","lib":"Foundation","func":"NSClassFromString","args":["NSMutableDictionary"]}
+{"time":"2024-4-17 0:26:36:597","lib":"Foundation","func":"NSClassFromString","args":["BSMutableSettings"]}
+{"time":"2024-4-17 0:26:37:90","lib":"Foundation","func":"NSStringFromSelector","args":["_setBackgroundEffects:"]}
+{"time":"2024-4-17 0:26:37:125","lib":"Foundation","func":"NSClassFromString","args":["BSObjCMethod"]}
+{"time":"2024-4-17 0:26:37:661","lib":"Foundation","func":"NSClassFromString","args":["NSObject"]}
+{"time":"2024-4-17 0:26:38:151","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:26:38:186","lib":"Foundation","func":"NSSelectorFromString","args":["sceneID:updateWithSettingsDiff:transitionContext:completion:"]}
+{"time":"2024-4-17 0:26:38:726","lib":"Foundation","func":"NSStringFromSelector","args":["sceneID:updateWithSettingsDiff:transitionContext:completion:"]}
+{"time":"2024-4-17 0:26:39:226","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:26:39:261","lib":"Foundation","func":"NSClassFromString","args":["BSXPCServiceConnectionMessage"]}
+{"time":"2024-4-17 0:26:39:735","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneSettingsDiff"]}
+{"time":"2024-4-17 0:26:40:205","lib":"Foundation","func":"NSClassFromString","args":["FBSSceneSettingsDiff"]}
+{"time":"2024-4-17 0:26:40:303","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:26:40:406","lib":"Foundation","func":"NSClassFromString","args":["BSMutableSettings"]}
+{"time":"2024-4-17 0:26:40:610","lib":"Foundation","func":"NSClassFromString","args":["BSSettingsDiff"]}
+{"time":"2024-4-17 0:26:40:617","lib":"Foundation","func":"NSClassFromString","args":["BSMutableSettings"]}
+{"time":"2024-4-17 0:26:41:10","lib":"Foundation","func":"NSClassFromString","args":["UIApplicationSceneSettings"]}
+{"time":"2024-4-17 0:26:41:376","lib":"Foundation","func":"NSSelectorFromString","args":["_UIAppearance_setSeparatorColor:"]}
+{"time":"2024-4-17 0:26:41:479","lib":"Foundation","func":"NSClassFromString","args":["UIApplicationSceneTransitionContext"]}
+{"time":"2024-4-17 0:26:42:159","lib":"Foundation","func":"NSClassFromString","args":["UIApplicationSceneTransitionContext"]}
+{"time":"2024-4-17 0:26:42:297","lib":"Foundation","func":"CFNotificationCenterAddObserver","args":["0x1a20c6ef859","","0xa90657f6d10243ff","0x20a2b0fd8",null,"0x4"]}
+{"time":"2024-4-17 0:26:42:566","lib":"Foundation","func":"NSClassFromString","args":["BSMutableSettings"]}
+{"time":"2024-4-17 0:26:42:915","lib":"Foundation","func":"NSStringFromSelector","args":["setSeparatorColor:"]}
+{"time":"2024-4-17 0:26:43:364","lib":"Foundation","func":"NSClassFromString","args":["BSObjCMethod"]}

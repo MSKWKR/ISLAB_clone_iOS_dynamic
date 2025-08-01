@@ -1,0 +1,57 @@
+0,Skip,
+1,Pass,"NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?type=m&va=8.269.1.1007&app=b119af2d-ca28-4d02-b608-97fbd552d010&ns=1&pt=0&cts=0&resp=json&si=81411516810854_3&tt=maios&srvid=4
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?type=m&va=8.269.1.1007&app=b119af2d-ca28-4d02-b608-97fbd552d010&ns=1&pt=0&cts=0&resp=json&si=81411516810854_3&tt=maios&srvid=4
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?type=m&va=8.269.1.1007&app=b119af2d-ca28-4d02-b608-97fbd552d010&ns=1&pt=0&cts=0&resp=json&si=81411516810854_3&tt=maios&srvid=4
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?type=m&va=8.269.1.1007&app=b119af2d-ca28-4d02-b608-97fbd552d010&ns=1&pt=0&cts=0&resp=json&si=81411516810854_3&tt=maios&srvid=4
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+NSURL with HTTPs https://bf38846uww.bf.dynatrace.com/mbeacon?cts=0&resp=json
+"
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Undetect,
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with macquarie://
+"
+22,Manual,"Use CC_MD5 with [""0xced9cd080e1a0108"", ""379"", """"]
+Use CC_MD5 with [""0xced9cd080e1a0108"", ""378"", """"]
+"
+23,Manual,Detected storing plist locally. Storing data in plist is unsafe.Please store your data to somewhere safe.Detected storing Coredata locally. Storing data in Coredata is unsafe.Please store your data to somewhere safe.
+24,Manual,"Make use of log function NSLog with [""Can""t end BackgroundTask: no background task exists with identifier %lu (0x%lx), or it may have already been ended. Break in UIApplicationEndBackgroundTaskError() to debug.""]
+"
+25,Manual,"Autocorrecting keyboard is detected, Please close the function by setting the UITextfield
+"
+26,Pass,
+27,Undetect,
+28,Pass,Debug mode is disabled.
+29,Pass,No sensitive data leakage detected in IPC mechanisms.

@@ -1,1 +1,3 @@
-# ISLAB_clone_iOS_dynamic
+# iOS Dynamic System
+
+Ref: https://hackmd.io/@Thalia/ios_dynamic_intro

@@ -1,0 +1,5 @@
+{"time":"2024-4-16 22:42:51:485","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/29CD92DD-4716-4326-8E14-574000E490D4/volt.app/Info.plist","0x0"]}
+{"time":"2024-4-16 22:42:51:493","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/29CD92DD-4716-4326-8E14-574000E490D4/volt.app/volt","0x0"]}
+{"time":"2024-4-16 22:42:51:522","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/29CD92DD-4716-4326-8E14-574000E490D4/volt.app","0x0"]}
+{"time":"2024-4-16 22:42:51:523","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/29CD92DD-4716-4326-8E14-574000E490D4/volt.app/Info.plist","0x0"]}
+{"time":"2024-4-16 22:42:51:523","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/29CD92DD-4716-4326-8E14-574000E490D4/volt.app/volt","0x0"]}

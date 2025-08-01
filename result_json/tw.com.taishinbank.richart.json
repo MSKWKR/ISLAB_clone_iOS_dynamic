@@ -1,0 +1,611 @@
+{
+    "system": "ios",
+    "lang": "zh-tw",
+    "rule": {
+        "lab_ID": {
+            "title": "Test name",
+            "mas": "\u5de5\u696d\u5c40\u7de8\u865f",
+            "mast": "\u5de5\u696d\u5c40\u5206\u985e",
+            "real_mstg": "MSTG",
+            "platform": "Platform",
+            "owasp_mobile": "OWASP Mobile Top10 (2016)",
+            "level": "Level",
+            "cve": "CVE",
+            "desc": "Desc"
+        },
+        "lab_1": {
+            "title": "SSL connection check",
+            "mas": "4.1.2.4.1|4.1.2.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE 4|MSTG-NETWORK-1|MSTG-NETWORK-2",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "URL with http found, please check if this URL need to be protected with SSL or not ,Keyword: NSURL with http / NSURL startswith(http://)"
+        },
+        "lab_2": {
+            "title": "Make use of security method",
+            "mas": "4.1.2.3.6",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-14|\nMSTG CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Cipher function found. Ensure no weak cipher function used in this application. Message digest function found. Ensure no weak message degist function used in this application. Signature function found. Ensure no weak signature function used in this application. MAC function found. Ensure no weak MAC function used in this application."
+        },
+        "lab_3": {
+            "title": "Make use of security class",
+            "mas": "4.1.2.3.6",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-14|\nMSTG CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Cipher function found. Ensure no weak cipher function used in this application. Message digest function found. Ensure no weak message degist function used in this application. Signature function found. Ensure no weak signature function used in this application. MAC function found. Ensure no weak MAC function used in this application."
+        },
+        "lab_4": {
+            "title": "Master Key Vulnerability checking",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-CRYPTO-2|MSTG-CRYPTO-4",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "CVE-2013-4787",
+            "desc": ""
+        },
+        "lab_5": {
+            "title": "Network access",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "MSTG-NETWORK-3",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_6": {
+            "title": "Make use of SQLite deprecated functions ",
+            "mas": "4.1.5.3.1",
+            "mast": "",
+            "real_mstg": "MSTG-NETWORK-6|MSTG-CODE-5",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "sqlite3_aggregate_count',\n\t'sqlite3_expired',\n\t'sqlite3_global_recover',\n\t'sqlite3_memory_alarm',\n\t'sqlite3_soft_heap_limit',\n\t'sqlite3_thread_cleanup',\n\t'sqlite3_transfer_bindings' These functions are deprecated. In order to maintain backwards compatibility with older code, these functions continue to be supported. However, new applications should avoid the use of these functions. Keyword: libsqlite3.dylib"
+        },
+        "lab_7": {
+            "title": "List all native method",
+            "mas": "4.2.2.1.2",
+            "mast": "",
+            "real_mstg": "MSTG-PLATFORM-6",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_8": {
+            "title": "Clipboard manipulation check",
+            "mas": "4.1.2.3.13",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-7",
+            "platform": "Universal",
+            "owasp_mobile": "M4",
+            "level": "",
+            "cve": "",
+            "desc": "Any app on an iOS device can access the most recent thing copied to your clipboard.Theoretically, a malicious app can read what\u2019s on your iOS clipboard and then feed that information back to a remote server. That remote server can be easily accessed by someone stealing your personal and sensitive information. Keyword: Foundation, copy: ,cut: ,paste:"
+        },
+        "lab_9": {
+            "title": "Make use of SMS related code",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "M3",
+            "level": "",
+            "cve": "",
+            "desc": "This application sends SMS message. One of the most common vulnerabilities of SMS verification codes is weak security protocols. Many SMS verification codes are sent over unencrypted channels, making them vulnerable to interception.Make sure it do this action with user permission. Keyword: MFMessageComposeViewController,canSendText"
+        },
+        "lab_10": {
+            "title": "Certificate check",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3|MSTG-NETWORK-4",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "Check the SSL Certificate information.We use SSLlab to check your cert,more information https://www.ssllabs.com/ssltest/ Keyword: NSURL startswith https://"
+        },
+        "lab_11": {
+            "title": "Base64 String decoding",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "MSTG-CRYPTO-1|MSTG-CRYPTO-2|MSTG-CRYPTO-3",
+            "platform": "Universal",
+            "owasp_mobile": " M3",
+            "level": "NOTICE",
+            "cve": "CVE-2015-3200",
+            "desc": "Base64-encoded or base64-decoded string found Applications may Base64-encode parameters to conceal them from users or to ease the transfer of binary data. The existence of Base64-encoded data might suggest security-sensitive information or functionality that should be investigated further. Keyword: Base64"
+        },
+        "lab_12": {
+            "title": "Make use of javascript in webview",
+            "mas": "4.2.2.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-ARCH-2|MSTG-NETWORK-4|MSTG-PLATFORM-5|MSTG-PLATFORM-6|MSTG-PLATFORM-7",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "WARNING",
+            "cve": "CVE-2013-4710",
+            "desc": "Webview JavaScript Enabled, the webview use setJavaScriptEnabled to allow javascript. It is potentially dangerous because it may allow the external website to do XSS attack in the webview. Keyword: UIWebView - stringByEvaluationgJavaScriptFromString in webview"
+        },
+        "lab_13": {
+            "title": "Screenshot detection",
+            "mas": "4.1.2.3.9",
+            "mast": "\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-12",
+            "platform": "Universal",
+            "owasp_mobile": "M10",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "This application allows users to take screenshots.Please check screenshots function and turn it off. Keyword:UIApplication - _handleScreenshot to detect screenshot"
+        },
+        "lab_14": {
+            "title": "HTTPS ALLOW_ALL_HOSTNAME_VERIFIER check",
+            "mas": "4.1.4.2.3|4.1.4.2.4|4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3",
+            "platform": "Universal",
+            "owasp_mobile": "M5",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "This application use ALLOW_ALL_HOSTNAME_VERIFIER to verify all the CN. It is dangerous and may cause man-in-the-middle attack."
+        },
+        "lab_15": {
+            "title": "SSL Certificate check",
+            "mas": "4.1.5.1.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-CODE-5|MSTG-PLATFORM-8|MSTG-PLATFORM-9",
+            "platform": "Universal",
+            "owasp_mobile": "M5",
+            "level": "NOTICE",
+            "cve": "",
+            "desc": "Check the SSL Certificate information."
+        },
+        "lab_16": {
+            "title": "Potential XSS in webview",
+            "mas": "4.1.5.4.2",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-PLATFORM-2",
+            "platform": "Universal",
+            "owasp_mobile": " ",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_17": {
+            "title": "Use SQLite database",
+            "mas": "4.1.5.1.1",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-1|MSTG-STORAGE-2",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": " CVE-2011-3901",
+            "desc": ""
+        },
+        "lab_18": {
+            "title": "WebView setAllowFileAccess",
+            "mas": "4.1.2.3.7|4.1.2.5.3",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE 4|MSTG-PLATFORM-3|MSTG-PLATFORM-4",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "WARNING",
+            "cve": "",
+            "desc": "Allow local file access with webview. Please ensure your code not to allow path traversal."
+        },
+        "lab_19": {
+            "title": "SSL Verification Fail",
+            "mas": "4.1.4.2.2|4.1.4.2.3",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-NETWORK-3|MSTG-NETWORK-4",
+            "platform": "Universal",
+            "owasp_mobile": "M3 ",
+            "level": "NOTICE",
+            "cve": " CVE-2015-1816",
+            "desc": "Check the SSL Certificate information."
+        },
+        "lab_20": {
+            "title": "Possible hardcoded information",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "The use of a hard-coded password increases the possibility of password guessing tremendously. Keyword: CCCrypt, CCAlgorithm"
+        },
+        "lab_21": {
+            "title": "USE URL",
+            "mas": "",
+            "mast": "",
+            "real_mstg": "",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "URL found during analysis, check if there are some suspisious URL. Keyword:Use URL schemes with"
+        },
+        "lab_22": {
+            "title": "ENCRYPTION_AES/DES/MD5 Cipher&Degist Method found",
+            "mas": "4.1.2.3.6",
+            "mast": "\u7532\u985e\u3001\u4e59\u985e\u3001\u4e19\u985e",
+            "real_mstg": "MSTG-STORAGE-14|MSTG-CRYPTO",
+            "platform": "Universal",
+            "owasp_mobile": " ",
+            "level": "",
+            "cve": "",
+            "desc": ""
+        },
+        "lab_23": {
+            "title": "Local Data Storage",
+            "mas": "4.1.2.3.10",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-1|MSTG-STORAGE-14",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "",
+            "cve": "",
+            "desc": "While it can improve the efficiency and availability of the application, it also carries risks. To protect the security of sensitive user information, a better approach is to store data in iOS's secure storage areas, such as the Secure Enclave.  Keyword:PrivateFrameworks"
+        },
+        "lab_24": {
+            "title": "Make use of log function",
+            "mas": "4.1.2.3.4|4.1.2.3.5",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-3|MSTG-STORAGE-13",
+            "platform": "Universal",
+            "owasp_mobile": "M10",
+            "level": "",
+            "cve": "",
+            "desc": "Log function in this application, you should notice is there sensitive information in these logs. Keyword: Foundation, NSLog"
+        },
+        "lab_25": {
+            "title": "Keyboard cache",
+            "mas": "4.1.2.3.11",
+            "mast": "",
+            "real_mstg": "MSTG-STORAGE-5|MSTG-PLATFORM-11",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "Notice",
+            "cve": "",
+            "desc": "Because the keyboard cache file is stored on the device, if the device is lost, it may be recovered, thereby revealing any sensitive information contained within. Check the keyboard cache ability open or not. Keyword: libSystem.B.dylib, Caches"
+        },
+        "lab_26": {
+            "title": "Domain Check",
+            "mas": "4.2.2.1.2",
+            "mast": "",
+            "real_mstg": "MSTG-ARCH-2|MSTG-NETWORK-4|MSTG-PLATFORM-5|\nMSTG-PLATFORM-6|MSTG-PLATFORM-7",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "\uff37arning",
+            "cve": "",
+            "desc": "Connecting to an insecure domain may result in consequences such as virus/malware infection, data theft, identity theft, computer ransom, etc. It's important to only connect to secure domains and use up-to-date anti-virus software, firewall, and browser, and avoid entering sensitive information on insecure websites."
+        },
+        "lab_27": {
+            "title": "use of PIE",
+            "mas": "4.1.5.1.2",
+            "mast": "",
+            "real_mstg": "MSTG-CODE-5 \uff5cMSTG-CODE-8",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "\uff37arning",
+            "cve": "",
+            "desc": "Enabling Position Independent Executable (PIE) are mainly related to enhancing the security of applications."
+        },
+        "lab_28": {
+            "title": "debug mode",
+            "mas": "4.1.5.5.9",
+            "mast": "",
+            "real_mstg": "MSTG-CODE-2\uff5cMSTG-CODE-6",
+            "platform": "Universal",
+            "owasp_mobile": "",
+            "level": "\uff37arning",
+            "cve": "",
+            "desc": "Mobile applications should disable debug mode."
+        }
+    },
+    "result": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "timestamp": "Wed, 17 Apr 2024 13:54:04 GMT",
+        "app_name": "",
+        "app_version": "",
+        "average_cvss": 0,
+        "build": "",
+        "bundle_id": "tw.com.taishinbank.richart",
+        "file_name": "",
+        "mast_report": {
+            "lab_0": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_1": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "NSURL with HTTPs https://idmsa.apple.com.cn/appleauth/auth/authorize/signin\nNSURL with HTTPs https://idmsa.apple.com.cn/appleauth/auth/authorize/signin\nNSURL with HTTPs https://appleid.apple.com/auth/authorize\nNSURL with HTTPs https://appleid.apple.com/auth/authorize\nNSURL with HTTPs https://idmsa.apple.com/appleauth/auth/authorize/signin\nNSURL with HTTPs https://idmsa.apple.com/appleauth/auth/authorize/signin\nNSURL with HTTPs https://ssl.google-analytics.com/batch\nNSURL with HTTPs https://ssl.google-analytics.com/batch\nNSURL with HTTPs https://ssl.google-analytics.com/collect?dm=iPhone8%2C1&cid=8ba64f8f-9ee7-418f-ae18-062544acbf10&_u=.oKKDK9BL&cd1=00000000-0000-0000-0000-000000000000&a=1185105123&_v=mi3.1.4&cd=%E7%99%BB%E5%85%A5%E5%89%8D_%E6%88%91%E7%9A%84Richart%E5%B8%B3%E8%99%9F_%E6%9C%AA%E8%A8%AD%E5%AE%9A&sr=750x1334&cd6=0FFCC14E-B185-4DB1-98A8-A9FFDFB33E81&_crc=0&an=Richart&tid=UA-72250086-2&av=2.30.0&t=screenview&ul=zh-hant-us&v=1&ds=app&_s=14&aid=tw.com.taishinbank.richart&ht=1661405668331&qt=2639&z=8647210013654476907\nNSURL with HTTPs https://ssl.google-analytics.com/collect?dm=iPhone8%2C1&cid=8ba64f8f-9ee7-418f-ae18-062544acbf10&_u=.oKKDK9BL&cd1=00000000-0000-0000-0000-000000000000&a=1185105123&_v=mi3.1.4&cd=%E7%99%BB%E5%85%A5%E5%89%8D_%E6%88%91%E7%9A%84Richart%E5%B8%B3%E8%99%9F_%E6%9C%AA%E8%A8%AD%E5%AE%9A&sr=750x1334&cd6=0FFCC14E-B185-4DB1-98A8-A9FFDFB33E81&_crc=0&an=Richart&tid=UA-72250086-2&av=2.30.0&t=screenview&ul=zh-hant-us&v=1&ds=app&_s=14&aid=tw.com.taishinbank.richart&ht=1661405668331&qt=2639&z=8647210013654476907\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/getVersion\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/getVersion\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/getVersion\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated\nNSURL with HTTPs https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated\nNSURL with HTTP http://10.13.114.81:9080/mfp/api\nNSURL with HTTP http://10.13.114.81:9080/mfp/api\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api\nNSURL with HTTP http://10.13.114.81:9080/mfp/api\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/registration/v1/self\nNSURL with HTTP http://10.13.114.81:9080/mfp/api\nNSURL with HTTP http://10.13.114.81:9080/mfp/api\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTP http://10.13.114.81:9080/mfp/api/loguploader\nNSURL with HTTPs https://ssl.google-analytics.com/batch\nNSURL with HTTPs https://ssl.google-analytics.com/batch\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_2": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_3": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_4": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_5": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_6": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_7": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_8": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_9": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_10": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "{\"valid\": True, \"detail\": {\"url\": \"https://idmsa.apple.com.cn/appleauth/auth/authorize/signin\", \"issuer\": <Name(CN=Apple IST CA 2 - G1,OU=Certification Authority,O=Apple Inc.,C=US)>, \"not valid after\": \"2023-10-07 21:31:12\", \"not valid before\": \"2023-04-10 21:21:12\", \"serial number\": 72591643886549705833701437110257925570, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=idmsa.apple.com.cn,O=Apple Inc.,ST=California,C=US)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://idmsa.apple.com.cn/appleauth/auth/authorize/signin\", \"issuer\": <Name(CN=Apple IST CA 2 - G1,OU=Certification Authority,O=Apple Inc.,C=US)>, \"not valid after\": \"2023-10-07 21:31:12\", \"not valid before\": \"2023-04-10 21:21:12\", \"serial number\": 72591643886549705833701437110257925570, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=idmsa.apple.com.cn,O=Apple Inc.,ST=California,C=US)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://appleid.apple.com/auth/authorize\", \"issuer\": <Name(CN=Apple Public Server RSA CA 12 - G1,O=Apple Inc.,ST=California,C=US)>, \"not valid after\": \"2023-08-23 10:56:39\", \"not valid before\": \"2023-02-24 10:46:39\", \"serial number\": 146223595521062323404235309789466801942, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=apple-shield.apple.com,O=Apple Inc.,ST=California,C=US)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://appleid.apple.com/auth/authorize\", \"issuer\": <Name(CN=Apple Public Server RSA CA 12 - G1,O=Apple Inc.,ST=California,C=US)>, \"not valid after\": \"2023-08-23 10:56:39\", \"not valid before\": \"2023-02-24 10:46:39\", \"serial number\": 146223595521062323404235309789466801942, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=apple-shield.apple.com,O=Apple Inc.,ST=California,C=US)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://idmsa.apple.com/appleauth/auth/authorize/signin\", \"issuer\": <Name(CN=Apple IST CA 2 - G1,OU=Certification Authority,O=Apple Inc.,C=US)>, \"not valid after\": \"2023-08-07 21:08:10\", \"not valid before\": \"2023-02-08 20:58:10\", \"serial number\": 65216082230534759689535399055666655046, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=idmsa.apple.com,O=Apple Inc.,ST=California,C=US)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://idmsa.apple.com/appleauth/auth/authorize/signin\", \"issuer\": <Name(CN=Apple IST CA 2 - G1,OU=Certification Authority,O=Apple Inc.,C=US)>, \"not valid after\": \"2023-08-07 21:08:10\", \"not valid before\": \"2023-02-08 20:58:10\", \"serial number\": 65216082230534759689535399055666655046, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=idmsa.apple.com,O=Apple Inc.,ST=California,C=US)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://ssl.google-analytics.com/batch\", \"issuer\": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, \"not valid after\": \"2023-07-31 08:20:08\", \"not valid before\": \"2023-05-08 08:20:09\", \"serial number\": 134555322211989804100474299867715331488, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=*.google-analytics.com)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://ssl.google-analytics.com/batch\", \"issuer\": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, \"not valid after\": \"2023-07-31 08:20:08\", \"not valid before\": \"2023-05-08 08:20:09\", \"serial number\": 134555322211989804100474299867715331488, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=*.google-analytics.com)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://ssl.google-analytics.com/collect?dm=iPhone8%2C1&cid=8ba64f8f-9ee7-418f-ae18-062544acbf10&_u=.oKKDK9BL&cd1=00000000-0000-0000-0000-000000000000&a=1185105123&_v=mi3.1.4&cd=%E7%99%BB%E5%85%A5%E5%89%8D_%E6%88%91%E7%9A%84Richart%E5%B8%B3%E8%99%9F_%E6%9C%AA%E8%A8%AD%E5%AE%9A&sr=750x1334&cd6=0FFCC14E-B185-4DB1-98A8-A9FFDFB33E81&_crc=0&an=Richart&tid=UA-72250086-2&av=2.30.0&t=screenview&ul=zh-hant-us&v=1&ds=app&_s=14&aid=tw.com.taishinbank.richart&ht=1661405668331&qt=2639&z=8647210013654476907\", \"issuer\": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, \"not valid after\": \"2023-07-31 08:20:08\", \"not valid before\": \"2023-05-08 08:20:09\", \"serial number\": 134555322211989804100474299867715331488, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=*.google-analytics.com)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://ssl.google-analytics.com/collect?dm=iPhone8%2C1&cid=8ba64f8f-9ee7-418f-ae18-062544acbf10&_u=.oKKDK9BL&cd1=00000000-0000-0000-0000-000000000000&a=1185105123&_v=mi3.1.4&cd=%E7%99%BB%E5%85%A5%E5%89%8D_%E6%88%91%E7%9A%84Richart%E5%B8%B3%E8%99%9F_%E6%9C%AA%E8%A8%AD%E5%AE%9A&sr=750x1334&cd6=0FFCC14E-B185-4DB1-98A8-A9FFDFB33E81&_crc=0&an=Richart&tid=UA-72250086-2&av=2.30.0&t=screenview&ul=zh-hant-us&v=1&ds=app&_s=14&aid=tw.com.taishinbank.richart&ht=1661405668331&qt=2639&z=8647210013654476907\", \"issuer\": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, \"not valid after\": \"2023-07-31 08:20:08\", \"not valid before\": \"2023-05-08 08:20:09\", \"serial number\": 134555322211989804100474299867715331488, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=*.google-analytics.com)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/registryDevice\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/PushService/NoSecurity/getUnreadCount\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/getVersion\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/getVersion\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/getVersion\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": False, \"detail\": {\"url\": \"https://mobile.richart.tw/TSDIB_restful/UpdatedService/OpenUrl/isUpdated\", \"issuer\": <Name(C=TW,O=TAIWAN-CA,OU=Secure SSL Sub-CA,CN=TWCA Secure SSL Certification Authority)>, \"not valid after\": \"2023-06-10 15:59:59\", \"not valid before\": \"2022-06-10 01:18:16\", \"serial number\": 95569415978199101993591206126820353501, \"signature algorithm\": \"sha256\", \"subject\": <Name(C=TW,ST=Taiwan,L=Taipei,O=Taishin International Bank Co.\\, Ltd.,OU=Richart,CN=mobile.richart.tw)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://ssl.google-analytics.com/batch\", \"issuer\": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, \"not valid after\": \"2023-07-31 08:20:08\", \"not valid before\": \"2023-05-08 08:20:09\", \"serial number\": 134555322211989804100474299867715331488, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=*.google-analytics.com)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}{\"valid\": True, \"detail\": {\"url\": \"https://ssl.google-analytics.com/batch\", \"issuer\": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, \"not valid after\": \"2023-07-31 08:20:08\", \"not valid before\": \"2023-05-08 08:20:09\", \"serial number\": 134555322211989804100474299867715331488, \"signature algorithm\": \"sha256\", \"subject\": <Name(CN=*.google-analytics.com)>, \"x509 version\": <Version.v3: 2>, \"key size\": 2048}}",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_11": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_12": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_13": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_14": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_15": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_16": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_17": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_18": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_19": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_20": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_21": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "Use URL schemes with richart://\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_22": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "Use CC_MD5 with [\"0xc7c2b5080e1a0108\", \"405\", \"\"]\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_23": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_24": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "Make use of log function NSLog with [\"THREAD WARNING: [\"%@\"] took \"%f\" ms. Plugin should use a background thread.\"]\nMake use of log function NSLog with [\"hideKeyBoardTriggered\"]\nMake use of log function NSLog with [\"[DEBUG] [OCLogger] The log file is empty. There are no persisted logs to send.\"]\nMake use of log function NSLog with [\"save keychain status: %d\"]\nMake use of log function NSLog with [\"[DEBUG] [OCLogger] Request to send analytics data has failed.\"]\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_25": {
+                "isDetected": true,
+                "data": [
+                    {
+                        "details": "Autocorrecting keyboard is detected, Please close the function by setting the UITextfield\n",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            },
+            "lab_26": {
+                "isDetected": false,
+                "data": [
+                    {
+                        "details": "",
+                        "description": ""
+                    }
+                ],
+                "type": []
+            }
+        },
+        "min_os_version": "",
+        "sdk_name": "iphoneos13.3.1",
+        "url_list": ""
+    }
+}

@@ -1,0 +1,5 @@
+{"time":"2023-4-9 14:57:21:723","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/E1C33199-FECC-4398-8CED-B3CB79459FFF/YuantaMobAppMobAppIphone.app/Info.plist","0x0"]}
+{"time":"2023-4-9 14:57:21:725","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/E1C33199-FECC-4398-8CED-B3CB79459FFF/YuantaMobAppMobAppIphone.app/YuantaMobAppMobAppIphone","0x0"]}
+{"time":"2023-4-9 14:57:21:767","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/E1C33199-FECC-4398-8CED-B3CB79459FFF/YuantaMobAppMobAppIphone.app","0x0"]}
+{"time":"2023-4-9 14:57:21:767","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/E1C33199-FECC-4398-8CED-B3CB79459FFF/YuantaMobAppMobAppIphone.app/Info.plist","0x0"]}
+{"time":"2023-4-9 14:57:21:768","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/E1C33199-FECC-4398-8CED-B3CB79459FFF/YuantaMobAppMobAppIphone.app/YuantaMobAppMobAppIphone","0x0"]}

@@ -1,0 +1,5 @@
+{"time":"2024-3-19 0:7:42:496","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/6CE72EA8-D650-4A77-B796-06C14163B5C2/BOTMobileBank.app/Info.plist","0x0"]}
+{"time":"2024-3-19 0:7:42:499","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/6CE72EA8-D650-4A77-B796-06C14163B5C2/BOTMobileBank.app/BOTMobileBank","0x0"]}
+{"time":"2024-3-19 0:7:42:577","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/6CE72EA8-D650-4A77-B796-06C14163B5C2/BOTMobileBank.app","0x0"]}
+{"time":"2024-3-19 0:7:42:578","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/6CE72EA8-D650-4A77-B796-06C14163B5C2/BOTMobileBank.app/Info.plist","0x0"]}
+{"time":"2024-3-19 0:7:42:578","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/6CE72EA8-D650-4A77-B796-06C14163B5C2/BOTMobileBank.app/BOTMobileBank","0x0"]}

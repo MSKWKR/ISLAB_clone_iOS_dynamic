@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <title>reportlab.platypus.doctemplate.LayoutError: Flowable <Table@0x7FAC238773D0 6 rows x 2 cols(tallest row 738)> with cell(0,0) containing
+'<Paragraph at 0x7fac23877250>⚠ Detected'(490 x 2052), tallest cell 738.0 points,  too large on page 11 in frame 'normal'(439.27559055118115 x 685.8897637795277*) of template 'Later'
+ // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css">
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script>
+      var CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "W6q888OmXZGSMTYTZhOx";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>LayoutError</h1>
+<div class="detail">
+  <p class="errormsg">reportlab.platypus.doctemplate.LayoutError: Flowable &lt;Table@0x7FAC238773D0 6 rows x 2 cols(tallest row 738)&gt; with cell(0,0) containing
+&#39;&lt;Paragraph at 0x7fac23877250&gt;⚠ Detected&#39;(490 x 2052), tallest cell 738.0 points,  too large on page 11 in frame &#39;normal&#39;(439.27559055118115 x 685.8897637795277*) of template &#39;Later&#39;
+</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  <h3></h3>
+  <ul><li><div class="frame" id="frame-140377306715568">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/flask/app.py"</cite>,
+      line <em class="line">2548</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">    </span>def __call__(self, environ: dict, start_response: t.Callable) -&gt; t.Any:</pre>
+<pre class="line before"><span class="ws">        </span>&#34;&#34;&#34;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.</pre>
+<pre class="line before"><span class="ws">        </span>&#34;&#34;&#34;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306715792">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/flask/app.py"</cite>,
+      line <em class="line">2528</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><span class="ws">                </span>raise</pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306715680">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">165</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><span class="ws">        </span>if options.get(&#39;intercept_exceptions&#39;, True):</pre>
+<pre class="line before"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">            </span>if hasattr(app, &#39;handle_exception&#39;):</pre>
+<pre class="line after"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306717920">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/flask/app.py"</cite>,
+      line <em class="line">2525</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><span class="ws">        </span>error: t.Optional[BaseException] = None</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306716016">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/flask/app.py"</cite>,
+      line <em class="line">1822</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre>
+<pre class="line after"><span class="ws">        </span>self,</pre>
+<pre class="line after"><span class="ws">        </span>rv: t.Union[ft.ResponseReturnValue, HTTPException],</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306718368">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">165</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><span class="ws">        </span>if options.get(&#39;intercept_exceptions&#39;, True):</pre>
+<pre class="line before"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">            </span>if hasattr(app, &#39;handle_exception&#39;):</pre>
+<pre class="line after"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306718480">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/flask/app.py"</cite>,
+      line <em class="line">1820</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306718256">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/flask/app.py"</cite>,
+      line <em class="line">1796</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>and req.method == &#34;OPTIONS&#34;</pre>
+<pre class="line before"><span class="ws">        </span>):</pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line before"><span class="ws">        </span>view_args: t.Dict[str, t.Any] = req.view_args  # type: ignore[assignment]</pre>
+<pre class="line current"><span class="ws">        </span>return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self) -&gt; Response:</pre>
+<pre class="line after"><span class="ws">        </span>&#34;&#34;&#34;Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306718592">
+  <h4>File <cite class="filename">"/app/server.py"</cite>,
+      line <em class="line">38</em>,
+      in <code class="function">send_report</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">        </span>return jsonify({&#34;msg&#34;: &#34;no result in request body&#34;}), 400</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>if (&#39;lang&#39; not in dataraw):</pre>
+<pre class="line before"><span class="ws">        </span>dataraw[&#39;lang&#39;] = &#39;zh-TW&#39;</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line current"><span class="ws">    </span>report_pdf = report.Product_PDF(dataraw)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>res = make_response(report_pdf)</pre>
+<pre class="line after"><span class="ws">    </span>res.headers.set(&#39;Content-Disposition&#39;, &#39;attachment&#39;, filename=&#39;report.pdf&#39;)</pre>
+<pre class="line after"><span class="ws">    </span>res.headers.set(&#39;Content-Type&#39;, &#39;application/pdf&#39;)</pre>
+<pre class="line after"><span class="ws">    </span>return res</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306716240">
+  <h4>File <cite class="filename">"/app/report.py"</cite>,
+      line <em class="line">309</em>,
+      in <code class="function">Product_PDF</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">    </span>rule = rawdata[&#39;rule&#39;]</pre>
+<pre class="line before"><span class="ws">    </span>result = rawdata[&#39;result&#39;]</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>buffer = BytesIO()</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line current"><span class="ws">    </span>PDFPSReporte(buffer, lang, system, rule, result)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>pdf = buffer.getvalue()</pre>
+<pre class="line after"><span class="ws">    </span>return pdf</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306716912">
+  <h4>File <cite class="filename">"/app/report.py"</cite>,
+      line <em class="line">61</em>,
+      in <code class="function">__init__</code></h4>
+  <div class="source "><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span># Build</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span># self.styleSheet</pre>
+<pre class="line before"><span class="ws">        </span>self.doc = SimpleDocTemplate(path, pagesize=A4)</pre>
+<pre class="line current"><span class="ws">        </span>self.doc.build(self.elements)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def Header(self):</pre>
+<pre class="line after"><span class="ws">        </span>text = i18n.t(&#39;label.audit_report&#39;, system = self.system)</pre>
+<pre class="line after"><span class="ws">        </span>paragraphReportHeader = Paragraph(text, self.stylePDFTitle)</pre>
+<pre class="line after"><span class="ws">        </span>self.elements.append(paragraphReportHeader)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306717472">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py"</cite>,
+      line <em class="line">1317</em>,
+      in <code class="function">build</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">                        </span>PageTemplate(id=&#39;Later&#39;,frames=frameT, onPage=onLaterPages,pagesize=self.pagesize)])</pre>
+<pre class="line before"><span class="ws">        </span>if onFirstPage is _doNothing and hasattr(self,&#39;onFirstPage&#39;):</pre>
+<pre class="line before"><span class="ws">            </span>self.pageTemplates[0].beforeDrawPage = self.onFirstPage</pre>
+<pre class="line before"><span class="ws">        </span>if onLaterPages is _doNothing and hasattr(self,&#39;onLaterPages&#39;):</pre>
+<pre class="line before"><span class="ws">            </span>self.pageTemplates[1].beforeDrawPage = self.onLaterPages</pre>
+<pre class="line current"><span class="ws">        </span>BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span>def progressCB(typ, value):</pre>
+<pre class="line after"><span class="ws">    </span>&#34;&#34;&#34;Example prototype for progress monitoring.</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>This aims to provide info about what is going on</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306716688">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py"</cite>,
+      line <em class="line">1082</em>,
+      in <code class="function">build</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">                        </span>self._setPageTemplate()</pre>
+<pre class="line before"><span class="ws">                    </span>del flowables[0]</pre>
+<pre class="line before"><span class="ws">                </span>self.clean_hanging()</pre>
+<pre class="line before"><span class="ws">                </span>try:</pre>
+<pre class="line before"><span class="ws">                    </span>first = flowables[0]</pre>
+<pre class="line current"><span class="ws">                    </span>self.handle_flowable(flowables)</pre>
+<pre class="line after"><span class="ws">                    </span>handled += 1</pre>
+<pre class="line after"><span class="ws">                </span>except:</pre>
+<pre class="line after"><span class="ws">                    </span>#if it has trace info, add it to the traceback message.</pre>
+<pre class="line after"><span class="ws">                    </span>if hasattr(first, &#39;_traceInfo&#39;) and first._traceInfo:</pre>
+<pre class="line after"><span class="ws">                        </span>exc = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140377306715904">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py"</cite>,
+      line <em class="line">961</em>,
+      in <code class="function">handle_flowable</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">                    </span>if hasattr(f,&#39;_postponed&#39;):</pre>
+<pre class="line before"><span class="ws">                        </span>ident = &#34;Flowable %s%s too large on page %d in frame %r%s of template %r&#34; % \</pre>
+<pre class="line before"><span class="ws">                                </span>(self._fIdent(f,60,frame),_fSizeString(f),self.page, self.frame.id,</pre>
+<pre class="line before"><span class="ws">                                        </span>self.frame._aSpaceString(), self.pageTemplate.id)</pre>
+<pre class="line before"><span class="ws">                        </span>#leave to keep apart from the raise</pre>
+<pre class="line current"><span class="ws">                        </span>raise LayoutError(ident)</pre>
+<pre class="line after"><span class="ws">                    </span># this ought to be cleared when they are finally drawn!</pre>
+<pre class="line after"><span class="ws">                    </span>f._postponed = 1</pre>
+<pre class="line after"><span class="ws">                    </span>mbe = getattr(self,&#39;_multiBuildEdits&#39;,None)</pre>
+<pre class="line after"><span class="ws">                    </span>if mbe:</pre>
+<pre class="line after"><span class="ws">                        </span>mbe((delattr,f,&#39;_postponed&#39;))</pre></div>
+</div>
+</ul>
+  <blockquote>reportlab.platypus.doctemplate.LayoutError: Flowable &lt;Table@0x7FAC238773D0 6 rows x 2 cols(tallest row 738)&gt; with cell(0,0) containing
+&#39;&lt;Paragraph at 0x7fac23877250&gt;⚠ Detected&#39;(490 x 2052), tallest cell 738.0 points,  too large on page 11 in frame &#39;normal&#39;(439.27559055118115 x 685.8897637795277*) of template &#39;Later&#39;
+</blockquote>
+</div>
+
+<div class="plain">
+    <p>
+      This is the Copy/Paste friendly version of the traceback.
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File &#34;/usr/local/lib/python3.10/site-packages/flask/app.py&#34;, line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File &#34;/usr/local/lib/python3.10/site-packages/flask/app.py&#34;, line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File &#34;/usr/local/lib/python3.10/site-packages/flask_cors/extension.py&#34;, line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File &#34;/usr/local/lib/python3.10/site-packages/flask/app.py&#34;, line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File &#34;/usr/local/lib/python3.10/site-packages/flask/app.py&#34;, line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File &#34;/usr/local/lib/python3.10/site-packages/flask_cors/extension.py&#34;, line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File &#34;/usr/local/lib/python3.10/site-packages/flask/app.py&#34;, line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File &#34;/usr/local/lib/python3.10/site-packages/flask/app.py&#34;, line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File &#34;/app/server.py&#34;, line 38, in send_report
+    report_pdf = report.Product_PDF(dataraw)
+  File &#34;/app/report.py&#34;, line 309, in Product_PDF
+    PDFPSReporte(buffer, lang, system, rule, result)
+  File &#34;/app/report.py&#34;, line 61, in __init__
+    self.doc.build(self.elements)
+  File &#34;/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py&#34;, line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File &#34;/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py&#34;, line 1082, in build
+    self.handle_flowable(flowables)
+  File &#34;/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py&#34;, line 961, in handle_flowable
+    raise LayoutError(ident)
+reportlab.platypus.doctemplate.LayoutError: Flowable &lt;Table@0x7FAC238773D0 6 rows x 2 cols(tallest row 738)&gt; with cell(0,0) containing
+&#39;&lt;Paragraph at 0x7fac23877250&gt;⚠ Detected&#39;(490 x 2052), tallest cell 738.0 points,  too large on page 11 in frame &#39;normal&#39;(439.27559055118115 x 685.8897637795277*) of template &#39;Later&#39;
+</textarea>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        <form>
+          <p>PIN:
+            <input type=text name=pin size=14>
+            <input type=submit name=btn value="Confirm Pin">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/app/server.py", line 38, in send_report
+    report_pdf = report.Product_PDF(dataraw)
+  File "/app/report.py", line 309, in Product_PDF
+    PDFPSReporte(buffer, lang, system, rule, result)
+  File "/app/report.py", line 61, in __init__
+    self.doc.build(self.elements)
+  File "/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py", line 1082, in build
+    self.handle_flowable(flowables)
+  File "/usr/local/lib/python3.10/site-packages/reportlab/platypus/doctemplate.py", line 961, in handle_flowable
+    raise LayoutError(ident)
+reportlab.platypus.doctemplate.LayoutError: Flowable <Table@0x7FAC238773D0 6 rows x 2 cols(tallest row 738)> with cell(0,0) containing
+'<Paragraph at 0x7fac23877250>⚠ Detected'(490 x 2052), tallest cell 738.0 points,  too large on page 11 in frame 'normal'(439.27559055118115 x 685.8897637795277*) of template 'Later'
+
+
+-->

@@ -1,0 +1,3 @@
+{"time":"2023-4-17 16:53:34:960","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/1DF3EB8F-7514-497B-A869-5AF23D9F0E89/Mizuho-Suica.app/Info.plist","0x0"]}
+{"time":"2023-4-17 16:53:34:963","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/1DF3EB8F-7514-497B-A869-5AF23D9F0E89/Mizuho-Suica.app/Mizuho-Suica","0x0"]}
+{"time":"2023-4-17 16:53:34:968","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/1DF3EB8F-7514-497B-A869-5AF23D9F0E89/Mizuho-Suica.app","0x0"]}

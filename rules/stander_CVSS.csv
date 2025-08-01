@@ -1,0 +1,131 @@
+ID,Platform,Test name,CVSS ,,CVE,工業局編號,工業局APP資安檢測項目,工業局APP資安技術要求,工業局分類,MAST編號,MAST規範,"OWASP
+(2017 checklist)",Lab,Bank
+1,Universal,SSL connection check,Critical,,,4.1.2.4.1,行動應用程式安全敏感性資料傳輸,行動應用程式透過網路傳輸安全敏感性資料，應使用適當且有效之金鑰長度與加密演算法進行安全加密,甲類、乙類、丙類,4.2.6,Connection protection,V 1.3、V 1.4、V 4.3、V 4.7、V 5.1、V 5.2,Lab-001,
+2,Universal,Make use of security method,Warning,,,,,,,4.2.3,Native Security – API/LIB Native Risk,V 1.9、V 1.10、V 3.4,Lab-002,
+3,Universal,Make use of security class,Warning,,,,,,,4.2.3,Native Security – API/LIB Native Risk,V 1.9、V 1.10、V 3.4,Lab-003,
+4,Universal,Master Key Vulnerability checking,Critical,,CVE-2013-4787,4.1.5.1.2,行動應用程式資訊安全漏洞,行動應用程式應避免資訊安全漏洞,甲類、乙類、丙類,"4.2.2
+4.2.6","Privacy Handling – Improper Noticermation Disclosure
+Protection Requirement – Connection Encryption Strength",V 7.1,Lab-004,
+6,Android,AndroidManifest PermissionGroup Check,Notice,,,,,,,4.2.1,Improper permission requests for malicious purposes,V 6.1,Lab-007,
+7,Android,AndroidManifest Permission check,Notice,,,,,,,4.2.1,Improper permission requests for malicious purposes,V 6.1,Lab-008,
+8,Universal,Network access,Notice,,,,,,,4.2.3,Native Security – API/LIB Native Risk,V 5.2,Lab-009,
+9,Universal,Make use of SQLite deprecated functions ,Warning,,,,,,,4.2.3,Potential API risks,,Lab-013,
+10,Universal,List all native method,Notice,,,,,,,4.2.5,Native Security – Development Obfuscation Concern,V 1.1,Lab-014,
+11,Android,Encryption Framework - Bangcle,Warning,,,,,,,4.2.5,Native Security – Development Obfuscation Concern,,Lab-015,
+12,Android,Encryption Framework - Ijiami,Warning,,,,,,,4.2.5,Native Security – Development Obfuscation Concern,,Lab-016,
+13,Android,Framework - MonoDroid,Warning,,,,,,,4.2.5,Native Security – Development Obfuscation Concern,,Lab-017,
+14,Android,intent-filter checking,Notice,,,,,,,4.2.2,Privacy Handling – Improper Noticermation Disclosure,V 6.2,Lab-018,
+15,Universal,SQLite database encrypt,Warning,,,,,,,4.2.7,Protection Requirement – Data Storage,,Lab-019,
+16,Universal,root or jailbreak detection,Warning,,,,,,,,,V 6.10,Lab-020,
+17,Android,"Android getting IMEI, Android_ID, UUID problem",Warning,,,,,,,4.2.2,Improper surrounding Noticermation disclosure,,Lab-021,
+18,Universal,Make use of SMS related code,Notice,,,,,,,,,V 5.5,Lab-022,
+19,Android,Insecure file delete action,Warning,,,,,,,4.2.3,Native Security – API/LIB Native Risk,,Lab-023,
+20,Android,android.permission.READ_CONTACTS,Warning,,,,,,,4.2.1,Privacy Handling – Permission Misuse,V 6.1,,Bank-001
+21,Android,android.permission.READ_CALL_LOG,Warning,,,,,,,4.2.1,Privacy Handling – Permission Misuse,V 6.1,,Bank-002
+22,Android,android.permission.ACCESS_FINE_LOCATION,Warning,,,,,,,4.2.1,Privacy Handling – Permission Misuse,V 6.1,,Bank-003
+23,Android,android.permission.READ_SMS,Notice,,,,,,,4.2.1,Privacy Handling – Permission Misuse,V 6.1,,Bank-004
+24,Android,ndroid.permission.RECORD_AUDIO,Warning,,,,,,,4.2.1,Privacy Handling – Permission Misuse,V 6.1,,Bank-005
+25,Universal,Certificate check,Warning,,,4.1.5.1.2,行動應用程式資訊安全漏洞,行動應用程式應避免資訊安全漏洞,甲類、乙類、丙類,,,V 3.2、V 3.3、V 4.1、V 4.5,,
+26,Android,Device debuggable detection,Notice,M4,,,,,,,,V 7.3、V 7.4,,
+27,Universal,Debugger attach detection,Warning,,,,,,,,,V 7.2,,
+28,Universal,Critical use-permission check,Critical,,,,,,,,,V 6.1,,
+29,Universal,Find network method,Notice,,,,,,,4.2.3,Native Security – API/LIB Native Risk,V 1.3、V 1.4、V 5.1,,
+30,Universal,Base64 String decoding,Notice,M3,CVE-2015-3200,,,,,4.2.6,Cryptographic strength and multifactor authentication,,,
+31,Universal,Make use of javascript in webview,Notice,,CVE-2013-4710,4.1.5.1.2,行動應用程式資訊安全漏洞,行動應用程式應避免資訊安全漏洞,甲類、乙類、丙類,4.2.3,Native Security – API/LIB Native Risk,V 6.5、V 6.8,,
+32,Universal,Empty password in KeyStore,Critical, ,,"4.1.2.3.7
+4.1.2.3.8","行動應用程式安全敏感性資料儲存控管
+行動應用程式安全敏感性資料硬碼（Hard Code）","安全敏感性資料應儲存於受作業系統保護之區域，以防止其他應用程式未經授權之存取
+安全敏感性資料應避免出現於行動應用程式之程式碼",甲類、乙類、丙類,4.2.7,Storage mechanism and location,"V 1.11、V 3.1、
+V 3.2、V 3.3、V 4.4",,
+33,Universal,Find all keystore,Critical,,,,,,,,,V 3.2、V 3.3,,
+34,Universal,BKS KeyStore checking,Notice,,,4.1.4.2.2,行動應用程式伺服器憑證有效性,行動應用程式應確認伺服器憑證之有效性,甲類、乙類、丙類,,,V 3.2、V 3.3,,
+35,Android,Check package signature,Notice,M10,,,,,,4.2.5,Recreational obfuscation,V 1.12,,
+36,Universal,Screenshot detection,Notice,M4,,4.1.2.3.9,行動應用程式畫面擷取警示,行動應用程式於畫面擷取時應主動警示使用者,丙類,4.2.3,Native Security – API/LIB Native Risk,V 2.7,,
+37,Android,Runtime exec check,Notice,,,,,,,4.2.3,Native Security – API/LIB Native Risk,,,
+38,Universal,HTTPS ALLOW_ALL_HOSTNAME_VERIFIER check,Notice,M5,,"4.1.4.2.3
+4.1.4.2.4
+4.1.5.1.2","行動應用程式伺服器憑證簽發來源
+行動應用程式連線安全
+行動應用程式資訊安全漏洞","行動應用程式應確認伺服器憑證為可信任之憑證機構所簽發
+行動應用程式應避免與未具有效憑證之伺服器，進行連線與傳輸資料
+行動程式應避免資訊安全漏洞",甲類、乙類、丙類,4.2.6,Connection protection,V 6.3,,
+39,Universal,Disable SSL connection verify,Warning,M5,,4.1.5.1.2,行動應用程式資訊安全漏洞,?動應用程式應避免資訊安全漏洞,甲類、乙類、丙類,4.2.6,Connection protection,V 1.3、V 1.4、V 5.1 、V 5.2,,
+40,Universal,HttpHost default scheme http,Warning,M5,,4.1.2.4.1,行動應用程式安全敏感性資料傳輸,行動應用程式透過網路傳輸安全敏感性資料，應使用適當且有效之金鑰長度與加密演算法進行安全加密,甲類、乙類、丙類,4.2.6,Connection protection,,,
+41,Android,WebViewClient onReceivedSslError errors,Warning,M3,,"4.1.4.2.4
+4.2.2.1.2","行動應用程式連線安全
+行動應用程式之Webview安全檢測","?動應用程式應避免與未具有效憑證之伺服器，進?連線與傳輸資料
+行動應用程式於Webview呈現功能時，所連線之網域應為安全網域",甲類、乙類、丙類,4.2.6,Connection protection,V 6.5,,
+42,Universal,Potential XSS in webview,Warning, ,,4.1.5.4.2,行動應用程式注入攻擊防護機制,?動應用程式應提供相關注入攻擊防護機制,甲類、乙類、丙類,4.2.3,Native Security – API/LIB Native Risk,V 6.5、V 6.8,,
+43,Android,HttpURLConnection bug check,Warning, ,,4.1.5.1.1,行動應用程式惡意程式碼,?動應用程式應避免含有惡意程式碼,甲類、乙類、丙類,4.2.3,Potential API risks,,,
+44,Android,MODE_WORLD_READABLE or MODE_WORLD_WRITEABLE check,Notice,M4,,4.1.2.5.3,行動應用程式安全敏感性資料分享權限控管,行動應用程式分享安全敏感性資料時，應避免未授權之行動應用程式存取,甲類、乙類、丙類,4.2.7,Protection Requirement – Data Storage,V 2.2、V 2.8,,
+45,Universal,Dynamic code loading,Notice, ,,,,,,4.2.5,Native Security – Development Obfuscation Concern,V 1.2,,
+46,Android,Get External Storage Directory access invoke,Warning, ,,4.1.2.3.7,行動應用程式安全敏感性資料儲存控管,安全敏感性資料應儲存於受作業系統保護之區域，以防止其他應用程式未經授權之存取,甲類、乙類、丙類,4.2.7,Protection Requirement – Data Storage,V 2.1、V 2.5、V 2.6、V 2.10,,
+47,Android,Android Fragment Vulnerability,Warning, ,CVE-2013-6271,4.1.5.1.2,行動應用程式資訊安全漏洞,?動應用程式應避免資訊安全漏洞,甲類、乙類、丙類,4.2.2,Application internal activities,,,
+48,Universal,"Find all ""dangerous"" permission",Warning, ,,4.1.2.5.3,行動應用程式安全敏感性資料分享權限控管,行動應用程式分享安全敏感性資料時，應避免未授權之行動應用程式存取,甲類、乙類、丙類,4.2.1,Improper permission requests for malicious purposes,V 6.1,,
+49,Universal,"Find all ""normal"" or default permission",Notice, ,,4.1.2.5.3,行動應用程式安全敏感性資料分享權限控管,行動應用程式分享安全敏感性資料時，應避免未授權之行動應用程式存取,甲類、乙類、丙類,4.2.1,Improper permission requests for malicious purposes,V 6.1,,
+50,Android,"Lost ""android:"" prefix in exported components",Notice,M4,CVE-2013-6272,"4.1.2.5.3
+4.1.5.1.1","行動應用程式安全敏感性資料分享權限控管
+行動應用程式惡意程式碼","行動應用程式分享安全敏感性資料時，應避免未授權之行動應用程式存取
+?動應用程式應避免含有惡意程式碼",甲類、乙類、丙類,,,V 1.5、V 6.4,,
+51,Android,"exported check in activity, activity-alias, service, receiver",Notice,M4,,4.1.2.5.3,行動應用程式安全敏感性資料分享權限控管,行動應用程式分享安全敏感性資料時，應避免未授權之行動應用程式存取,甲類、乙類、丙類,4.2.2,Privacy Handling – Improper Noticermation Disclosure,V 2.3、V 4.9、V 6.4,,
+52,Android,Check procedure in AndroidMainfest.xml,Notice,M4,,4.1.2.5.3,行動應用程式安全敏感性資料分享權限控管,行動應用程式分享安全敏感性資料時，應避免未授權之行動應用程式存取,甲類、乙類、丙類,4.2.2,Privacy Handling – Improper Noticermation Disclosure,V 2.3、V 4.9、V 6.4,,
+53,Android,"exported check in android:readPermission, android:writePermission, android:permission*",Notice,M4,,4.1.2.5.3,行動應用程式安全敏感性資料分享權限控管,行動應用程式分享安全敏感性資料時，應避免未授權之行動應用程式存取,甲類、乙類、丙類,4.2.1,Intended hidden permission usage,V 4.9、V 6.4,,
+54,Android,Implicit Service,Notice, ,,,,,,4.2.7,Storage mechanism and location,V 2.1,,
+55,Universal,Use SQLite database,Notice,,CVE-2011-3901,4.1.5.1.1,行動應用程式惡意程式碼,?動應用程式應避免含有惡意程式碼,甲類、乙類、丙類,4.2.7,Storage mechanism and location,V 2.1,,
+56,Universal,Checking whether the app is using SQLCipher,Notice,M2,,4.1.2.3.6,行動應用程式安全敏感性資料儲存保護,安全敏感性資料應採用適當且有效之金鑰長度與加密演算法，進行加密處理再儲存,甲類、乙類、丙類,4.2.7,Storage mechanism and location,V 2.1,,
+57,Universal,Find SQLite Encryption Extension,Notice,M2,,4.1.2.3.6,行動應用程式安全敏感性資料儲存保護,安全敏感性資料應採用適當且有效之金鑰長度與加密演算法，進行加密處理再儲存,甲類、乙類、丙類,4.2.7,Storage mechanism and location,V 2.1,,
+58,Universal,Searching SQLite PRAGMA key encryption,Notice,,,,,,,4.2.7,Storage mechanism and location,V 1.11、V 2.1,,
+60,Android,Check shared_user_id,Notice, ,,,,,,4.2.2,Improper surrounding Noticermation disclosure,,,
+61,Android,File delete alert,Notice,M2,,,,,,4.2.3,Native Security – API/LIB Native Risk,,,
+62,Universal,WebView setAllowFileAccess,Notice,M4,,"4.1.2.3.7
+4.1.2.5.3","行動應用程式安全敏感性資料儲存控管
+行動應用程式安全敏感性資料分享權限控管","安全敏感性資料應儲存於受作業系統保護之區域，以防止其他應用程式未經授權之存取
+?動應用程式分享敏感性資料時，應避免未授權之?動應用程式存取",甲類、乙類、丙類,4.2.7,Storage mechanism and location,V 6.6、V 6.7,,
+63,Android,Adb Backup check,Notice,,"CVE-2013-5112
+CVE-2014-7952",,,,,4.2.7,Storage mechanism and location,,,
+64,Universal,SSL Verification Fail,Warning,M3,CVE-2015-1816,"4.1.4.2.2
+4.1.4.2.3","行動應用程式伺服器憑證有效性
+行動應用程式伺服器憑證簽發來源","?動應用程式應確認伺服器憑證之有效性
+?動應用程式應確認伺服器憑證為可信任之憑證機構、政府機關或 企業簽發",甲類、乙類、丙類,4.2.6,Connection protection,V 5.1、V 5.2、V 5.3、V 5.4,,
+65,Universal,ENCRYPTION_AES/DES/MD5 Cipher&Degist Method found,Warning, ,,4.1.2.3.6,行動應用程式安全敏感性資料儲存保護,安全敏感性資料應採用適當且有效之金鑰長度與加密演算法，進行加密處理再儲存,甲類、乙類、丙類,4.2.6,Cryptographic strength and multifactor authentication,V 1.11、V 3.2、V 3.3,,
+66,Universal,Have in application payment library,Notice, ,,4.1.3.1,交易資源使用,,丙類,4.2.1,Privacy Handling – Permission Misuse,V 6.1,,
+67,Android,Url expose,Notice,,,,,,,,,V 2.9,,
+68,Universal,Use gps location Notice,Notice,,,,,,,4.2.2,Privacy Handling – Improper Noticermation Disclosure,V 2.2,,
+69,Android,Android debug mode detection,Notice,,,,,,,,,,,
+70,Universal,Unneccesury permission check,Notice,,,,,,,,,,,
+71,Universal,KeyStore location,Notice,,,,,,,,,,,
+72,Universal,Keystore format check,Notice,,,,,,,,,,,
+73,Android,Runtime command execution,Notice,,,,,,,,,,,
+74,Universal,App install source,Notice,,,,,,,,,,,
+75,Universal,Hardcode E-mail,Notice,,,,,,,,,,,
+76,Universal,Have media URI prefix,Notice,,,,,,,,,,,
+77,Android,Use URI,Notice,,,,,,,,,,,
+78,Universal,USE URL,Notice,,,,,,,,,,,
+79,Universal,Hardcode IP address,Notice,,,,,,,,,,,
+80,,,,,,,,,,,,,,
+81,,,,,,,,,,,,,,
+82,,,,,,,,,,,,,,
+83,,,,,,,,,,,,,,
+84,,,,,,,,,,,,,,
+85,,,,,,,,,,,,,,
+86,,,,,,,,,,,,,,
+87,Universal,Make use of log function,Notice,,,,,,,,,,,
+88,,,,,,,,,,,,,,
+89,,,,,,,,,,,,,,
+90,,,,,,,,,,,,,,
+91,,,,,,,,,,,,,,
+92,,,,,,,,,,,,,,
+93,,,,,,,,,,,,,,
+94,,,,,,,,,,,,,,
+95,,,,,,,,,,,,,,
+96,,,,,,,,,,,,,,
+97,,,,,,,,,,,,,,
+98,,,,,,,,,,,,,,
+99,,,,,,,,,,,,,,
+100,Universal,Sensitive word check,Warning,,,,,,,,,,,
+101,Android,Webview password check,Warning,,,,,,,,,,,
+102,Universal,Securerandom.setSeed check,Warning,,,,,,,,,,,
+103,Universal,Telecommunications Noticermation gather,Warning,,,,,,,,,,,
+104,Universal,Clipboard manipulation check,Notice,,,,,,,,,,,
+105,Universal,Possible hardcoded Noticermation,Notice,,,,,,,,,,,
+106,Universal,Official store release,Notice,,,,,,,,,,,

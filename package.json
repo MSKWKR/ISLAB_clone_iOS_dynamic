@@ -1,0 +1,16 @@
+{
+	"name": "ios-dynamic-analysis-framework",
+	"version": "1.0.0",
+	"description": "Dynamic analysis by Frida agent written in TypeScript",
+	"private": true,
+	"main": "agent/app/rpc.ts",
+	"scripts": {
+		"prepare": "npm run build",
+		"build": "frida-compile agent/index.ts -o _agent.js"
+	},
+	"devDependencies": {
+		"@types/frida-gum": "^15.0.0",
+		"@types/node": "^13.7.0",
+		"frida-compile": "^9.5.2"
+	}
+}

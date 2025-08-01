@@ -1,0 +1,39 @@
+0,Skip,
+1,Undetect,
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Undetect,
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with appcenter-7b9ae5ce-0d51-432c-a28a-5debe1f43073://
+"
+22,Manual,"Use CC_MD5 with [""434F251E-811A-46F4-A3A5-B245B2F1AEAC\x01"", ""36"", """"]
+Use CC_MD5 with [""0xfaa189080e1a0108"", ""428"", """"]
+Use CC_MD5 with [""434F251E-811A-46F4-A3A5-B245B2F1AEAC\x02"", ""36"", """"]
+Use CC_MD5 with [""434F251E-811A-46F4-A3A5-B245B2F1AEAC"", ""36"", """"]
+"
+23,Undetect,
+24,Manual,"Make use of log function NSLog with [""XPC connection interrupted""]
+Make use of log function NSLog with [""%s Failed to access remote service: %@""]
+Make use of log function NSLog with [""Can""t find keyplane that supports type %ld for keyboard %@; using %@""]
+"
+25,Manual,"Autocorrecting keyboard is detected, Please close the function by setting the UITextfield
+"
+26,Pass,
+27,Undetect,
+28,Pass,Debug mode is disabled.
+29,Undetect,

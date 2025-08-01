@@ -1,0 +1,53 @@
+,ID,Platform,Test name,OWASP Mobile Top10 (2016),CVE,工業局編號,工業局APP資安檢測項目,工業局APP資安技術要求,工業局分類,MAST編號,MAST規範,"OWASP
+(2017 checklist)",Lab,Bank,MSTG,Level,Desc
+0,1,Universal,SSL connection check,M3,,4.1.2.4.1|4.1.2.1.2,行動應用程式安全敏感性資料傳輸,行動應用程式透過網路傳輸安全敏感性資料，應使用適當且有效之金鑰長度與加密演算法進行安全加密,甲類、乙類、丙類,4.2.6,Connection protection,V 1.3、V 1.4、V 4.3、V 4.7、V 5.1、V 5.2,Lab-001,,MSTG-STORAGE 4|MSTG-NETWORK-1|MSTG-NETWORK-2,NOTICE,"URL with http found, please check if this URL need to be protected with SSL or not ,Keyword: NSURL with http / NSURL startswith(http://)"
+1,2,Universal,Make use of security method,,,4.1.2.3.6,行動應用程式敏感性資料儲存保護,敏感性資料應採用適當且有效之金鑰長度與加密演算法，進行加密處理再儲存,,4.2.3,Native Security – API/LIB Native Risk,V 1.9、V 1.10、V 3.4,Lab-002,,"MSTG-STORAGE-14|
+MSTG CRYPTO",NOTICE,Cipher function found. Ensure no weak cipher function used in this application. Message digest function found. Ensure no weak message degist function used in this application. Signature function found. Ensure no weak signature function used in this application. MAC function found. Ensure no weak MAC function used in this application.
+2,3,Universal,Make use of security class,,,4.1.2.3.6,行動應用程式敏感性資料儲存保護,敏感性資料應採用適當且有效之金鑰長度與加密演算法，進行加密處理再儲存,,4.2.3,Native Security – API/LIB Native Risk,V 1.9、V 1.10、V 3.4,Lab-003,,"MSTG-STORAGE-14|
+MSTG CRYPTO",NOTICE,Cipher function found. Ensure no weak cipher function used in this application. Message digest function found. Ensure no weak message degist function used in this application. Signature function found. Ensure no weak signature function used in this application. MAC function found. Ensure no weak MAC function used in this application.
+3,4,Universal,Master Key Vulnerability checking,,CVE-2013-4787,4.1.5.1.2,行動應用程式資訊安全漏洞,行動應用程式應避免資訊安全漏洞,甲類、乙類、丙類,"4.2.2
+4.2.6","Privacy Handling – Improper Information Disclosure
+Protection Requirement – Connection Encryption Strength",V 7.1,Lab-004,,MSTG-CRYPTO-2|MSTG-CRYPTO-4,,
+4,5,Universal,Network access,,,,,,,4.2.3,Native Security – API/LIB Native Risk,V 5.2,Lab-009,,MSTG-NETWORK-3,,
+5,6,Universal,Make use of SQLite deprecated functions,,,4.1.5.3.1,行動應用程式函式庫引用安全,行動應用程式於引用之函式庫有更新時，應備妥對應之更新版本，更新方式請參酌4.1.1.行動應用程式發布安全,,4.2.3,Potential API risks,,Lab-013,,MSTG-NETWORK-6|MSTG-CODE-5,,"sqlite3_aggregate_count',
+	'sqlite3_expired',
+	'sqlite3_global_recover',
+	'sqlite3_memory_alarm',
+	'sqlite3_soft_heap_limit',
+	'sqlite3_thread_cleanup',
+	'sqlite3_transfer_bindings' These functions are deprecated. In order to maintain backwards compatibility with older code, these functions continue to be supported. However, new applications should avoid the use of these functions. Keyword: libsqlite3.dylib"
+6,7,Universal,List all native method,,,4.2.2.1.2,行動應用程式之Webview安全檢測,行動應用程式於Webview呈現功能時，所連線之網域應為安全網域,,4.2.5,Native Security – Development Obfuscation Concern,V 1.1,Lab-014,,MSTG-PLATFORM-6,,
+7,8,Universal,Clipboard manipulation check,M4,,4.1.2.3.13,,,,,,V 2.5,,,MSTG-STORAGE-7,,"Any app on an iOS device can access the most recent thing copied to your clipboard.Theoretically, a malicious app can read what’s on your iOS clipboard and then feed that information back to a remote server. That remote server can be easily accessed by someone stealing your personal and sensitive information. Keyword: Foundation, copy: ,cut: ,paste:"
+8,9,Universal,Make use of SMS related code,M3,,,,,,,,V 5.5,Lab-022,WARNING,,,"This application sends SMS message. One of the most common vulnerabilities of SMS verification codes is weak security protocols. Many SMS verification codes are sent over unencrypted channels, making them vulnerable to interception.Make sure it do this action with user permission. Keyword: MFMessageComposeViewController,canSendText"
+9,10,Universal,Certificate check,,,4.1.5.1.2,行動應用程式資訊安全漏洞,行動應用程式應避免資訊安全漏洞,甲類、乙類、丙類,,,V 3.2、V 3.3、V 4.1、V 4.5,,,MSTG-NETWORK-3|MSTG-NETWORK-4,,"Check the SSL Certificate information.We use SSLlab to check your cert,more information https://www.ssllabs.com/ssltest/ Keyword: NSURL startswith https://"
+10,11,Universal,Base64 String decoding,M3,CVE-2015-3200,,,,,4.2.6,Cryptographic strength and multifactor authentication,,,,MSTG-CRYPTO-1|MSTG-CRYPTO-2|MSTG-CRYPTO-3,NOTICE,Base64-encoded or base64-decoded string found Applications may Base64-encode parameters to conceal them from users or to ease the transfer of binary data. The existence of Base64-encoded data might suggest security-sensitive information or functionality that should be investigated further. Keyword: Base64
+11,12,Universal,Make use of javascript in webview,,CVE-2013-4710,4.2.2.1.2,行動應用程式之Webview安全檢測,行動應用程式於Webview呈現功能時，所連線之網域應為安全網域,甲類、乙類、丙類,4.2.3,Native Security – API/LIB Native Risk,V 6.5、V 6.8,,,MSTG-ARCH-2|MSTG-NETWORK-4|MSTG-PLATFORM-5|MSTG-PLATFORM-6|MSTG-PLATFORM-7,WARNING,"Webview JavaScript Enabled, the webview use setJavaScriptEnabled to allow javascript. It is potentially dangerous because it may allow the external website to do XSS attack in the webview. Keyword: UIWebView - stringByEvaluationgJavaScriptFromString in webview"
+12,13,Universal,Screenshot detection,M10,,4.1.2.3.9,行動應用程式畫面擷取警示,行動應用程式於畫面擷取時應主動警示使用者,丙類,4.2.3,Native Security – API/LIB Native Risk,V 2.7,,,MSTG-STORAGE-12,WARNING,This application allows users to take screenshots.Please check screenshots function and turn it off. Keyword:UIApplication - _handleScreenshot to detect screenshot
+13,14,Universal,HTTPS ALLOW_ALL_HOSTNAME_VERIFIER check,M5,,4.1.4.2.3|4.1.4.2.4|4.1.5.1.2,"行動應用程式伺服器憑證簽發來源
+行動應用程式連線安全
+行動應用程式資訊安全漏洞","行動應用程式應確認伺服器憑證為可信任之憑證機構所簽發
+行動應用程式應避免與未具有效憑證之伺服器，進行連線與傳輸資料
+行動程式應避免資訊安全漏洞",甲類、乙類、丙類,4.2.6,Connection protection,V 6.3,,17.6,MSTG-NETWORK-3,WARNING,This application use ALLOW_ALL_HOSTNAME_VERIFIER to verify all the CN. It is dangerous and may cause man-in-the-middle attack.
+14,15,Universal,SSL Certificate check,M5,,4.1.5.1.2,行動應用程式資訊安全漏洞,行動應用程式應避免資訊安全漏洞,甲類、乙類、丙類,4.2.6,Connection protection,V 1.3、V 1.4、V 5.1 、V 5.2,,,MSTG-CODE-5|MSTG-PLATFORM-8|MSTG-PLATFORM-9,NOTICE,Check the SSL Certificate information.
+15,16,Universal,Potential XSS in webview,,,4.1.5.4.2,行動應用程式注入攻擊防護機制,行動應用程式應提供相關注入攻擊防護機制,甲類、乙類、丙類,4.2.3,Native Security – API/LIB Native Risk,V 6.5、V 6.8,,,MSTG-PLATFORM-2,,
+16,17,Universal,Use SQLite database,,CVE-2011-3901,4.1.5.1.1,行動應用程式惡意程式碼,?動應用程式應避免含有惡意程式碼,甲類、乙類、丙類,4.2.7,Storage mechanism and location,V 2.1,,,MSTG-STORAGE-1|MSTG-STORAGE-2,,
+17,18,Universal,WebView setAllowFileAccess,M3,,4.1.2.3.7|4.1.2.5.3,"行動應用程式安全敏感性資料儲存控管
+行動應用程式安全敏感性資料分享權限控管","安全敏感性資料應儲存於受作業系統保護之區域，以防止其他應用程式未經授權之存取
+?動應用程式分享敏感性資料時，應避免未授權之?動應用程式存取",甲類、乙類、丙類,4.2.7,Storage mechanism and location,V 6.6、V 6.7,,,MSTG-STORAGE 4|MSTG-PLATFORM-3|MSTG-PLATFORM-4,WARNING,Allow local file access with webview. Please ensure your code not to allow path traversal.
+18,19,Universal,SSL Verification Fail,M3,CVE-2015-1816,4.1.4.2.2|4.1.4.2.3,"行動應用程式伺服器憑證有效性
+行動應用程式伺服器憑證簽發來源","?動應用程式應確認伺服器憑證之有效性
+?動應用程式應確認伺服器憑證為可信任之憑證機構、政府機關或 企業簽發",甲類、乙類、丙類,4.2.6,Connection protection,V 5.1、V 5.2、V 5.3、V 5.4,,,MSTG-NETWORK-3|MSTG-NETWORK-4,NOTICE,Check the SSL Certificate information.
+19,20,Universal,Possible hardcoded information,,,,,,,,,,,,,,"The use of a hard-coded password increases the possibility of password guessing tremendously. Keyword: CCCrypt, CCAlgorithm"
+20,21,Universal,USE URL,,,,,,,,,,,,,,"URL found during analysis, check if there are some suspisious URL. Keyword:Use URL schemes with"
+21,22,Universal,ENCRYPTION_AES/DES/MD5 Cipher&Degist Method found,,,4.1.2.3.6,行動應用程式安全敏感性資料儲存保護,安全敏感性資料應採用適當且有效之金鑰長度與加密演算法，進行加密處理再儲存,甲類、乙類、丙類,4.2.6,Cryptographic strength and multifactor authentication,V 1.11、V 3.2、V 3.3,,,MSTG-STORAGE-14|MSTG-CRYPTO,,
+22,23,Universal,Local Data Storage,,,4.1.2.3.10,行動應用程式應適當使用系統憑證儲存設施 儲存敏感性資料,檢查行動應用程式是否將可儲存於系統憑證儲存設施之敏感性資料儲存於內。,,,,,,,MSTG-STORAGE-1|MSTG-STORAGE-14,,"While it can improve the efficiency and availability of the application, it also carries risks. To protect the security of sensitive user information, a better approach is to store data in iOS's secure storage areas, such as the Secure Enclave.  Keyword:PrivateFrameworks"
+23,24,Universal,Make use of log function,M10,,4.1.2.3.4|4.1.2.3.5,行動應用程式敏感性資料儲存限制,行動應用程式應避免將敏感性資料儲存於冗餘檔案或日誌檔案中,,,,,,,MSTG-STORAGE-3|MSTG-STORAGE-13,,"Log function in this application, you should notice is there sensitive information in these logs. Keyword: Foundation, NSLog"
+24,25,Universal,Keyboard cache,,,4.1.2.3.11,行動應用程式應於使用者輸入敏感性資料時將鍵盤的快取機制關閉,檢查行動應用程式於使用者輸入敏感性資料時，是否未自動修正且未帶入可能字串,,,,,,,MSTG-STORAGE-5|MSTG-PLATFORM-11,Notice,"Because the keyboard cache file is stored on the device, if the device is lost, it may be recovered, thereby revealing any sensitive information contained within. Check the keyboard cache ability open or not. Keyword: libSystem.B.dylib, Caches"
+25,26,Universal,Domain Check,,,4.2.2.1.2,行動應用程式於 Webview 呈現功能時，所連線之網域應為安全網 域,檢查行動應用程式使用 Webview 呈現功能時，所連線之網域是否為安全網域且與開發商於資料調查表中宣稱實際所連線之網域一致,,,,,,,"MSTG-ARCH-2|MSTG-NETWORK-4|MSTG-PLATFORM-5|
+MSTG-PLATFORM-6|MSTG-PLATFORM-7",Ｗarning,"Connecting to an insecure domain may result in consequences such as virus/malware infection, data theft, identity theft, computer ransom, etc. It's important to only connect to secure domains and use up-to-date anti-virus software, firewall, and browser, and avoid entering sensitive information on insecure websites."
+26,27,Universal,use of PIE,,,4.1.5.1.2,行動應用程式資訊安全漏洞,檢查行動應用程式是否開啟PIE,,,,V8.3,,,MSTG-CODE-5 ｜MSTG-CODE-8,Ｗarning,Enabling Position Independent Executable (PIE) are mainly related to enhancing the security of applications.
+27,28,Universal,debug mode,,,4.1.5.5.9,行動應用程式防止動態分析與竄改,檢查行動應用程式是否將debug mode設為關閉,,,Storage mechanism and location,V8.2,,,MSTG-CODE-2｜MSTG-CODE-6,Ｗarning,Mobile applications should disable debug mode.
+28,29,Universal,IPC check,,,4.1.2.3.3,行動應用程式安全敏感性資料傳輸,檢查行動應用程式在使用IPC傳輸時，是否洩露敏感性資料,,,,,,,MSTG-STORAGE 4|MSTG-NETWORK-1|MSTG-NETWORK-2,Ｗarning,Applications should not leak sensitive data when using IPC transfers.
+29,30,Universal,Emulator Environment Check,,,4.1.5.5.7,行動應用程式執行環境是否為模擬器,偵測當前的執行環境是否為模擬器，如是，應主動通 知使用者或關閉應用程式,,,,,,,MASVS-RESILIENCE-1,NOTICE,Detects if the app is running on a emulator; notifies the user or closes the app if so.
+30,31,Universal,Password length check,,,4.1.2.2.3,"行動應用程式如採用密碼認證，應主動提醒使用者設定較複雜
+之密碼",應對密碼長度進行有效驗證，若檢測不合規，應觸發警示訊息，提醒用戶修改。,,,,,,,MASVS-AUTH-2,NOTICE,Logs with weak password validation or missing alert mechanism identified. Ensure validation triggers an alert.

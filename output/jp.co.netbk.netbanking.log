@@ -1,0 +1,5 @@
+{"time":"2024-3-19 0:9:57:929","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/7E8981CA-1531-4819-AB0E-F22D6F004096/ネット銀行.app/Info.plist","0x0"]}
+{"time":"2024-3-19 0:9:57:933","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/7E8981CA-1531-4819-AB0E-F22D6F004096/ネット銀行.app/ネット銀行","0x0"]}
+{"time":"2024-3-19 0:9:57:939","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/7E8981CA-1531-4819-AB0E-F22D6F004096/ネット銀行.app","0x0"]}
+{"time":"2024-3-19 0:9:57:940","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/7E8981CA-1531-4819-AB0E-F22D6F004096/ネット銀行.app/Info.plist","0x0"]}
+{"time":"2024-3-19 0:9:57:941","lib":"libSystem.B.dylib","func":"open","args":["/private/var/containers/Bundle/Application/7E8981CA-1531-4819-AB0E-F22D6F004096/ネット銀行.app/ネット銀行","0x0"]}

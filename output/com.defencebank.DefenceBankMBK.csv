@@ -1,0 +1,41 @@
+0,Skip,
+1,Pass,"NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/functions/getIntroCardSeries
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/functions/getIntroCardSeries
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/functions/getIntroCardSeries
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/functions/getIntroCardSeries
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/classes/_Installation/ouqbvKPD1F
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/classes/_Installation/ouqbvKPD1F
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/classes/_Installation/ouqbvKPD1F
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/classes/_Installation/ouqbvKPD1F
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/classes/LimitedFeatures
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/classes/LimitedFeatures
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/classes/LimitedFeatures
+NSURL with HTTPs https://parse.fusion.com.au/parse-DEF/classes/LimitedFeatures
+"
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Undetect,
+9,Undetect,
+10,Manual,"{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/functions/getIntroCardSeries"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/functions/getIntroCardSeries"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/functions/getIntroCardSeries"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/functions/getIntroCardSeries"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/classes/_Installation/ouqbvKPD1F"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/classes/_Installation/ouqbvKPD1F"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/classes/_Installation/ouqbvKPD1F"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/classes/_Installation/ouqbvKPD1F"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/classes/LimitedFeatures"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/classes/LimitedFeatures"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/classes/LimitedFeatures"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://parse.fusion.com.au/parse-DEF/classes/LimitedFeatures"", ""issuer"": <Name(C=US,O=Amazon,CN=Amazon RSA 2048 M03)>, ""not valid after"": ""2024-10-03 23:59:59"", ""not valid before"": ""2023-09-05 00:00:00"", ""serial number"": 19963873401153987334375773649916062807, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.fusion.com.au)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}"
+11,Undetect,
+12,Skip,
+13,Undetect,
+14,Skip,
+15,Skip,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Undetect,"Use URL schemes with defbank://
+"
+22,Undetect,
+23,Undetect,
+24,Undetect,
+25,Undetect,
+26,Pass,
+27,Undetect,

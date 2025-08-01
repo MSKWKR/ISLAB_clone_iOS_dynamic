@@ -1,0 +1,233 @@
+0,Skip,
+1,Pass,"NSURL with HTTPs https://firebaseinstallations.googleapis.com/v1/projects/igfs-3aaa8/installations/
+NSURL with HTTPs https://firebaseinstallations.googleapis.com/v1/projects/igfs-3aaa8/installations/
+NSURL with HTTPs https://firebaseinstallations.googleapis.com/v1/projects/igfs-3aaa8/installations/
+NSURL with HTTPs https://firebaseinstallations.googleapis.com/v1/projects/igfs-3aaa8/installations/
+NSURL with HTTPs https://app-measurement.com/config/app/1:412764967472:ios:44ecbf014797b154
+NSURL with HTTPs https://app-measurement.com/config/app/1:412764967472:ios:44ecbf014797b154
+NSURL with HTTPs https://app-measurement.com/config/app/1:412764967472:ios:44ecbf014797b154
+NSURL with HTTPs https://app-measurement.com/config/app/1:412764967472:ios:44ecbf014797b154
+"
+2,Skip,
+3,Skip,
+4,Skip,
+5,Skip,
+6,Undetect,
+7,Skip,
+8,Skip,
+9,Skip,
+10,Undetect,
+11,Manual,"{""valid"": True, ""detail"": {""url"": ""https://firebaseinstallations.googleapis.com/v1/projects/igfs-3aaa8/installations/"", ""issuer"": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, ""not valid after"": ""2023-04-03 08:18:09"", ""not valid before"": ""2023-01-09 08:18:10"", ""serial number"": 223953434955014393532313466016847714697, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.googleapis.com)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://firebaseinstallations.googleapis.com/v1/projects/igfs-3aaa8/installations/"", ""issuer"": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, ""not valid after"": ""2023-04-03 08:18:09"", ""not valid before"": ""2023-01-09 08:18:10"", ""serial number"": 223953434955014393532313466016847714697, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.googleapis.com)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://firebaseinstallations.googleapis.com/v1/projects/igfs-3aaa8/installations/"", ""issuer"": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, ""not valid after"": ""2023-04-03 08:18:09"", ""not valid before"": ""2023-01-09 08:18:10"", ""serial number"": 223953434955014393532313466016847714697, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.googleapis.com)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://firebaseinstallations.googleapis.com/v1/projects/igfs-3aaa8/installations/"", ""issuer"": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, ""not valid after"": ""2023-04-03 08:18:09"", ""not valid before"": ""2023-01-09 08:18:10"", ""serial number"": 223953434955014393532313466016847714697, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.googleapis.com)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://app-measurement.com/config/app/1:412764967472:ios:44ecbf014797b154"", ""issuer"": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, ""not valid after"": ""2023-04-03 08:17:14"", ""not valid before"": ""2023-01-09 08:17:15"", ""serial number"": 198824820978615351902236694336025243704, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.google.com)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://app-measurement.com/config/app/1:412764967472:ios:44ecbf014797b154"", ""issuer"": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, ""not valid after"": ""2023-04-03 08:17:14"", ""not valid before"": ""2023-01-09 08:17:15"", ""serial number"": 198824820978615351902236694336025243704, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.google.com)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://app-measurement.com/config/app/1:412764967472:ios:44ecbf014797b154"", ""issuer"": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, ""not valid after"": ""2023-04-03 08:17:14"", ""not valid before"": ""2023-01-09 08:17:15"", ""serial number"": 198824820978615351902236694336025243704, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.google.com)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}{""valid"": True, ""detail"": {""url"": ""https://app-measurement.com/config/app/1:412764967472:ios:44ecbf014797b154"", ""issuer"": <Name(C=US,O=Google Trust Services LLC,CN=GTS CA 1C3)>, ""not valid after"": ""2023-04-03 08:17:14"", ""not valid before"": ""2023-01-09 08:17:15"", ""serial number"": 198824820978615351902236694336025243704, ""signature algorithm"": ""sha256"", ""subject"": <Name(CN=*.google.com)>, ""x509 version"": <Version.v3: 2>, ""key size"": 2048}}"
+12,Skip,
+13,Skip,
+14,Skip,
+15,Undetect,
+16,Undetect,
+17,Skip,
+18,Skip,
+19,Skip,
+20,Undetect,
+21,Skip,
+22,Skip,
+23,Skip,
+24,Skip,
+25,Skip,
+26,Skip,
+27,Skip,
+28,Skip,
+29,Skip,
+30,Skip,
+31,Skip,
+32,Skip,
+33,Skip,
+34,Manual,"Use CC_MD5 with [""0xfc94ad080e1a0108"", ""312"", """"]
+Use CC_MD5 with [""0xfc94ad080e1a0108"", ""312"", """"]
+Use CC_MD5 with [""0xfc94ad080e1a0108"", ""312"", """"]
+Use CC_MD5 with [""0xfc94ad080e1a0108"", ""312"", """"]
+Use CC_MD5 with [""R122157530"", ""10"", """"]
+Use CC_MD5 with [""0x3537353132323152"", ""10"", """"]
+Use CC_MD5 with [""0x3537353132323152"", ""10"", ""\x0b""]
+Use CC_MD5 with [""0x3537353132323152"", ""10"", ""0x1e67eafa0""]
+Use CC_MD5 with [""R122157530"", ""10"", ""\x01""]
+Use CC_MD5 with [""0x3537353132323152"", ""10"", ""0xa37176601864862f""]
+Use CC_MD5 with [""0x3537353132323152"", ""10"", ""\x03""]
+Use CC_MD5 with [""R122157530"", ""10"", ""0x283a84f80""]
+Use CC_MD5 with [""0x3537353132323152"", ""10"", ""\x03""]
+Use CC_MD5 with [""0x3537353132323152"", ""10"", ""0x1e67eafa0""]
+"
+35,Skip,
+36,Skip,
+37,Skip,
+38,Skip,
+39,Skip,
+40,Skip,
+41,Skip,
+42,Skip,
+43,Undetect,"Use URL schemes with ipadstockmega://
+"
+44,Skip,
+45,Undetect,
+46,Skip,
+47,Skip,
+48,Undetect,
+49,Skip,
+50,Undetect,
+51,Pass,"[
+    {
+        ""isGameCenterEnabled"": false,
+        ""features"": [
+            ""iosUniversal""
+        ],
+        ""supportedDevices"": [
+            ""iPhone5s-iPhone5s"",
+            ""iPadAir-iPadAir"",
+            ""iPadAirCellular-iPadAirCellular"",
+            ""iPadMiniRetina-iPadMiniRetina"",
+            ""iPadMiniRetinaCellular-iPadMiniRetinaCellular"",
+            ""iPhone6-iPhone6"",
+            ""iPhone6Plus-iPhone6Plus"",
+            ""iPadAir2-iPadAir2"",
+            ""iPadAir2Cellular-iPadAir2Cellular"",
+            ""iPadMini3-iPadMini3"",
+            ""iPadMini3Cellular-iPadMini3Cellular"",
+            ""iPodTouchSixthGen-iPodTouchSixthGen"",
+            ""iPhone6s-iPhone6s"",
+            ""iPhone6sPlus-iPhone6sPlus"",
+            ""iPadMini4-iPadMini4"",
+            ""iPadMini4Cellular-iPadMini4Cellular"",
+            ""iPadPro-iPadPro"",
+            ""iPadProCellular-iPadProCellular"",
+            ""iPadPro97-iPadPro97"",
+            ""iPadPro97Cellular-iPadPro97Cellular"",
+            ""iPhoneSE-iPhoneSE"",
+            ""iPhone7-iPhone7"",
+            ""iPhone7Plus-iPhone7Plus"",
+            ""iPad611-iPad611"",
+            ""iPad612-iPad612"",
+            ""iPad71-iPad71"",
+            ""iPad72-iPad72"",
+            ""iPad73-iPad73"",
+            ""iPad74-iPad74"",
+            ""iPhone8-iPhone8"",
+            ""iPhone8Plus-iPhone8Plus"",
+            ""iPhoneX-iPhoneX"",
+            ""iPad75-iPad75"",
+            ""iPad76-iPad76"",
+            ""iPhoneXS-iPhoneXS"",
+            ""iPhoneXSMax-iPhoneXSMax"",
+            ""iPhoneXR-iPhoneXR"",
+            ""iPad812-iPad812"",
+            ""iPad834-iPad834"",
+            ""iPad856-iPad856"",
+            ""iPad878-iPad878"",
+            ""iPadMini5-iPadMini5"",
+            ""iPadMini5Cellular-iPadMini5Cellular"",
+            ""iPadAir3-iPadAir3"",
+            ""iPadAir3Cellular-iPadAir3Cellular"",
+            ""iPodTouchSeventhGen-iPodTouchSeventhGen"",
+            ""iPhone11-iPhone11"",
+            ""iPhone11Pro-iPhone11Pro"",
+            ""iPadSeventhGen-iPadSeventhGen"",
+            ""iPadSeventhGenCellular-iPadSeventhGenCellular"",
+            ""iPhone11ProMax-iPhone11ProMax"",
+            ""iPhoneSESecondGen-iPhoneSESecondGen"",
+            ""iPadProSecondGen-iPadProSecondGen"",
+            ""iPadProSecondGenCellular-iPadProSecondGenCellular"",
+            ""iPadProFourthGen-iPadProFourthGen"",
+            ""iPadProFourthGenCellular-iPadProFourthGenCellular"",
+            ""iPhone12Mini-iPhone12Mini"",
+            ""iPhone12-iPhone12"",
+            ""iPhone12Pro-iPhone12Pro"",
+            ""iPhone12ProMax-iPhone12ProMax"",
+            ""iPadAir4-iPadAir4"",
+            ""iPadAir4Cellular-iPadAir4Cellular"",
+            ""iPadEighthGen-iPadEighthGen"",
+            ""iPadEighthGenCellular-iPadEighthGenCellular"",
+            ""iPadProThirdGen-iPadProThirdGen"",
+            ""iPadProThirdGenCellular-iPadProThirdGenCellular"",
+            ""iPadProFifthGen-iPadProFifthGen"",
+            ""iPadProFifthGenCellular-iPadProFifthGenCellular"",
+            ""iPhone13Pro-iPhone13Pro"",
+            ""iPhone13ProMax-iPhone13ProMax"",
+            ""iPhone13Mini-iPhone13Mini"",
+            ""iPhone13-iPhone13"",
+            ""iPadMiniSixthGen-iPadMiniSixthGen"",
+            ""iPadMiniSixthGenCellular-iPadMiniSixthGenCellular"",
+            ""iPadNinthGen-iPadNinthGen"",
+            ""iPadNinthGenCellular-iPadNinthGenCellular"",
+            ""iPhoneSEThirdGen-iPhoneSEThirdGen"",
+            ""iPadAirFifthGen-iPadAirFifthGen"",
+            ""iPadAirFifthGenCellular-iPadAirFifthGenCellular"",
+            ""iPhone14-iPhone14"",
+            ""iPhone14Plus-iPhone14Plus"",
+            ""iPhone14Pro-iPhone14Pro"",
+            ""iPhone14ProMax-iPhone14ProMax"",
+            ""iPadTenthGen-iPadTenthGen"",
+            ""iPadTenthGenCellular-iPadTenthGenCellular"",
+            ""iPadPro11FourthGen-iPadPro11FourthGen"",
+            ""iPadPro11FourthGenCellular-iPadPro11FourthGenCellular"",
+            ""iPadProSixthGen-iPadProSixthGen"",
+            ""iPadProSixthGenCellular-iPadProSixthGenCellular""
+        ],
+        ""advisories"": [],
+        ""screenshotUrls"": [
+            ""https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/68/77/c3/6877c351-340b-f59c-2a91-1af1409272bd/mzl.vwugpwhm.png/392x696bb.png"",
+            ""https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/2b/d2/d5/2bd2d567-771f-7b99-bca9-ee3e4de09902/mzl.kglwclva.png/392x696bb.png"",
+            ""https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/6f/c1/fa/6fc1fa93-b4a4-6f2f-906d-40527fe161c5/mzl.izoppxyi.png/392x696bb.png"",
+            ""https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/bb/7a/99/bb7a9910-a363-0523-a1d6-026628968313/mzl.bpqyxiwc.png/392x696bb.png"",
+            ""https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/d4/af/d6d4afe0-7bc2-226b-2811-dd532ef18845/mzl.xahhychk.png/392x696bb.png""
+        ],
+        ""ipadScreenshotUrls"": [
+            ""https://is2-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/18/45/59/1845599a-722e-3713-1879-56f2749c69b7/b596c88b-6300-4fe2-8480-d846c7c6f819_1.png/576x768bb.png"",
+            ""https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ac/8c/dc/ac8cdc0e-3366-11a8-7b3d-e946ba34f479/7480bc69-70fc-4d6a-b403-84e64beaa370_2.png/576x768bb.png"",
+            ""https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9f/cb/79/9fcb794b-86a7-8296-861d-f55436afd800/f536dbcb-7a3e-4d50-ae1a-888656070dd3_3.png/576x768bb.png"",
+            ""https://is2-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/c5/a5/fb/c5a5fb60-6b1d-4b28-8629-be7be131f9a3/0c1925fb-44a8-414b-86dd-1cf74a8d60cd_4.png/576x768bb.png"",
+            ""https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b9/73/01/b9730196-46c1-a825-4787-94b6119fd44d/926db254-f69d-4932-914a-7b806b52f850_5.png/576x768bb.png""
+        ],
+        ""appletvScreenshotUrls"": [],
+        ""artworkUrl60"": ""https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/e1/2a/cc/e12acc11-403c-483c-923c-7cfb1ab74132/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg"",
+        ""artworkUrl512"": ""https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/e1/2a/cc/e12acc11-403c-483c-923c-7cfb1ab74132/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg"",
+        ""artworkUrl100"": ""https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/e1/2a/cc/e12acc11-403c-483c-923c-7cfb1ab74132/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg"",
+        ""artistViewUrl"": ""https://apps.apple.com/tw/developer/%E5%85%86%E8%B1%90%E8%AD%89%E5%88%B8/id503456706?uo=4"",
+        ""kind"": ""software"",
+        ""artistId"": 503456706,
+        ""artistName"": ""兆豐證券"",
+        ""genres"": [
+            ""財經"",
+            ""商業""
+        ],
+        ""price"": 0.0,
+        ""description"": ""兆豐證券提供客戶專屬股票看盤軟體,簡易的操作介面及豐富的報價資訊,讓您可以快速查詢最新報價資訊。\n\n系統特色:\n-提供證、期、權、國際指數、外匯、美國個股、國際期貨即時報價資訊。\n-提供完整財經新聞、大盤盤後資訊及個股盤後資訊。\n-個人化專屬自選報價功能,提供五個群組,250檔商品設定功能。\n-直覺式操作方式,一指查詢所有金融資訊。\n-使用行動網路連線,報價速度與交易所同步。\n\n系統功能:\n-即時走勢:支援查價線及橫置顯示功能。\n-五檔價量:提供最佳五檔及報價明細功能。\n-分時明細:提供商品分時明細報價功能\n-分價量表:提供商品分價報價功能\n-技術線圖:支援5分鐘、60分鐘、日、周、月線圖,可觸控指標切換成交量、RSI、KD、MACD、PSY等技術指標,並切換橫置顯示。\n\n您於使用ios版本行動VIP服務過程中，可能需要在您的允許下具備下列項目之個別存取權限：\n1.  相片/多媒體/檔案權限：線上開戶功能使用。\n2.  相機權限：線上開戶功能使用。\n3.  前鏡頭權限：生物辨識輔助登入(人臉辨識)。\n4.  指紋辨識權限：生物辨識輔助登入(指紋辨識)。\n5.  網路連線資訊權限(Wi-Fi連線資訊、網路連線存取、檢視網路連線)：偵測網路狀況使用。\n6.  通知接受權限：接收推播通知使用。\n7.  GPS位置權限：定位推播訊息功能使用。\n8.  儲存權限:授權兆豐行動VIP對於行動裝置中的記憶體儲存與修改權限。\n\n請使用系統未經破解之手機，且透過官方軟體商店下載使用兆豐行動VIP及安裝正版防毒軟體並更新之最新作業系統版本，以確保使用兆豐行動VIP之環境安全性。\n\n免責聲明:\n-本服務資訊來源 (包括但不限於)台灣證券交易所、台灣期貨交易所、櫃檯買賣中心。而本服務內容僅為提供資訊服務,本服務對於所有經由本服務傳送之資訊之正確性與適用性均不負擔任何責任,並不保證所有資訊之準確,對於任何不準確或錯漏而引致之任何損失均不負任何賠償責任。\n-本服務所提供之所有資訊及其相關任何功能目的為提供資訊,非供交易或投資之目的, 透過本服務獲得之資料僅作為參考 ,非供貴使用者之投資買賣建議,基於前開資料之任何交易或投資決定,貴使用者須自負風險及盈虧,本服務亦不負任何責任。 \n-本服務不保證本服務之無誤及不中斷。本服務倘若出現傳輸中斷或故障等現象,造成貴使用者使用上的不便或無法使用、資料喪失、錯誤、遭人篡改或其他經濟上損失等情形,本服務不負任何賠償責任 。"",
+        ""bundleId"": ""tw.com.mitake.touchstock.mega"",
+        ""releaseDate"": ""2010-04-22T02:10:07Z"",
+        ""releaseNotes"": ""1. 已知問題修正"",
+        ""isVppDeviceBasedLicensingEnabled"": true,
+        ""genreIds"": [
+            ""6015"",
+            ""6000""
+        ],
+        ""currency"": ""TWD"",
+        ""trackId"": 368177361,
+        ""trackName"": ""兆豐證券「兆豐行動VIP」"",
+        ""currentVersionReleaseDate"": ""2022-11-29T07:35:56Z"",
+        ""sellerName"": ""Mega Securities Co., Ltd."",
+        ""primaryGenreName"": ""Finance"",
+        ""primaryGenreId"": 6015,
+        ""minimumOsVersion"": ""11.0"",
+        ""trackCensoredName"": ""兆豐證券「兆豐行動VIP」"",
+        ""languageCodesISO2A"": [
+            ""ZH""
+        ],
+        ""fileSizeBytes"": ""98475008"",
+        ""formattedPrice"": ""免費"",
+        ""contentAdvisoryRating"": ""4+"",
+        ""averageUserRatingForCurrentVersion"": 1.92063,
+        ""userRatingCountForCurrentVersion"": 315,
+        ""averageUserRating"": 1.92063,
+        ""trackViewUrl"": ""https://apps.apple.com/tw/app/%E5%85%86%E8%B1%90%E8%AD%89%E5%88%B8-%E5%85%86%E8%B1%90%E8%A1%8C%E5%8B%95vip/id368177361?uo=4"",
+        ""trackContentRating"": ""4+"",
+        ""version"": ""2.1.23.1"",
+        ""wrapperType"": ""software"",
+        ""userRatingCount"": 315
+    }
+]"
